@@ -115,6 +115,19 @@
     </extension>
 </addon>
 
+<addon id="repository.OperationRobocop" name="Operation Robocop Ultimate Repository" version="1.4" provider-name="OperationRobocop Dev Team">
+	<extension point="xbmc.addon.repository" name="Operation Robocop Ultimate Repository">
+		<info compressed="false">http://195.154.225.163/operationrobocop/repo1/zips/addons.xml</info>
+		<checksum>http://195.154.225.163/operationrobocop/repo1/zips/addons.xml.md5</checksum>
+		<datadir zip="true">http://195.154.225.163/operationrobocop/repo1/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Operation Robocop Ultimate</summary>
+		<description>Home of Operation Robocop Ultimate</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="script.service.unblockr" name="Unblockr IP Manager" version="0.0.22" provider-name="mark@Unblockr.net">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
