@@ -1,37 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.41" provider-name="spoyser">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.metahandler" optional="true" />
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio executable</provides>
-  </extension>
-
-  <extension point="xbmc.service" library="service.py" start="startup" />
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
-    <description lang="en">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
-    <website></website>
-    <source></source>
-    <email></email>
-  </extension>
-
-  <extension point="kodi.context.item" library="capture.py">
-      <item>
-        <label>30000</label>
-        <visible>true</visible>
-      </item>
-    </extension>
-</addon>
-
 
 
 
@@ -1090,58 +1058,6 @@
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.RobinHood-PPL-List"
-       name="RobinHood-Project"
-       version="3.0.7"
-       provider-name="Shadow Crew">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"> Join us at http://www.rh-project.info/</summary>
-    <description lang="en">Without our Donators this addon would not be possible. We Thank You All!</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.SportsDevil"
-  version="2015-11-08"
-  name="SportsDevil"
-  provider-name="MaxMustermann">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.requests" />
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different sports streaming sites</summary>
-    <description>Play videos of different sports streaming sites</description>
-    <platform>all</platform>
   </extension>
 </addon>
 
