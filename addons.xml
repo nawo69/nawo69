@@ -32,6 +32,53 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.Disney-Magic"
+       name="Disney Magic"
+       version="1.0.1"
+       provider-name="Legends">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>This addo-on was made for Skylar and all kids that love Disney</summary>
+    <description>All things Disney</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.i4atv" name="[COLOR red]I4ATV[/COLOR]" version="9.0.3" provider-name="Inside 4ndroid">
+  <requires>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">I4ATV With Movies + TV Shows</summary>
+    <description lang="en">Welcome to I4ATV. I4ATV has just moved forward in a big way and the way the iptv macs are verified is an all new process with a random mac each time you load a channel category. Plus there is also movies to watch and even tv shows of all kinds :) All donations no matter how small make a huge difference so please feel free to make a small donation to help keep I4ATV alive. Donations can be made @ http://paypal.me/inside4ndroid Enjoy</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.Jeckyll-Hyde"
        name="Jeckyll-Hyde"
        version="3.0.4"
