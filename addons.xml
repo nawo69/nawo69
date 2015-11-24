@@ -381,6 +381,40 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.Test"
+       name="[COLOR red]Halow[COLOR green] LIVE  TV [/COLOR]"
+       version="6.0.18"
+       provider-name="Halow">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="plugin.video.veetle" version="0.3.1" optional="false"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="HALOWTV.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"> http://halowtv.com/</summary>
+    <description lang="en">All channels from around the world/Movie/Child Movie/Streamax.tv/ YouTube/Sports Replays/Filmon.TV/Radio/Ace Stream/Music/Live Sport/LiveStream/follow me on FB/Twitter
+Halow TV Add-on
+http://halowtv.com/</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="0.7.45">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
@@ -430,6 +464,33 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en"></summary>
     <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.zeus" name="[COLOR black].[/COLOR][COLOR yellow]ZEUS VIDEO[/COLOR]" version="1.0.8" provider-name="ZEUS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.beautifulsoup4" />
+	<import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ZEUS VIDEO - KODI XBMC ADDON</summary>
+    <description lang="en">For Support and news go to http://zeus.video
+	Video TV Shows Sport Latest and HD Movies 24/7 </description>
     <platform>all</platform>
   </extension>
 </addon>
