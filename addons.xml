@@ -77,23 +77,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.totalinstaller" name=" [COLOR=orange]C[/COLOR]ommunity [COLOR=orange]P[/COLOR]ortal" version="3.0.2" provider-name="noobsandnerds.com">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR=orange]C[/COLOR]ommunity [COLOR=orange]P[/COLOR]ortal</summary>
-	<description>Your all in one Installer. The simplest way to have a fully setup system in a matter of minutes. Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
-    <ref>c8b7e82447b52ce2962abb92620f0e53</ref>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.aswizard" name="[COLOR black]..[/COLOR][COLOR red]Wookie[/COLOR]" version="6.0.1" provider-name="[COLOR red]The Wookie[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -381,21 +364,6 @@
     <summary>Live SD and HD TV channels</summary>
     <description>General disclaimer: Project Cypher takes no responsibility for the content or reliability of the feeds. Project Cypher [B]Does Not[/B] host any of the feeds or Streams. Most of the Code from this addon was taken from many other addons but used under the GNU GENERAL PUBLIC LICENSE Version 2, June 1991</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.ProjectCypherxxx" name="Project Cypher XXX" version="1.0" provider-name="Cypher">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Live XXX TV FOR ADULTS ONLY</summary>
-    <description>General disclaimer: Project Cypher takes no responsibility for the content or reliability of the feeds. Project Cypher [B]Does Not[/B] host any of the feeds or Streams. Most of the Code from this addon was taken from many other addons but used under the GNU GENERAL PUBLIC LICENSE Version 2, June 1991</description>
   </extension>
 </addon>
 
