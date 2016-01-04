@@ -216,6 +216,28 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.hd-streaming"
+       name="HD Streaming"
+       version="0.0.12"
+       provider-name="HD Streaming">
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">HD Streaming</summary>
+    <description lang="en">HD Streaming video plugin</description>
+    <platform>all</platform>
+    <license>GPL 2.0</license>
+  </extension>
+    <extension point="xbmc.addon.repository"
+              name="HD-Streaming Add-on repository">
+    <info compressed="false">http://hd-streaming.tv/repo/addons.xml</info>
+    <checksum>http://hd-streaming.tv/repo/addons.xml.md5</checksum>
+    <datadir zip="false">http://hd-streaming.tv/repo</datadir>
+  </extension>
+</addon>
+
 <addon id="plugin.video.i4atv" name="[COLOR red]I4ATV[/COLOR]" version="10.0.0" provider-name="Inside 4ndroid">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -317,6 +339,28 @@
         <description lang="en">Videos found in this addon are not hosted or uploaded nor are we affiliated with the video content in any way. All video content is hosted by third party websites. In the case of possible copyright infringement please contact the responsible parties. Users who upload to these websites agree not to upload illegal content when creating their user accounts. We do not take responsibility for the content hosted on such third party websites.</description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="plugin.video.mdpubfilm" name="PubFilm" version="1.0.1" provider-name="Mucky Duck">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.requests" />
+	<import addon="repository.mdrepo" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream Movies And TV-Shows From pubfilm.com</summary>
+    <description lang="en">Stream Movies And TV-Shows From pubfilm.com</description>
+	<disclaimer lang="en">
+	The author does not host or distribute any of the content displayed by this addon
+	or have any affiliation with the website owners.
+	</disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.MoneySports"
@@ -813,6 +857,19 @@ http://halowtv.com/</description>
 	</extension>
 </addon>
 
+<addon id="repository.FTV-Guide-Repo" name="FTV Guide Repo" version="1.1" provider-name="rayw1986, bluezed">
+	<extension point="xbmc.addon.repository" name="FTV Guide Repository">
+		<info compressed="false">http://raw.github.com/bluezed/FTV-Guide-Repo/master/addons.xml</info>
+		<checksum>http://raw.github.com/bluezed/FTV-Guide-Repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/bluezed/FTV-Guide-Repo/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>FTV Guide Repository</summary>
+		<description>Download and install the FTV Guide addon. For OFFICIAL Support Visit TVADDONS.AG</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.husham.com" name="Husham.com Repo" version="1.1.0003" provider-name="husham.com">
 	<extension point="xbmc.addon.repository" name="Husham.com Repository">
 		<info compressed="false">https://raw.githubusercontent.com/hmemar/husham.com/master/repository/addons.xml</info>
@@ -928,6 +985,43 @@ http://halowtv.com/</description>
     </extension>
 </addon>
 
+<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="1.3" provider-name="noobsandnerds">
+	<extension point="xbmc.addon.repository" name="noobsandnerds Repository">
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Home of The Community Portal</summary>
+		<description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="repository.plexbmc.addons"
+  name="PleXBMC Add-ons for XBMC"
+  version="3.0.0"
+  provider-name="hippojay, pecinko, magnesium, wickning1">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository"
+             name="PlexBMC Add-on Repository">
+    <info compressed="true">http://hippojay.github.io/repository.plexbmc.addons/download/addons.xml</info>
+    <checksum>http://hippojay.github.io/repository.plexbmc.addons/download/addons.xml.md5</checksum>
+    <datadir zip="true">http://hippojay.github.io/repository.plexbmc.addons/download</datadir>
+    <hashes>true</hashes>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Install Add-ons for PleXBMC</summary>
+    <description lang="en">Install addons to enhance the Plex + XBMC relationship.  Cosy....</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>
+
 <addon id="repository.podgod" name="podgod repo" version="1.3" provider-name="podgod">
 	<extension point="xbmc.addon.repository" name="PodGod Addon Repository">
 		<info compressed="false">http://podgod.webege.com/Repo/My-Repo/addons.xml</info>
@@ -972,6 +1066,20 @@ http://halowtv.com/</description>
     </extension>
 </addon>
 
+<addon id="repository.team.expat" name="Team eXpat Repository" version="1.0.6" provider-name="Team-eXpat">
+	<extension point="xbmc.addon.repository" name="Demonstration Add-on Repository">
+		<info compressed="false">http://raw.github.com/teamexpat/team.expat/master/addons.xml</info>
+		<checksum>http://raw.github.com/teamexpat/team.expat/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/teamexpat/team.expat/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Team eXpat Addon</summary>
+		<description>Build Addon Installer</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.tknorris.beta" name="tknorris Beta Testing Repository" version="1.0.5" provider-name="tknorris">
     <extension point="xbmc.addon.repository" name="tknorris beta testing repository">
 	    <dir>
@@ -1003,6 +1111,40 @@ Addons Included
         </description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.xbmcadult" name="XBMC-Adult Addons" version="1.0.6" provider-name="xbmc-adult">
+	<extension point="xbmc.addon.repository" name="XBMC Adult Addons">
+		<info compressed="false">http://raw.github.com/xbmc-adult/xbmc-adult/ghmaster/addons.xml</info>
+		<checksum>http://raw.github.com/xbmc-adult/xbmc-adult/ghmaster/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/xbmc-adult/xbmc-adult/ghmaster</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>XBMC Addons for Adults Only</summary>
+		<description>This repository contains addons that are for adults only. You may only view the contents of this repository if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content.</description>
+		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.xbmchub" name="TVADDONS.ag Addon Repository" version="1.0.6" provider-name="tvaddons.ag">
+	<extension point="xbmc.addon.repository" name="TVADDONS.ag Addon Repository">
+	<dir>
+		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	</dir>
+		<info compressed="false">https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Best Third Party Addons for Kodi, Brought to you by TVADDONS.ag</summary>
+		<description>The Best Third Party Addons for Kodi, Brought to you by TVADDONS.ag</description>
+		<platform>all</platform>
+                <forum>http://forums.tvaddons.ag/forums/113-TVADDONS-AG-ADDON-REPOSITORY</forum>
+                <website>http://www.tvaddons.ag/</website>
+	</extension>
 </addon>
 
 <addon id="repository.xunitytalk" name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk Repository" version="1.1.0" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
@@ -1673,4 +1815,18 @@ Addons Included
                 <website>https://superrepo.org/</website>
                 </extension>
                 </addon>
+
+<addon id="xbmc.repo.tecboxtvguide" name="iVue TV Guide Add-on" version="1.0.2" provider-name="DreamHD TECbox">
+	<extension point="xbmc.addon.repository" name="iVue TV Guide Add-ons Repository">
+		<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivuerepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/totaltec2014/ivuerepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivuerepo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install iVue TV Guide </summary>
+		<description>Download and install for iVue Tv guide addons </description>
+		<disclaimer> Repo for iVue Tv guide addon </disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
