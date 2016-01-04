@@ -109,9 +109,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.cartoonhd" name="Cartoon HD" version="1.2.9" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+<addon id="plugin.video.cartoonhd" name="Cartoon HD" version="1.3.0" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="0.0.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -125,7 +126,7 @@
 
 <addon id="plugin.video.ccloudtv"
        name="cCloud TV"
-       version="1.3.8"
+       version="1.3.9"
        provider-name="podgod">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -191,8 +192,8 @@
 
 <addon id="plugin.video.Disney-Magic"
        name="Disney Magic"
-       version="1.0.1"
-       provider-name="Legends">
+       version="2.0.2"
+       provider-name="BlackDragon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -238,7 +239,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.i4atv" name="[COLOR red]I4ATV[/COLOR]" version="10.0.0" provider-name="Inside 4ndroid">
+<addon id="plugin.video.i4atv" name="[COLOR red]I4ATV[/COLOR]" version="12.0.0" provider-name="Inside 4ndroid">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -252,40 +253,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">I4ATV With Movies + TV Shows</summary>
-    <description lang="en">Welcome to I4ATV. I4ATV has just moved forward in a big way and the way the iptv macs are verified is an all new process with a random mac each time you load a channel category. Plus if a i4atv goes down for a short period there is a backup option i4atv extra :) All donations no matter how small make a huge difference so please feel free to make a small donation to help keep I4ATV alive. Donations can be made @ http://paypal.me/inside4ndroid Enjoy</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.Jeckyll-Hyde"
-       name="Jeckyll-Hyde"
-       version="3.0.4"
-       provider-name="Shadow Crew">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"> Join us at http://robinhoodgroup-tv.info/community/index.php</summary>
-    <description lang="en">Special Thank you to Hakamac For all his support.
-	This is just the Start.</description>
+    <summary lang="en">I4ATV With Guide Integration + More</summary>
+    <description lang="en">Welcome to I4ATV. if a i4atv goes down for a short period there is a backup option i4atv extra :) All donations no matter how small make a huge difference so please feel free to make a small donation to help keep I4ATV alive. Donations can be made @ http://paypal.me/inside4ndroid Enjoy</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -365,8 +334,8 @@
 
 <addon id="plugin.video.MoneySports"
        name="MoneySports"
-       version="1.0.1"
-       provider-name="Shadow Crew">
+       version="2.0.1"
+       provider-name="Mark Money">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -384,8 +353,9 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary></summary>
+    <summary>The only add-on you need for all your sport needs...</summary>
     <description>
+            The only add-on you need for all your sport needs... Supported By The Legends
     </description>
     <platform>all</platform>
   </extension>
@@ -566,37 +536,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.RobinHood-PPL-List"
-       name="RobinHood-Project"
-       version="3.0.7"
-       provider-name="Shadow Crew">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"> Join us at http://www.rh-project.info/</summary>
-    <description lang="en">Without our Donators this addon would not be possible. We Thank You All!</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon
   id="plugin.video.SportsDevil"
   version="2016.01.02"
@@ -699,23 +638,9 @@ http://halowtv.com/</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.uktvnow" name="UK TV Now" version="1.0.3" provider-name="MetalKettle">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="4.0.3"
+       version="4.1.2"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -735,33 +660,6 @@ http://halowtv.com/</description>
   <extension point="xbmc.addon.metadata">
     <summary>ZemTV.tv XBMC Client</summary>
     <description>Watch ZemTV.com on your XBMC. This plugin fetches the video sources from ZemTV.com and play on XBMC compatible plateforms</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.zeus" name="[COLOR black].[/COLOR][COLOR yellow]ZEUS VIDEO[/COLOR]" version="1.0.8" provider-name="ZEUS">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver"  version="2.1.2"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.beautifulsoup4" />
-	<import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">ZEUS VIDEO - KODI XBMC ADDON</summary>
-    <description lang="en">For Support and news go to http://zeus.video
-	Video TV Shows Sport Latest and HD Movies 24/7 </description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -902,6 +800,23 @@ http://halowtv.com/</description>
 	</extension>
 </addon>
 
+    <addon id="repository.i4a-repo" name="i4a-repo" version="9.2.0" provider-name="Inside 4ndroid">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="i4a-repo">
+            <info compressed="false">http://i4atv.cu.ma/_repo/addons.xml</info>
+            <checksum>http://i4atv.cu.ma/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://i4atv.cu.ma/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Inside 4ndroid Kodi Addons</summary>
+            <description>Inside 4ndroid Kodi Addons</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.istream" name="iSTREAM XBMC Addons Repository" version="1.1" provider-name="iSTREAM">
 	<extension point="xbmc.addon.repository" name="iSTREAM">
 		<info compressed="false">http://istreamrepo.me/istream/repo/addons.xml</info>
@@ -959,6 +874,23 @@ http://halowtv.com/</description>
 	</extension>
 </addon>
 
+    <addon id="repository.legends" name=".[COLOR blue]L[/COLOR][COLOR white]egends[/COLOR]-repo" version="1.0.0" provider-name="Dragon">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name=".[COLOR blue]L[/COLOR][COLOR white]egends[/COLOR]-repo">
+            <info compressed="false">http://4legends.co.uk/Legends/addons.xml</info>
+            <checksum>https://archive.org/download/addons.xml_201512/addons.xml.md5</checksum>
+            <datadir zip="true">http://4legends.co.uk/Legends/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>We Fly High and NEVER Fall....</summary>
+            <description>The Legends Repo is made by 4 Ghosts all Add-ons are welcome BUT you must be the maker and NO clones we will help take your Add-on main dtream along side the Devs Mark Money and BlackDragon, To add your Add-on Email (Legends.Repo@gmail.com) Whith your Add-on we will check it out and add it if it makes the cut :)</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.mdrepo" name="Mucky Ducks Repo" version="1.0.2" provider-name="Mucky Duck">
 	<extension point="xbmc.addon.repository" name="Mucky Ducks Repo">
 		<info compressed="false">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml</info>
@@ -1001,6 +933,23 @@ http://halowtv.com/</description>
         <description>popular addons for my users</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
+    </extension>
+</addon>
+
+    <addon id="repository.NJM Soccer" name="NJM Soccer Repo" version="0.1.0" provider-name="BaDg3R">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="NJM Soccer Repo">
+            <info compressed="false">http://repo.badgersftv.com/_/repo//addons.xml</info>
+            <checksum>http://repo.badgersftv.com/_/repo//addons.xml.md5</checksum>
+            <datadir zip="true">http://repo.badgersftv.com/_/repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Best Sporting Streams by NJM</summary>
+            <description>All the Best addons for sporting streams by NJM Soccer</description>
+            <platform>all</platform>
     </extension>
 </addon>
 

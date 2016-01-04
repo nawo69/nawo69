@@ -1,0 +1,17 @@
+﻿<?xml version="2.0" encoding="UTF-8"?>
+    <addon id="repository.legends" name=".[COLOR blue]L[/COLOR][COLOR white]egends[/COLOR]-repo" version="1.0.0" provider-name="Dragon">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name=".[COLOR blue]L[/COLOR][COLOR white]egends[/COLOR]-repo">
+            <info compressed="false">http://4legends.co.uk/Legends/addons.xml</info>
+            <checksum>https://archive.org/download/addons.xml_201512/addons.xml.md5</checksum>
+            <datadir zip="true">http://4legends.co.uk/Legends/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>We Fly High and NEVER Fall....</summary>
+            <description>The Legends Repo is made by 4 Ghosts all Add-ons are welcome BUT you must be the maker and NO clones we will help take your Add-on main dtream along side the Devs Mark Money and BlackDragon, To add your Add-on Email (Legends.Repo@gmail.com) Whith your Add-on we will check it out and add it if it makes the cut :)</description>
+            <platform>all</platform>
+    </extension>
+</addon>
