@@ -654,7 +654,7 @@ http://halowtv.com/</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="0.8.9">
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="0.8.10">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.simplejson" />
