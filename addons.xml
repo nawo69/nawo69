@@ -654,7 +654,7 @@ http://halowtv.com/</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="0.7.45">
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="0.8.9">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.simplejson" />
@@ -667,6 +667,12 @@ http://halowtv.com/</description>
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
+    </extension>
+    <extension library="calendar.py" point="kodi.context.item">
+        <item>
+            <label>TRW Calendar</label>
+            <visible>True</visible>
+        </item>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
