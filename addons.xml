@@ -963,23 +963,6 @@ http://halowtv.com/</description>
     </extension>
 </addon>
 
-    <addon id="repository.NJM Soccer" name="NJM Soccer Repo" version="0.1.0" provider-name="BaDg3R">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="NJM Soccer Repo">
-            <info compressed="false">http://repo.badgersftv.com/_/repo//addons.xml</info>
-            <checksum>http://repo.badgersftv.com/_/repo//addons.xml.md5</checksum>
-            <datadir zip="true">http://repo.badgersftv.com/_/repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Best Sporting Streams by NJM</summary>
-            <description>All the Best addons for sporting streams by NJM Soccer</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="1.3" provider-name="noobsandnerds">
 	<extension point="xbmc.addon.repository" name="noobsandnerds Repository">
 		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
@@ -1041,24 +1024,6 @@ http://halowtv.com/</description>
 		<description></description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.spoyser"
-        name="spoysers XBMC Add-ons"
-        version="1.0.6"
-        provider-name="spoyser">
-    <extension point="xbmc.addon.repository"
-        name="spoysers XBMC Add-ons">
-        <info compressed="false">https://raw.github.com/spoyser/spoyser-repo/master/addons.xml</info>
-        <checksum>https://raw.github.com/spoyser/spoyser-repo/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.github.com/spoyser/spoyser-repo/master/zips/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Install XBMC add-ons from the official spoyser repository</summary>
-        <description>Install XBMC add-ons from spoysers official repository</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="repository.team.expat" name="Team eXpat Repository" version="1.0.6" provider-name="Team-eXpat">
@@ -1810,18 +1775,4 @@ Addons Included
                 <website>https://superrepo.org/</website>
                 </extension>
                 </addon>
-
-<addon id="xbmc.repo.tecboxtvguide" name="iVue TV Guide Add-on" version="1.0.2" provider-name="DreamHD TECbox">
-	<extension point="xbmc.addon.repository" name="iVue TV Guide Add-ons Repository">
-		<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivuerepo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/totaltec2014/ivuerepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivuerepo/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install iVue TV Guide </summary>
-		<description>Download and install for iVue Tv guide addons </description>
-		<disclaimer> Repo for iVue Tv guide addon </disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
 </addons>
