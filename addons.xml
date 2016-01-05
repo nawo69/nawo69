@@ -571,6 +571,27 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.pulsemusic"
+	name="pulse music"
+	version="1.0.0"
+	provider-name="pulsemediahubuk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">pulse music addon</summary>
+    <description lang="en">pulse music videos FOLLOW US ON TWITTER @pulsemediahubuk.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.renegadesdarts"
 	name="Renegades Darts"
 	version="1.0.0"
@@ -970,6 +991,19 @@ http://halowtv.com/</description>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install my Addons</summary>
 		<description>Download and install addons from MetalKettle</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.Mr-Smiths-Repo" name="Mr-Smiths-Repo" version="1.0.0" provider-name="Mr-Smith">
+	<extension point="xbmc.addon.repository" name="Mr-Smiths-Repo">
+			<info compressed="false">https://raw.githubusercontent.com/djjohnnyb15/Mr-Smiths-Repo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/djjohnnyb15/Mr-Smiths-Repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/djjohnnyb15/Mr-Smiths-Repo/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Add-ons from Mr-Smiths-Repo</summary>
+		<description lang="en">Download and install add-ons Mr-Smiths-Repo.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
