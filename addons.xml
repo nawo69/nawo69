@@ -248,6 +248,27 @@
   </extension>
 </addon>
 
+<addon
+  id="plugin.video.dragon.sports"
+  version="4.6.0.4"
+  name="Dragon Streams"
+  provider-name="Unknown">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play a variety of quality streams on your DragonBox</summary>
+    <description>**GREAT FOR HD NFL** No streams are hosted by DragonBox, Dragon Streams or any affiliates of those mentioned.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.DragonShows"
        name="Dragons 24/7 Shows"
        version="2.0.2"
@@ -446,7 +467,7 @@
 
 <addon id="plugin.video.NJMSoccer"
        name="NJM-Soccer"
-       version="3.0.4"
+       version="3.0.4.1"
        provider-name="Shadow Crew">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -644,6 +665,27 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.southpark_unofficial" name="South Park" version="0.4.1" provider-name="Deroad">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">South Park Unofficial Player</summary>
+        <language>en</language>
+        <description lang="en">Watch South Park episodes. The supported countries are the one that can view videos from http://southpark.cc.com or http://www.southpark.de.</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+        <license>GNU General Public Licence. v2</license>
+        <source>https://github.com/wargio/plugin.video.southpark_unofficial</source>
+        <forum>http://forum.kodi.tv/showthread.php?tid=224662</forum>
+        <email>wargio at libero dot it</email>
+        <website>http://devram0.blogspot.it/</website>
+    </extension>
+</addon>
+
 <addon
   id="plugin.video.SportsDevil"
   version="2016.01.02"
@@ -744,6 +786,27 @@ http://halowtv.com/</description>
 		<description lang="en"></description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="plugin.video.yt-comedy"
+	name="Classic British Comedy"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Classic British Comedy</summary>
+    <description lang="en">Classic British Comedy, comedians, stand-up, series and films.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
 </addon>
 
 <addon id="plugin.video.ZemTV-shani"
