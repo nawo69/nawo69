@@ -602,6 +602,21 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.prosport" name="Pro Sport" version="0.14" provider-name="gerikss">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Live HD sport streams from reddit</summary>
+    <description>Live HD sport streams from reddit</description>
+    <platform>all</platform>
+    <language>en</language>
+  </extension>
+</addon>
+
 <addon id="plugin.video.pulsefitness"
 	name="pulse fitness"
 	version="2.0.0"
@@ -985,6 +1000,20 @@ http://halowtv.com/</description>
 	<extension point="xbmc.addon.metadata">
 		<summary>FTV Guide Repository</summary>
 		<description>Download and install the FTV Guide addon. For OFFICIAL Support Visit TVADDONS.AG</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.gerikss" name="Gerikss XBMC/Kodi Repo" version="1.0" provider-name="gerikss">
+	<extension point="xbmc.addon.repository" name="Gerikss XBMC/Kodi Repo">
+		<info compressed="false">https://bitbucket.org/gerikss/kodi-addons/raw/master/addons.xml</info>
+		<checksum>https://bitbucket.org/gerikss/kodi-addons/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://api.bitbucket.org/1.0/repositories/gerikss/kodi-addons/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Kodi Addons</summary>
+		<description>Install Kodi Addons</description>
+		<disclaimer>gerikss</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
