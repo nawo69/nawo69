@@ -45,7 +45,7 @@
 
 </addon>
 
-<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.44" provider-name="spoyser">
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.45" provider-name="spoyser">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" optional="true" />
@@ -1343,6 +1343,19 @@ Addons Included
     </extension>
 </addon>
 
+<addon id="repository.unblockr" name="Unblockr Addons" version="1.2" provider-name="Unblockr">
+	<extension point="xbmc.addon.repository" name="unblockr add-on repository">
+		<info compressed="false">http://repository.unblockr.net/addons/addons.xml</info>
+		<checksum>http://repository.unblockr.net/addons/addons.xml.md5</checksum>
+		<datadir zip="true">http://repository.unblockr.net/addons</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install addons from Unblockr.net</summary>
+		<description>Download and install addons from unblockr</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.whitecream" name="WhiteCream repo" version="0.0.1" provider-name="mortael">
 	<extension point="xbmc.addon.repository" name="WhiteCream repo">
 		<info compressed="false">http://raw.github.com/whitecream01/WhiteCream-V0.0.1/master/addons.xml</info>
@@ -1391,11 +1404,11 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="repository.xunitytalk" name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk Repository" version="1.1.0" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+<addon id="repository.xunitytalk" name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk Repository" version="1.1.1" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
 	<extension point="xbmc.addon.repository" name="Mikey1234 Addon Repository">
-		<info compressed="false">http://xty.me/xunitytalk/addons/addons.xml</info>
-		<checksum>http://xty.me/xunitytalk/addons/addons.xml.md5</checksum>
-		<datadir zip="true">http://xty.me/xunitytalk/addons</datadir>
+		<info compressed="false">http://xtyrepo.me/xunitytalk/addons/addons.xml</info>
+		<checksum>http://xtyrepo.me/xunitytalk/addons/addons.xml.md5</checksum>
+		<datadir zip="true">http://xtyrepo.me/xunitytalk/addons</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>The Best Third Party Addons for XBMC, .[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk</summary>
