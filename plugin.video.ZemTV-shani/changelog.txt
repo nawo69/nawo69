@@ -1,3 +1,37 @@
+[B]Version 4.2.5[/B]
+    -CF Added
+    
+[B]Version 4.2.4[/B]
+    -first time install blank folders
+[B]Version 4.2.3[/B]
+    -little bug
+[B]Version 4.2.2[/B]
+    -little bug
+[B]Version 4.2.1[/B]
+    -better ptc decoding
+    
+[B]Version 4.2.0[/B]
+    -PTC fixed and ary zindagi and other ary channels
+    
+[B]Version 4.1.9[/B]
+    -willow, check for error
+    
+[B]Version 4.1.8[/B]
+    -SS is back...but hardcoded ids
+    
+[B]Version 4.1.7[/B]
+    -KTN news
+    
+[B]Version 4.1.6[/B]
+    -movies section
+    
+[B]Version 4.1.5[/B]
+    -sports section reshuffle, removed few
+    
+[B]Version 4.1.4[/B]
+    -added caching support for faster channel list
+[B]Version 4.1.3[/B]
+    -added v8
 [B]Version 4.1.2[/B]
     -duplication removed
 [B]Version 4.1.1[/B]
