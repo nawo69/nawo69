@@ -1,10 +1,25 @@
 [B][COLOR chartreuse]This file contains ALOT of useful information regarding the functionality of Super Favourites - PLEASE READ IT!![/COLOR][/B]
 
+
+[COLOR chartreuse]1.0.46.1: 3rd February 2016[/COLOR]
+    - removed spurious window ID from favourites
+
+
+[COLOR chartreuse]1.0.46: 2nd February 2016[/COLOR]
+    - remove numeric label when adding to Kodi favourites
+    - fixed moving favourites up and down when items are hidden
+    - fixed images for some iSearch items
+    - fixed launching from widgets - tested in Arctic: Zephyr
+    - infolabels in favourites are now parsed correctly, eg $ INFO[Skin.String(MovieQuery)]
+    - localized strings in favourites are now parsed correctly,  eg $ LOCALIZE[342]
+
+
 [COLOR chartreuse]1.0.45: 14th January 2016[/COLOR]
     - fixed adding to Kodi favourites
     - fixed iSearch from file manager window
     - fixed global menu behaviour in WindowXML windows
-    - added download functionlity to global menu - available if Super Favourites *may* be able to download the current playing video
+    - added download functionality to global menu 
+        - available if Super Favourites *may* be able to download the current playing video
 
 
 [COLOR chartreuse]1.0.44: 17th December 2015[/COLOR]
