@@ -124,14 +124,14 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway" version="0.0.7" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway" version="0.0.9" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.requests"  />
 		<import addon="script.module.mechanize"  />
-    	<import addon="script.module.addon.common" version="2.0.0" />
-		<import addon="script.module.urlresolver" version="2.5.0" />
+    	<import addon="script.module.addon.common" />
+		<import addon="script.module.urlresolver" />
 		<import addon="script.module.liveresolver"  />
 
 	</requires>
@@ -140,7 +140,8 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Just a castaway.</summary>
-		<description lang="en">Provides access to live content from many sites.</description>
+		<description lang="en">Visit TVADDONS.ag for support.
+		</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 
 		<platform>all</platform>
@@ -839,7 +840,7 @@ http://kodilive.eu</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.02.06.3" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.02.07.3" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
