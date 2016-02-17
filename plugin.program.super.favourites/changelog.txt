@@ -1,4 +1,26 @@
-[B][COLOR chartreuse]This file contains ALOT of useful information regarding the functionality of Super Favourites - PLEASE READ IT!![/COLOR][/B]
+[B][COLOR chartreuse]This file contains ALOT of useful information regarding the functionality of Super Favourites[CR]
+PLEASE READ IT!![/COLOR][/B]
+
+
+[COLOR chartreuse]1.0.48: 15th February 2016[/COLOR]
+    - this release will be forever known as [COLOR cyan][B]THE DKPLAYACLUB-DICK-MOVE RELEASE[/B][/COLOR]
+    - the Super Favourite menu item on the standard context menu can now be disabled
+        - not as easy as you would think!
+    - whitelisted addons will not show the global menu regardless of the global menu setting
+
+
+[COLOR chartreuse]1.0.47.1: 13th February 2016[/COLOR]
+    - linked Super Folders that use the 'folder=' format now maintain the navigation history 
+    - linked Super Folder are now created using the 'folder=' format (instead of 'path=')
+    - fixed 'Super_Favourites_Folder' infolabel when displaying numeric labels
+    - locked Super Folders no longer appear on quick launch dialog
+
+
+[COLOR chartreuse]1.0.47: 12th February 2016[/COLOR]
+    - linked Super Folders now maintain the navigation history
+    - fixed missing Super Folder names in certain views/skins
+    - removed sfOption parameter when manually editing Super Favourites
+    - fixed iRecommend functionality when displaying numeric labels
 
 
 [COLOR chartreuse]1.0.46.1: 3rd February 2016[/COLOR]

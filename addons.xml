@@ -45,7 +45,7 @@
 
 </addon>
 
-<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.46.1" provider-name="spoyser">
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.48" provider-name="spoyser">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" optional="true" />
@@ -72,7 +72,7 @@
   <extension point="kodi.context.item" library="capture.py">
       <item>
         <label>30000</label>
-        <visible>true</visible>
+        <visible>!IsEmpty(Window(10000).Property(SF_STD_CONTEXTMENU_ENABLED))</visible>
       </item>
     </extension>
 </addon>
@@ -336,7 +336,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="1.0.0" name="Exodus" provider-name="l*m*d*">
+<addon id="plugin.video.exodus" version="1.0.1" name="Exodus" provider-name="l*m*d*">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -699,9 +699,10 @@ http://kodilive.eu</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.prosport" name="Pro Sport" version="0.14" provider-name="gerikss">
+<addon id="plugin.video.prosport" name="Pro Sport" version="0.24" provider-name="gerikss, podgod">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" version="2.9.1" />
   </requires>
   <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
     <provides>video</provides>
@@ -829,12 +830,14 @@ http://kodilive.eu</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.02.07.3" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.02.15.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
 		<import addon="script.module.metahandler" optional="true" />
 		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.trakt" version="2.5.1"/>
+
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>

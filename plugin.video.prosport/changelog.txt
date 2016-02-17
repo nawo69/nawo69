@@ -38,3 +38,46 @@ ver 0.12:
 	
 ver 0.14:
 	- fix ducking streaming
+	
+ver 0.15:
+	- Gerikss has halted developement of this addon. I'm gonna try and keep it going :)
+	- added code for upcoming MLB support. Cosmetic changes... added folder logos, status changes, etc
+	
+ver 0.16:
+	- added rawstreams to NBA
+	
+ver 0.17:
+	- fixed rawstreams
+	- fixed streamup streams
+	- added streamup to 101livesports streams
+
+ver 0.18:
+	- fixed rawstreams home/away bug
+	- fixed blabseal streams
+	- added Postponed game status
+	
+ver 0.19:
+	- fixed rawstreams
+	- fixed bug finding games on reddit
+	
+ver 0.20:
+	- fixed rawstreams
+	
+ver 0.21:
+	- fixed gsrteam
+	- fixed streamarena
+	- added rawstreams donation link
+	
+ver 0.22:
+	- fixed rawstreams
+	- added sd streams (can be disabled in settings). Thanks to Phoenix for code example!
+	- other bugfixes
+	
+ver 0.23:
+	- removed rawstreams (site is closed and just delays streams finding)
+	- fixed fake m3u link appears in streams
+	
+ver 0.24:
+	- fixed nbastream.net and nhlstream.net
+	- added hehestream.tk for nba (plays only in external player)
+	- added zone more SD stream source
