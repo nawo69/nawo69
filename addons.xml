@@ -837,7 +837,7 @@ http://kodilive.eu</description>
 		<import addon="script.module.metahandler" optional="true" />
 		<import addon="plugin.video.youtube" optional="true" />
 		<import addon="script.module.trakt" version="2.5.1"/>
-
+		<import addon="repository.filmkodi.com" version="1.1.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
