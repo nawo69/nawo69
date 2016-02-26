@@ -1,3 +1,61 @@
+[B]Version 4.5.2[/B]
+    DM issue
+[B]Version 4.5.1[/B]
+    yupp asia cup
+[B]Version 4.5.0[/B]
+    uktv user
+[B]Version 4.4.9[/B]
+    uktv caching
+[B]Version 4.4.8[/B]
+    streams retry improved
+[B]Version 4.4.7[/B]
+    uktv upate
+[B]Version 4.4.6[/B]
+    365 site restructuring
+[B]Version 4.4.5[/B]
+    uktv
+[B]Version 4.4.4[/B]
+    ipbox url hiding
+[B]Version 4.4.3[/B]
+    ipbox url hiding
+[B]Version 4.4.2[/B]
+    365 time bug
+[B]Version 4.4.1[/B]
+    365 improved
+[B]Version 4.4.0[/B]
+    retry in Streams in sports section
+[B]Version 4.3.9[/B]
+    retry in Streams in sports section
+[B]Version 4.3.8[/B]
+    useragent for pv2
+[B]Version 4.3.7[/B]
+    Added sport365, removed streams till we fix it properly
+[B]Version 4.3.6[/B]
+    Ipbox Improved still in beta
+[B]Version 4.3.5[/B]
+    SS is back
+[B]Version 4.3.4[/B]
+    SS is back
+[B]Version 4.3.3[/B]
+    -yp caching, v7 and ipbox off
+    
+[B]Version 4.3.2[/B]
+    -pv2 random us
+    
+[B]Version 4.3.1[/B]
+    -Yp source added in Pakistani, Indian and Punjabi channels
+    
+[B]Version 4.3.0[/B]
+    -pv2 sports back
+    
+[B]Version 4.2.9[/B]
+    -v3 channels are back, also ipbox enabled on requests
+[B]Version 4.2.8[/B]
+    -ditto channels manual
+[B]Version 4.2.7[/B]
+    -Ipbox removed
+[B]Version 4.2.6[/B]
+    -Ipbox
 [B]Version 4.2.5[/B]
     -CF Added
     
