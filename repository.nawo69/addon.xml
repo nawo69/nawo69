@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.0.1"
+        version="1.0.2"
         provider-name="nawo69">
   <requires>
-		<import addon="repository.chrischrome" version="1.0" />
+		<import addon="repository.chrischrome" />
+		<import addon="repository.VinManJSV" />
   </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Best Add-ons">
