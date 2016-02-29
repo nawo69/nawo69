@@ -7,7 +7,7 @@
 		<import addon="repository.chrischrome" version="1.0" />
   </requires>
     <extension point="xbmc.addon.repository" 
-        name="nawo69 XBMC Best Add-ons">
+        name="nawo69 Kodi Best Add-ons">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69/master/</datadir>
