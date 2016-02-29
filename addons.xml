@@ -1120,6 +1120,19 @@ http://halowtv.com/[/COLOR]</description>
 </extension>
 </addon>
 
+<addon id="repository.chrischrome" name="Chris chrome" version="1.0" provider-name="chris chrome">
+	<extension point="xbmc.addon.repository" name="Simple Kodi">
+		<info compressed="false">http://chrischrome.netai.net/Plugins/addons.xml.xml</info>
+		<checksum>http://chrischrome.netai.net/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://chrischrome.netai.net/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>download my addons</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.coldkeys" name="ColdKeys Repo" version="1.0.2" provider-name="Coldkeys">
 	<extension point="xbmc.addon.repository" name="ColdKeys Repository">
 		<info compressed="false">https://raw.githubusercontent.com/KodiColdkeys/coldkeys-addons/master/repository/addons.xml</info>
