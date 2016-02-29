@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.0.4"
+        version="1.0.5"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -44,6 +44,7 @@
 		<import addon="repository.xunitytalk" />
 		<import addon="superrepo.kodi.helix.repositories" />
 		<import addon="superrepo.kodi.helix.external.repositories" />
+		<import addon="repository.foreverguest" />
   </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Best Add-ons">
