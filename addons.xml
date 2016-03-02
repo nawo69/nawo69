@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.program.kodiuktv" name="KodiUK TV Wizard" version="1.5" provider-name="KodiUK.TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KodiUK TV Wizard</summary>
+    <description lang="en">The hub of KodiUK.TV and the home of all official, and Community builds.  Find us online at www.kodiuk.tv and also on Facebook</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.48" provider-name="spoyser">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -147,31 +161,6 @@
         <description lang="en">Videos found in this addon are not hosted or uploaded nor are we affiliated with the video content in any way. All video content is hosted by third party websites. In the case of possible copyright infringement please contact the responsible parties. Users who upload to these websites agree not to upload illegal content when creating their user accounts. We do not take responsibility for the content hosted on such third party websites.</description>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="plugin.video.nbcsnliveextra" name="NBC Sports Live Extra" version="2015.8.21" provider-name="eracknaphobia">
-  <requires>
-   <import addon="xbmc.python" version="2.1.0"/>
-   <import addon="script.module.simplejson" version="3.3.0"/>
-   <import addon="script.module.httplib2" version="0.8.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="nbcsn.py">
-        <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Watch NBCSN Live Extra</summary>
-    <description lang="en">NBC Sports Live Extra is a service that allows you to watch NBC Sports coverage of live events from NBC and NBCSports Network</description>
-    <disclaimer lang="en"></disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.kodi.tv/showthread.php?tid=207159</forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
 </addon>
 
 <addon id="plugin.video.NJMSoccer"
@@ -461,6 +450,20 @@
 	</extension>
 </addon>
 
+<addon id="repository.awesome" name="Awesome repo" version="0.0.1" provider-name="Awesome">
+	<extension point="xbmc.addon.repository" name="Awesome repo">
+		<info compressed="false">http://raw.github.com/AwesomeStreams/AwesomeStreams/master/addons.xml</info>
+		<checksum>http://raw.github.com/AwesomeStreams/AwesomeStreams/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/AwesomeStreams/AwesomeStreams/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Official Awesome repository</summary>
+		<description>This repository contains addons with live IPTV streams.</description>
+		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.bbtsip.tv" name="[COLOR yellowgreen]B[/COLOR][COLOR dodgerblue]B[/COLOR]T[COLOR orangered]S[/COLOR] - Repo" version="0.0.7" provider-name="BBTS">
   <requires>
     <import addon="xbmc.addon" version="12.0.0" />
@@ -610,6 +613,19 @@
 		<summary></summary>
 		<description>Download and install addons by Mr Entertainment</description>
 		<disclaimer>By using this, you take reponsibility for anything that happens. Some parts of this addon may not be legal in your country - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way shape or form. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.eracknaphobia" name="eracknaphobia's Repo" version="1.0.0" provider-name="eracknaphobia">
+	<extension point="xbmc.addon.repository" name="eracknaphobia's Repo">
+		<info compressed="false">https://github.com/eracknaphobia/repo.eracknaphobia/raw/master/addons.xml</info>
+		<checksum>https://github.com/eracknaphobia/repo.eracknaphobia/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/eracknaphobia/repo.eracknaphobia/raw/master/addons/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>eracknaphobia's Repo</summary>
+		<description>eracknaphobia's Repo</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -803,7 +819,7 @@
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.0.5"
+        version="1.0.6"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -847,6 +863,8 @@
 		<import addon="superrepo.kodi.helix.repositories" />
 		<import addon="superrepo.kodi.helix.external.repositories" />
 		<import addon="repository.foreverguest" />
+		<import addon="repository.eracknaphobia" />
+		<import addon="repository.awesome" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Best Add-ons">
@@ -1101,20 +1119,6 @@ Addons Included
     <platform>all</platform>
   </extension>
  </addon>
-
-<addon id="script.exodus.artwork" version="1.0.0" name="Exodus Artwork" provider-name="l*m*d*">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Exodus Addon</summary>
-		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
 
 <addon id="script.navi-x"
        name="Navi-X"
