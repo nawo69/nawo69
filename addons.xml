@@ -819,7 +819,7 @@
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.0.6"
+        version="1.0.7"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -865,6 +865,7 @@
 		<import addon="repository.foreverguest" />
 		<import addon="repository.eracknaphobia" />
 		<import addon="repository.awesome" />
+		<import addon="repository.xxxadultxbmc" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Best Add-ons">
@@ -1030,14 +1031,14 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="repository.VinManJSV" name="VinmanJSV REPO" version="1.0" provider-name="Vinman_sv">
-	<extension point="xbmc.addon.repository" name="VinmanJSV REPO">
-        <info compressed="false">http://raw.github.com/VinmanJSV/OPENJAVA/master/addons.xml</info>
-        <checksum>http://raw.github.com/VinmanJSV/OPENJAVA/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/VinmanJSV/OPENJAVA/raw/master/zips</datadir>
+<addon id="repository.VinManJSV" name="VinmanJSV REPO" version="1.1.1" provider-name="Vinman_sv">
+	<extension point="xbmc.addon.repository" name="VinManJSV REPO">
+        <info compressed="false">https://offshoregit.com/VinManJSV/repo/raw/master/addons.xml</info>
+        <checksum>https://offshoregit.com/VinManJSV/repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://offshoregit.com/VinManJSV/repo/raw/master/zips</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary></summary>
+        <summary>Install VinManJSV Addons</summary>
         <description></description>
         <platform>all</platform>
     </extension>
@@ -1101,6 +1102,21 @@ Addons Included
 		<summary>The Best Third Party Addons for XBMC, .[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk</summary>
 		<description>The Best Third Party Addons for XBMC, .[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk</description>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.xxxadultxbmc" name="AdultXBMC.com Add-on Repository" version="1.0.0" provider-name="adultxbmc.com">
+	<extension point="xbmc.addon.repository" name="AdultXBMC.com Add-on Repository">
+		<info compressed="false">https://offshoregit.com/adultxbmc/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/adultxbmc/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/adultxbmc/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Adult Content for Kodi from High Quality Sources Only</summary>
+		<description>Collection of Adult Addons for Kodi by Various Developers</description>
+		<platform>all</platform>
+                <forum>http://www.adultxbmc.com</forum>
+                <website>http://www.adultxbmc.com</website>
 	</extension>
 </addon>
 
