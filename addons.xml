@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.kodiuktv" name="KodiUK TV Wizard" version="1.5" provider-name="KodiUK.TV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">KodiUK TV Wizard</summary>
-    <description lang="en">The hub of KodiUK.TV and the home of all official, and Community builds.  Find us online at www.kodiuk.tv and also on Facebook</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.48" provider-name="spoyser">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -366,7 +352,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2016.02.01"
+  version="201620162016.03.06.5"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
