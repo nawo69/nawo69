@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.program.nawo69wizardtest" name=".nawo69 Wizardtest" version="1.0.0" provider-name="nawo69">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">nawo69 Kodi Wizard</summary>
+    <description lang="en">Best Kodi Tutorials</description>
+	<website>http://SimpleKodi.com</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.48" provider-name="spoyser">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -820,7 +835,7 @@
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.0.7"
+        version="1.0.8"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
