@@ -398,7 +398,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="201620162016.03.06.5"
+  version="2016-03-21.5"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -415,6 +415,20 @@
     <summary>Play videos of different sports streaming sites</summary>
     <description>Play videos of different sports streaming sites</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.uktvnow" name="UKTV Now" version="2.0.0" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
     <platform>all</platform>
   </extension>
 </addon>
