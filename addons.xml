@@ -198,6 +198,27 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.MUSICLEGENDS"
+	name="MUSIC LEGENDS"
+	version="2.0.0"
+	provider-name="pulsemediahubuk add us on facebook -  pulse media hub">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">MUSIC LEGENDS addon</summary>
+    <description lang="en">MUSIC LEGENDS .</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>http://pulsemediahub.net</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.nawo69wizard" name=".nawo69 Wizard" version="1.0.0" provider-name="nawo69">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -433,6 +454,33 @@
     <summary>Play videos of different sports streaming sites</summary>
     <description>Play videos of different sports streaming sites</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.The-Music-Source"
+       name="The Music Source"
+       version="2.9.5"
+       provider-name="Matty/BlackDragon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Music </summary>
+    <description>For the best in music this is the add-on you need.</description>
     <platform>all</platform>
   </extension>
 </addon>
