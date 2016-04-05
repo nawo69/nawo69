@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.1.0"
+        version="1.1.1"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -49,7 +49,8 @@
 		<import addon="repository.awesome" />
 		<import addon="repository.xxxadultxbmc" />
 		<import addon="repository.dnarepo" />
-	  </requires>
+		<import addon="repository.bulldogstreams" />		
+  </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Best Add-ons">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69/master/addons.xml</info>
