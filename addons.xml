@@ -694,6 +694,19 @@
 	</extension>
 </addon>
 
+<addon id="repository.Cosmixrepo" name="Cosmix Repo" version="1.0" provider-name="Cosmix">
+	<extension point="xbmc.addon.repository" name="Cosmixrepo">
+		<info compressed="false">http://cosmix.net23.net/repo/Plugins/addons.xml</info>
+		<checksum>http://cosmix.net23.net/repo/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://cosmix.net23.net/repo/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Cosmix Repo</summary>
+		<description>Cosmix Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.d0f21" name="d0f21's XBMC Addons" version="1.0.0" provider-name="d0f21">
 	<extension point="xbmc.addon.repository" name="Chris' XBMC Addon Repository">
 		<info >https://raw.githubusercontent.com/louca1221/d0f21-Repository/master/addons.xml</info>
@@ -982,7 +995,7 @@
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.1.1"
+        version="1.1.2"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1031,16 +1044,17 @@
 		<import addon="repository.xxxadultxbmc" />
 		<import addon="repository.dnarepo" />
 		<import addon="repository.bulldogstreams" />
+		<import addon="repository.Cosmixrepo" />
   </requires>
     <extension point="xbmc.addon.repository"
-        name="nawo69 Kodi Best Add-ons">
+        name="nawo69 Kodi Add-ons and Repos">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>popular addons</summary>
-        <description>popular addons for my users</description>
+        <description>popular addons and repo</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>
