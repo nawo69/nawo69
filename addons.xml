@@ -198,35 +198,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.MoneySports"
-       name="MoneySports"
-       version="2.0.8.1"
-       provider-name="SOME FINE FELLOW">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description>
-
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.MUSICLEGENDS"
 	name="MUSIC LEGENDS"
 	version="2.0.0"
@@ -995,7 +966,7 @@
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.1.2"
+        version="1.1.3"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1045,6 +1016,7 @@
 		<import addon="repository.dnarepo" />
 		<import addon="repository.bulldogstreams" />
 		<import addon="repository.Cosmixrepo" />
+		<import addon="repository.RenegadesTV" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
@@ -1082,6 +1054,21 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Install My Addons</summary>
 		<description>Download and install addons from podgod!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.RenegadesTV" name="RenegadesTV Add-on repository" version="1.3" provider-name="RenegadesTV">
+	<extension point="xbmc.addon.repository" name="RenegadesTV Add-on repository">
+		<dir>
+			<info compressed="false">http://renegadestv.info/renautorepo/addons.xml</info>
+			<checksum>http://renegadestv.info/renautorepo/addons.xml.md5</checksum>
+			<datadir zip="true">http://renegadestv.info/renautorepo/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Add-ons from RenegadesTV</summary>
+		<description lang="en">Download and install add-ons from RenegadesTV repository.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
