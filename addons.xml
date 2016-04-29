@@ -166,6 +166,37 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.mcktvsports"
+       name="mcktvsports"
+       version="1.0"
+       provider-name="mcktvsports">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live Sports</summary>
+    <description lang="en">Live Sports Tv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.MUSICLEGENDS"
 	name="MUSIC LEGENDS"
 	version="2.0.0"
@@ -204,7 +235,7 @@
 
 <addon id="plugin.video.NJMSoccer"
        name="NJM-Soccer"
-       version="3.0.6"
+       version="3.0.9"
        provider-name="Ares Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -448,7 +479,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.uktvnow" name="UKTV Now" version="2.0.0" provider-name="MetalKettle">
+<addon id="plugin.video.uktvnow" name="[COLOR lime]The-Illuminaty[/COLOR]" version="2.0.1" provider-name="Adam Weishaupt">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -456,7 +487,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
+    <summary lang="en">Enjoy the new Addon to watch Live TV[COLOR lime]The-Illuminaty[/COLOR]</summary>
     <description lang="en"></description>
     <platform>all</platform>
   </extension>
@@ -481,7 +512,6 @@
     <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.urlresolver" version="0.0.1"/>
 
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
