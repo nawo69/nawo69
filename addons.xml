@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.3amigos"
+       name="3 AMIGOS"
+       version="1.0"
+       provider-name="pulsemediahubuk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">THE 3 AMIGOS</summary>
+    <description lang="en">find us on fb 3Amigos addon kodi</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.AK-47"
        name="[COLOR red]AK[/COLOR] [COLOR yellow]-[/COLOR] [COLOR turquoise]47[/COLOR]"
        version="1.0.3"
@@ -108,6 +139,33 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.EliteSports"
+       name="EliteSports"
+       version="4.0.1"
+       provider-name="pulsemediahubuk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>follow us on fb pulse media hub = big thanks to bansky kodi art for the artwork</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.HaiderLists"
        name="Haider List"
        version="1.0.03"
@@ -208,6 +266,35 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Live Sports</summary>
     <description lang="en">Live Sports Tv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.MoneySports"
+       name="MoneySports"
+       version="4.0.1"
+       provider-name="SOME FINE FELLOW">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+
+    </description>
     <platform>all</platform>
   </extension>
 </addon>
