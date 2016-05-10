@@ -554,6 +554,32 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.sportcenterhd"
+       name="SportCenterHD"
+       version="1.0.0"
+       provider-name="SportCenterHD">
+  <requires>
+    <import addon="script.module.beautifulsoup" />
+    <import addon="script.module.simple.downloader" />
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" />
+    <import addon="script.module.metahandler" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SportCenterHD</summary>
+    <description lang="en">Wij zijn NIET de eigenaar van de streams die in SportCenterHD zijn te vinden.
+Alle inhoud is copyright van hun respectievelijke eigenaars.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon
   id="plugin.video.SportsDevil"
   version="201620162016.05.03.5"
@@ -1115,6 +1141,24 @@
 	</extension>
 </addon>
 
+<addon id="repository.MatsBuilds" name="Mats Add-ons repository" version="1.0" provider-name="Mats Builds">
+	<extension point="xbmc.addon.repository" name="Mats Builds Repository">
+	<dir>
+		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	</dir>
+		<info compressed="false">http://www.matsbuilds.co.uk/plugins/addon.xml</info>
+		<checksum>http://www.matsbuilds.co.uk/plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://www.matsbuilds.co.uk/plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from Mats Builds</summary>
+		<description>Download and install Add-ons from Mats Builds repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.mdrepo" name="Mucky Ducks Repo" version="1.0.2" provider-name="Mucky Duck">
 	<extension point="xbmc.addon.repository" name="Mucky Ducks Repo">
 		<info compressed="false">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml</info>
@@ -1157,7 +1201,7 @@
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.1.6"
+        version="1.1.7"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1210,6 +1254,7 @@
 		<import addon="repository.RenegadesTV" />
 		<import addon="repository.projectmrnetwork" />
 		<import addon="repository.adriansports" />
+		<import addon="repository.MatsBuilds" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
