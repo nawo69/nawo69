@@ -102,6 +102,38 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.ChampionSports"
+       name="Champion Sports"
+       version="1.0"
+       provider-name="Champion Sports">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.urlresolver" version="0.0.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live Sports</summary>
+    <description lang="en">Live Sports Tv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.coldasice" name="Cold As Ice" version="1.0.0" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -162,6 +194,37 @@
   <extension point="xbmc.addon.metadata">
     <summary></summary>
     <description>follow us on fb pulse media hub = big thanks to bansky kodi art for the artwork</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.FSSport"
+       name="FS Sport"
+       version="1.0.2"
+       provider-name="Shaney Repos">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"> FS Sports</summary>
+    <description lang="en">[COLOR red]FREE[/COLOR] Live HD Sports [COLOR red]developed by FS Sports[/COLOR] credits to Shaney Repos for dev help Follow me on twitter - [COLOR lime]@FireSticksTV[/COLOR] </description>
     <platform>all</platform>
   </extension>
 </addon>
