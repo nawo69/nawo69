@@ -63,24 +63,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.AresFootBall"
-	   name="Ares FootBall"
-	   version="1.0.0.160130"
-	   provider-name="2uk3y-Kodim-Ares-Streams">
-  <requires>
-    <import addon="script.module.requests" version="1.0.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-			 library="default.py">
-    	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Full Matches and Shows</summary>
-    <description>Full Matches and Shows Brings you the Latest Soccer Shows and Full Match Highlights Videos from top european soccer leagues</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.BBC3"
 	name="BBC 3 Online"
 	version="1.0.0"
@@ -167,64 +149,6 @@
   <extension point="xbmc.addon.metadata">
     <summary>Play a variety of quality streams on your DragonBox</summary>
     <description>**GREAT FOR HD NFL** No streams are hosted by DragonBox, Dragon Streams or any affiliates of those mentioned.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.EliteSports"
-       name="EliteSports"
-       version="4.0.1"
-       provider-name="pulsemediahubuk">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description>follow us on fb pulse media hub = big thanks to bansky kodi art for the artwork</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.FSSport"
-       name="FS Sport"
-       version="1.0.2"
-       provider-name="Shaney Repos">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"> FS Sports</summary>
-    <description lang="en">[COLOR red]FREE[/COLOR] Live HD Sports [COLOR red]developed by FS Sports[/COLOR] credits to Shaney Repos for dev help Follow me on twitter - [COLOR lime]@FireSticksTV[/COLOR] </description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -333,35 +257,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.MoneySports"
-       name="MoneySports"
-       version="4.0.1"
-       provider-name="SOME FINE FELLOW">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description>
-
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.MUSICLEGENDS"
 	name="MUSIC LEGENDS"
 	version="2.0.0"
@@ -425,37 +320,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en"> Join us at http://ares-project.com/community/</summary>
     <description lang="en">Special Thank you to Hakamac for his code, and to Ares Team,Shadow Crew and Mettle Kettle for their support.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.Operation_RobocopUltimate"
-       name="Operation Robocop Ultimate"
-       version="2.1"
-       provider-name="OperationRobocop Dev Team">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"> Operation Robocop Add-on</summary>
-    <description lang="en">Find us at our Facebook Group https://www.facebook.com/groups/1551875625033019/</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -596,53 +460,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.southpark_unofficial" name="South Park" version="0.4.1" provider-name="Deroad">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">South Park Unofficial Player</summary>
-        <language>en</language>
-        <description lang="en">Watch South Park episodes. The supported countries are the one that can view videos from http://southpark.cc.com or http://www.southpark.de.</description>
-        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-        <license>GNU General Public Licence. v2</license>
-        <source>https://github.com/wargio/plugin.video.southpark_unofficial</source>
-        <forum>http://forum.kodi.tv/showthread.php?tid=224662</forum>
-        <email>wargio at libero dot it</email>
-        <website>http://devram0.blogspot.it/</website>
-    </extension>
-</addon>
-
-<addon id="plugin.video.sportcenterhd"
-       name="SportCenterHD"
-       version="1.0.0"
-       provider-name="SportCenterHD">
-  <requires>
-    <import addon="script.module.beautifulsoup" />
-    <import addon="script.module.simple.downloader" />
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" />
-    <import addon="script.module.metahandler" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">SportCenterHD</summary>
-    <description lang="en">Wij zijn NIET de eigenaar van de streams die in SportCenterHD zijn te vinden.
-Alle inhoud is copyright van hun respectievelijke eigenaars.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon
   id="plugin.video.SportsDevil"
   version="201620162016.05.03.5"
@@ -688,88 +505,6 @@ Alle inhoud is copyright van hun respectievelijke eigenaars.</description>
 			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on</disclaimer>
 
 			<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="plugin.video.uktvnow" name="[COLOR lime]The-Illuminaty[/COLOR]" version="2.0.1" provider-name="Adam Weishaupt">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Enjoy the new Addon to watch Live TV[COLOR lime]The-Illuminaty[/COLOR]</summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.xo1000sports"
-       name="Xo1000sports"
-       version="1.0"
-       provider-name="xo1000sports">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Live Sports</summary>
-    <description lang="en">Live Sports Tv</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.youtube" name="YouTube" version="5.1.20.4" provider-name="bromix">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-        <summary lang="en">Plugin for YouTube</summary>
-        <description lang="en">YouTube is a one of the biggest video-sharing websites of the world.</description>
-		<summary lang="de">Plugin für YouTube</summary>
-        <description lang="de">YouTube ist ein eines der größten Video-Sharing-Websites der Welt.</description>
-        <summary lang="pl">Wtyczka YouTube</summary>
-        <description lang="pl">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
-		<summary lang="hu">Kiegészítő  a YouTube-hoz</summary>
-        <description lang="hu">A YouTube a világ egyik legnagyobb videómegosztó weboldala.</description>
-        <summary lang="es">Plugin para YouTube</summary>
-        <description lang="es">YouTube es un uno de los mayores sitios web de intercambio de vídeos del mundo.</description>
-        <summary lang="ru">Видеодополнение YouTube</summary>
-        <description lang="ru">Данное дополнение позволяет находить и смотреть видео на всеми любимом сайте.</description>
-        <summary lang="fr">Plugin pour YouTube</summary>
-        <description lang="fr">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
-        <summary lang="zh">YouTube附加元件</summary>
-        <description lang="zh">「Youtube」是全世界最大的影片分享網站</description>
-        <summary lang="bg">Добавка за YouTube</summary>
-        <description lang="bg">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
-		<disclaimer lang="en"></disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=200735</forum>
-		<website>http://www.youtube.com</website>
-		<email>bromix at gmx dot net</email>
-		<source>https://github.com/bromix/plugin.video.youtube</source>
 	</extension>
 </addon>
 
