@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.R2V2BHRSport" name="R2V2BHR Sports" version="1.0.0" provider-name="BrianHR100">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">These are not the streams your looking for</summary>
+    <description lang="en">Visit me over at Youtube.com/user/BrianHR100 or Tweet me @BrianHR100. Massive thanks to Malcolm R2V2 for his help and support along the way, also Thank You to Inside4ndroid for his advice and help with Python. The Addon would not of been possible without you. Come over and join us on Facebook - https://www.facebook.com/groups/1973231952901292/ </description>
+    <disclaimer lang="en"> created by @BrianHR100, Malcolm R2V2, Inside4ndroid. </disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <website>Youtube.com/user/BrianHR100</website>
+    <email>brianrowe90@gmail.com</email>
+  </extension>
+</addon>
