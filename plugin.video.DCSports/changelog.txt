@@ -1,7 +1,0 @@
-V1.0.1
-Added More Channels
-Added Fanart
-General Cleanup
-
-V1.0
-Initial Release

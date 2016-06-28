@@ -31,38 +31,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.AK-47"
-       name="[COLOR red]AK[/COLOR] [COLOR yellow]-[/COLOR] [COLOR turquoise]47[/COLOR]"
-       version="1.0.4"
-       provider-name="[COLOR red][B]COLD[/B][/COLOR][COLOR turquoise][B]FIRE[/B][/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-	<import addon="script.common.plugin.cache" version="2.5.2"/>
-	<import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-        <summary>[COLOR cyan][B]Best of the best from fabio_kapone and Billy_Hope[/B][/COLOR]</summary>
-        <description lang="en">[B]Enjoy watching:
-		[COLOR red]Movies[/COLOR], [COLOR yellow]TV-Shovs[/COLOR], [COLOR turquoise]Documentaries[/COLOR], [COLOR limegreen]Toons[/COLOR] and ofcourse [COLOR red]Live TV[/COLOR][/B]
-		[COLOR pink][B]PS: Live TV links may up and down, as they are free. Don't check the teeth of a gifted hourse![/B][/COLOR]</description>
-        <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.BBC3"
 	name="BBC 3 Online"
 	version="1.0.0"
@@ -82,26 +50,6 @@
     <forum>n/a</forum>
     <website>n/a</website>
   </extension>
-</addon>
-
-<addon id="plugin.video.brettus.streams" name="[COLOR white]B[/COLOR][COLOR dodgerblue]rettus [/COLOR][COLOR white]S[/COLOR][COLOR dodgerblue]treams[/COLOR]" version="1.0.3" provider-name="Biggy_Ozz">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.pyxbmct" version="1.1.4" />
-		<import addon="script.module.urlresolver" version="3.0.0"/>
-		<import addon="script.module.liveresolver" version="0.1.24"/>
-		<import addon="plugin.video.youtube" optional="true" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Brettus-Streams</summary>
-		<description lang="en">Brettus-Streams</description>
-		<platform>all</platform>
-		<forum>Brettus-Streams</forum>
-		<website>Brettus-Streams</website>
-	</extension>
 </addon>
 
 <addon id="plugin.video.ChampionSports"
@@ -132,37 +80,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Live Sports</summary>
     <description lang="en">Live Sports Tv</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.DCSports"
-       name="DC Sports"
-       version="1.0.1"
-       provider-name="Darrenc1888">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">UK Sports Addon</summary>
-    <description lang="en">Work In Progress</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -567,28 +484,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.titan" name="[COLOR blue]T[/COLOR]itan" version="2.1.1" provider-name="Titan">
-	<requires>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.t0mm0.common" version="2.0.0"/>
-		<import addon="plugin.video.youtube" version="3.0.0"/>
-		<import addon="script.module.urlresolver"  version="2.10.10"/>
-		<import addon="script.common.plugin.cache" version="2.5.2"/>
-		<import addon="script.module.metahandler" version="2.5.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-			<summary lang="en"></summary>
-			<description lang="en">Watch from a huge selection of Movies Tv Shows and Collections... Credits to Lambda for some resolvers used in this addon</description>
-			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on</disclaimer>
-
-			<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repo.natko1412" name="natko1412 repo" version="2.0.0" provider-name="natko1412">
 <extension point="xbmc.addon.repository" name="Natko's Addon Repository">
 <info compressed="false">https://offshoregit.com/natko1412/addons.xml</info>
@@ -614,6 +509,49 @@
 <disclaimer lang="en">Repository has non-comercial nature.</disclaimer>
 <platform>all</platform>
 </extension>
+</addon>
+
+    <addon id="repository.Agent-47" name="AGENT 47" version="1.0.0" provider-name="[COLOR red][B]COLD[/B][/COLOR][COLOR turquoise][B]FIRE[/B][/COLOR]">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="AGENT 47">
+            <info compressed="false">http://repo.run/_repo/addons.xml</info>
+            <checksum>http://repo.run/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://repo.run/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>[COLOR cyan]Best of the best from C0LDFIRE and BillyHope[/COLOR]</summary>
+            <description>Enjoy watching: [COLOR red]Movies[/COLOR], [COLOR yellow]TV-Shovs[/COLOR], [COLOR turquoise]Documentaries[/COLOR], [COLOR limegreen]Toons[/COLOR] and ofcourse [COLOR red]Live TV[/COLOR]</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.allsorts" name="[COLOR gold]-COMMUNITY-ALLSORTS-[/COLOR]" version="1.1" provider-name="[COLOR red]-THE-@COMMUNITY-REPO-TEAM[/COLOR]">
+
+	<extension point="xbmc.addon.repository" name="The Community Repository">
+
+		<info compressed="false">http://repo.cazwall.com/comwiz/TesterRepo/addons.xml</info>
+
+		<checksum>http://repo.cazwall.com/comwiz/TesterRepo/addons.xml.md5</checksum>
+
+		<datadir zip="true">http://repo.cazwall.com/comwiz/TesterRepo/</datadir>
+
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+
+		<summary>[COLOR blue]-SOMETHING FOR EVERYONE-[/COLOR][COLOR lime]-Due to the nature of our content, we are not responsible for the content streamed to your device and neither do we condone piracy so you must satisfy yourself that either you or the sites accessed for streaming have the copyright agreements in place and are entitled to access this content.
+We do not host or upload any video, films, media file, live streams (avi, mov, flv, mpg, mpeg, divx, dvd rip, mp3, mp4, mkv). the community repo team is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of streamed from your device. If you have any legal issues please contact the appropriate media file owners or host sites.
+We have no control over the links on any site that we provide a link to. If you see any form of infringements, please contact appropriate media file owners or host sites immediately-[/COLOR]</summary>
+
+		<description>[COLOR lime]-FROM-THE-REAL-KODI-COMMUNITY-TO-THE-COMMUNITY(IF U PAYED FOR THIS DEMAND A REFUND AS THIS WILL ALWAYS BE FREE)IF U LIKE WHAT WE DO AND WOULD LIKE TO DONATE PLZ DONATE TO- CANCER RESEARCH - NSPCC -OR ANY OTHER CHARITY U THINK WORTHY THX THE COM REPO TEAM[/COLOR]</description>
+
+		<platform>all</platform>
+
+	</extension>
+
 </addon>
 
 <addon id="repository.aresproject" name="AresProject" version="0.0.1" provider-name="Ares Team">
@@ -912,6 +850,19 @@
 	</extension>
 </addon>
 
+<addon id="repository.husham.com" name="Husham.com Repo" version="1.1.0004" provider-name="husham.com">
+	<extension point="xbmc.addon.repository" name="Husham.com Repository">
+		<info compressed="false">https://raw.githubusercontent.com/hmemar/husham.com/master/repository/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/hmemar/husham.com/master/repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/hmemar/husham.com/master/zip</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Husham.com Repo</summary>
+		<description>Download and install addons from husham.com repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.istream" name="iSTREAM XBMC Addons Repository" version="1.1" provider-name="iSTREAM">
 	<extension point="xbmc.addon.repository" name="iSTREAM">
 		<info compressed="false">http://istreamrepo.me/istream/repo/addons.xml</info>
@@ -921,6 +872,24 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>iSTREAM XBMC Addons and Extensions</summary>
 		<description>iSTREAM XBMC Addons and Extensions</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.jsergio" name="jsergio repo" version="1.0.2" provider-name="jsergio">
+	<extension point="xbmc.addon.repository" name="jsergio repo">
+        <dir>
+	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+	        <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	    </dir>
+        <info compressed="false">https://offshoregit.com/jsergio123/addons.xml</info>
+        <checksum>https://offshoregit.com/jsergio123/addons.xml.md5</checksum>
+        <datadir zip="true">https://offshoregit.com/jsergio123/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repo for jsergio Add-ons</summary>
+		<description>Repo for jsergio Add-ons</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -1046,7 +1015,7 @@
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.1.9"
+        version="1.2.0"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1098,6 +1067,10 @@
 		<import addon="repository.MatsBuilds" />
 		<import addon="repository.shaneyrepos" />
 		<import addon="repository.dokinl" />
+		<import addon="repository.husham.com" />
+		<import addon="repository.allsorts" />
+		<import addon="repository.jsergio" />
+		<import addon="repository.Agent-47" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
