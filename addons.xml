@@ -237,7 +237,7 @@
 
 <addon id="plugin.video.NJMSoccer"
        name="NJM-Soccer"
-       version="3.0.9"
+       version="3.0.11"
        provider-name="Ares Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
