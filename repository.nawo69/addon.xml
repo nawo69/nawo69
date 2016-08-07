@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.2.3"
+        version="1.2.4"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -61,7 +61,7 @@
 		<import addon="repository.origin" />
 		<import addon="repository.thealpha" />
 		<import addon="repository.slimevolve" />
-		<import addon="repository.GoodFellas" />
+		<import addon="repository.goodfellas" />
 
   </requires>
     <extension point="xbmc.addon.repository" 
