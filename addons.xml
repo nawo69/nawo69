@@ -1031,7 +1031,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.2.1"
+        version="1.2.3"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1092,6 +1092,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.thealpha" />
 		<import addon="repository.slimevolve" />
 		<import addon="repository.GoodFellas" />
+
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
