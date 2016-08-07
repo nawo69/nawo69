@@ -115,6 +115,28 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.followfollow" name="[COLOR red]Foll[/COLOR][COLOR white]ow Fo[/COLOR][COLOR blue]llow[/COLOR]" version="1.0.3" provider-name="Slim_Evolve, Team_Evolve">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.module.liveresolver" version="0.1.24"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Follow Follow - Glasgow Rangers FC Add-On</summary>
+    <description lang="en">Base used with permission by Team Evolve with additional modifications by Slim_Evolve and TDB.</description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+	<platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.HaiderLists"
        name="Haider List"
        version="1.0.03"
@@ -804,6 +826,19 @@ We have no control over the links on any site that we provide a link to. If you 
     </extension>
 </addon>
 
+<addon id="repository.goodfellas" name="GoodFellas" version="1.1" provider-name="GoodFellas">
+	<extension point="xbmc.addon.repository" name="Good Fellas">
+		<info compressed="false">http://www.goodfellasteam.com/Plugins/addons.xml</info>
+		<checksum>http://www.goodfellasteam.com/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://www.goodfellasteam.com/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Welcome to the GoodFellas Repository where you will find all the Live Tv, Movies, and Documentaries</summary>
+		<description>The Best Live Tv and Movies addon</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.HalowTV" name="  [COLOR lime][B]HALOW [/COLOR][COLOR white]Repository[/B][/COLOR]" version="3.0.0" provider-name="HalowRepo">
 	<extension point="xbmc.addon.repository" name="  [COLOR lime][B]Halow[/COLOR][COLOR white]Repository[/B][/COLOR]">
         <info compressed="false">https://raw.githubusercontent.com/HalowTV/HalowTV/master/zips/addons.xml</info>
@@ -940,6 +975,20 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.mcktvrepo" name="mcktv repo" version="1.0" provider-name="mcktvkodi">
+	<extension point="xbmc.addon.repository" name="mcktvrepo">
+		<info compressed="false">https://raw.githubusercontent.com/mcktvkodi/mcktvrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/mcktvkodi/mcktvrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/mcktvkodi/mcktvrepo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>MckTV Repo</summary>
+		<description>Download And Install Builds By MckTV and Addons Developed By Various Developers </description>
+		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.mdrepo" name="Mucky Ducks Repo" version="1.0.2" provider-name="Mucky Duck">
 	<extension point="xbmc.addon.repository" name="Mucky Ducks Repo">
 		<info compressed="false">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml</info>
@@ -982,7 +1031,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.2.0"
+        version="1.2.1"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1038,6 +1087,11 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.allsorts" />
 		<import addon="repository.jsergio" />
 		<import addon="repository.Agent-47" />
+		<import addon="repository.mcktvrepo" />
+		<import addon="repository.origin" />
+		<import addon="repository.thealpha" />
+		<import addon="repository.slimevolve" />
+		<import addon="repository.GoodFellas" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
@@ -1064,6 +1118,23 @@ We have no control over the links on any site that we provide a link to. If you 
 		<description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+    <addon id="repository.origin" name="Origin Repo" version="1.0.1" provider-name="Origin">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Origin Repo">
+            <info compressed="false">https://raw.githubusercontent.com/toall1985/origin/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/toall1985/origin/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/toall1985/origin/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>A short summary of this addon</summary>
+            <description>Origin Builds Repo</description>
+            <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.podgod" name="podgod repo" version="1.7" provider-name="podgod">
@@ -1155,6 +1226,19 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.slimevolve" name="Slims Repository" version="1.0" provider-name="@Slim_Evolve">
+	<extension point="xbmc.addon.repository" name="Slims Repository">
+		<info compressed="false">http://simtech.net16.net/addons.xml</info>
+		<checksum>http://simtech.net16.net/addons.xml.md5</checksum>
+		<datadir zip="true">http://simtech.net16.net/plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repository Of Slim From Team Evolve</summary>
+		<description>Slims Addons</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.SportsMania" name="SportsMania Repository" version="1.0.0" provider-name="SportsMania">
 	<extension point="xbmc.addon.repository" name="MoviesHD Addon Repository">
 		<info compressed="false">http://raw.github.com/Willowsportsmania/SportsMania/master/addons.xml</info>
@@ -1196,6 +1280,19 @@ We have no control over the links on any site that we provide a link to. If you 
 		<summary>Team eXpat Addon</summary>
 		<description>Build Addon Installer</description>
 		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.thealpha" name="The Alpha Repository" version="1.0" provider-name="The Alpha Team">
+<extension point="xbmc.addon.repository" name="thealpha">
+		<info compressed="false">http://thealpha.top/thealpha/Plugins/addons.xml</info>
+		<checksum>http://thealpha.top/thealpha/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://thealpha.top/thealpha/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Alpha Repository</summary>
+		<description>The Alpha Add-On plus Dependencies from The Alpha Team.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
