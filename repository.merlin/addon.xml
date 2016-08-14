@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.merlin" name="Merlin Repository" version="1.0.1" provider-name="Merlin By Ryan">
+<addon id="repository.merlin" name="Merlin Repository" version="1.0.1a" provider-name="Merlin By Ryan">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>

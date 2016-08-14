@@ -1017,7 +1017,7 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.merlin" name="Merlin Repository" version="1.0.1" provider-name="Merlin By Ryan">
+<addon id="repository.merlin" name="Merlin Repository" version="1.0.1a" provider-name="Merlin By Ryan">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
