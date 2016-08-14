@@ -1,36 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.3amigos"
-       name="3 AMIGOS"
-       version="1.0"
-       provider-name="pulsemediahubuk">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">THE 3 AMIGOS</summary>
-    <description lang="en">find us on fb 3Amigos addon kodi</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.BBC3"
 	name="BBC 3 Online"
 	version="1.0.0"
@@ -338,25 +307,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.now_music" name="Now Music"	version="1.0.1"	provider-name="Pulse Builds">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="pulse.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Compilation Of Youtube Playlists</summary>
-    <description lang="en">These Playlists Do Not Contain Any Media That I Have Produced, However Is Freely Available On Youtube!</description>
-    <disclaimer lang="en">Pulse Takes No Credit Or Liability For These Streams</disclaimer>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
 <addon id="plugin.video.Pokemon" name="Pokemon" version="1.0.0" provider-name="BRETTUS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -369,36 +319,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en"></summary>
     <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.ProjectCypher"
-       name="Project Cypher"
-       version="2.0.2"
-       provider-name="Cypher">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Live SD and HD TV channels</summary>
-    <description>General disclaimer: Project Cypher takes no responsibility for the content or reliability of the feeds. Project Cypher [B]Does Not[/B] host any of the feeds or Streams. Most of the Code from this addon was taken from many other addons but used under the GNU GENERAL PUBLIC LICENSE Version 2, June 1991</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -769,6 +689,19 @@ We have no control over the links on any site that we provide a link to. If you 
 
 </addon>
 
+<addon id="repository.dahenchmen" name="DaHenchmen Repo" version="1.0.01" provider-name="dahenchmen.xyz">
+	<extension point="xbmc.addon.repository" name="DaHenchmen Repo">
+		<info compressed="false">http://dahenchmen.xyz/Add-ons/addons.xml</info>
+		<checksum>http://dahenchmen.xyz/Add-ons/addons.xml.md5</checksum>
+		<datadir zip="true">http://dahenchmen.xyz/Add-ons</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Henchmen Repo</summary>
+		<description>Download and install addons from DaHenchmen Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.dnarepo" name="[COLOR lightblue]dna[/COLOR] [COLOR lightwhite]Repository[/COLOR]" version="0.0.4" provider-name="dna">
 	<extension point="xbmc.addon.repository" name="dna Repository">
 		<info compressed="false">http://raw.github.com/macblizzard/dnarepo/master/addons.xml</info>
@@ -1084,6 +1017,22 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.merlin" name="Merlin Repository" version="1.0.1" provider-name="Merlin By Ryan">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+		<extension point="xbmc.addon.repository" name="Merlin Repository">
+			<info compressed="false">http://mwiz.co.uk/merlinrepo/addons.xml</info>
+			<checksum>http://mwiz.co.uk/merlinrepo/addons.xml.md5</checksum>
+			<datadir zip="true">http://mwiz.co.uk/merlinrepo/addons/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Host Of Add-Ons And Repositories</summary>
+			<description>Primary Function To Provide Updates To Merlin Builds! Any Other Add-Ons Or Repositories Within Are Provided At My Choice And Discretion, Will Provide Add-Ons And Repositories That Are Publicly Available, Permission Not Required To Do So! Hope You Find This Repository Useful, Enjoy!</description>
+			<platform>all</platform>
+		</extension>
+</addon>
+
 <addon id="repository.metalkettle" name="MetalKettles Addon Repository" version="1.6.2" provider-name="MetalKettle">
 	<extension point="xbmc.addon.repository" name="MetalKettles Addon Repository">
 		<info compressed="false">http://offshoregit.com/metalkettle/addons.xml</info>
@@ -1112,7 +1061,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.2.5"
+        version="1.2.6"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1174,6 +1123,8 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.slimevolve" />
 		<import addon="repository.goodfellas" />
 		<import addon="repository.ptom" />
+		<import addon="repository.merlin" />
+		<import addon="repository.dahenchmen" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
