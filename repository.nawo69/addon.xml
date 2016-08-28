@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.2.7"
+        version="1.2.8"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -65,8 +65,7 @@
 		<import addon="repository.ptom" />
 		<import addon="repository.merlin" />
 		<import addon="repository.dahenchmen" />
-		<import addon="repository.leopold" />
-		<import addon="repository.megatron" />		
+		<import addon="repository.leopold" />		
   </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Add-ons and Repos">

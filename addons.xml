@@ -445,6 +445,28 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.topgear"
+       name="Top Gear"
+       version="1.0"
+       provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+	<import addon="script.module.urlresolver"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Made By Pipcan</summary>
+    <language>en</language>
+    <description lang="en">Jeremy, Richard and James talk about everything car-related. From new cars to how they're fuelled, this show has it all.
+</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repo.natko1412" name="natko1412 repo" version="2.0.0" provider-name="natko1412">
 <extension point="xbmc.addon.repository" name="Natko's Addon Repository">
 <info compressed="false">https://offshoregit.com/natko1412/addons.xml</info>
@@ -1002,19 +1024,6 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.megatron" name="[COLOR purple]Megatron Repo[/COLOR]" version="1.0.2" provider-name="[COLOR purple]Megatron[/COLOR]">
-	<extension point="xbmc.addon.repository" name="[COLOR purple]Megatron Repo[/COLOR]">
-		<info compressed="false">https://raw.githubusercontent.com/superfreakrepos/megatron/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/superfreakrepos/megatron/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/superfreakrepos/megatron/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Transform your TV</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.merlin" name="Merlin Repository" version="1.0.1a" provider-name="Merlin By Ryan">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -1059,7 +1068,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.2.7"
+        version="1.2.8"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1124,7 +1133,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.merlin" />
 		<import addon="repository.dahenchmen" />
 		<import addon="repository.leopold" />
-		<import addon="repository.megatron" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
