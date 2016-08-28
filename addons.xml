@@ -21,10 +21,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ChampionSports"
+<addon id="plugin.video.Champion Sports"
        name="Champion Sports"
-       version="1.0"
-       provider-name="Champion Sports">
+       version="2"
+       provider-name="Kodi Hacks">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -40,15 +40,14 @@
     <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.urlresolver" version="0.0.1"/>
 
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Live Sports</summary>
-    <description lang="en">Live Sports Tv</description>
+    <summary lang="en">championsports8</summary>
+    <description lang="en">UK Sports Twitter - championsports8</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -80,37 +79,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">MINECRAFT TUTOTIALS AND VIDEOS</summary>
     <description lang="en">A COLLECTION OF YOUR FAVOURITE MINECRAFT YOUTUBERS INCLUDING STAMPY, AMYLEE AND DANTDM.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.DCSports"
-       name="DC Sports"
-       version="1.0.7"
-       provider-name="Darrenc1888">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">UK/US Sports Addon</summary>
-    <description lang="en">UK/US Sports Addon</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -450,7 +418,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="a2016.06.20"
+  version="a2016.08.22"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -466,6 +434,9 @@
     library="default.py">
    <provides>video</provides>
   </extension>
+  <extension
+      point="xbmc.python.script"
+      library="lib/livestreamerXBMCLocalProxy.py" />
   <extension point="xbmc.addon.metadata">
     <summary>Play videos of different sports streaming sites</summary>
     <description>Play videos of different sports streaming sites</description>
@@ -958,6 +929,20 @@ We have no control over the links on any site that we provide a link to. If you 
     </extension>
 </addon>
 
+<addon id="repository.leopold" name="Leopold's Add-ons" version="3.0.0" provider-name="Leopold">
+  <extension point="xbmc.addon.repository" name="Leopold's Repository">
+    <info compressed="false">https://raw.github.com/LS80/repository.leopold/master/addons.xml</info>
+    <checksum>https://raw.github.com/LS80/repository.leopold/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.github.com/LS80/repository.leopold/master</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Leopold's add-ons</summary>
+    <description>Download and install add-ons from Leopold's repository. Most of the add-ons in this repository are created and maintained by Leopold. Some add-ons are provided by others and merely hosted here for convenience.</description>
+    <platform>all</platform>
+    <website>http://ls80.github.io/repository.leopold/</website>
+  </extension>
+</addon>
+
 <addon id="repository.Lwsrepo" name="Lwsrepo" version="2.0" provider-name="LwS">
 	<extension point="xbmc.addon.repository" name="LwS-Repo">
 		<info compressed="false">https://archive.org/download/LwSRepo/Plugins/addons.xml</info>
@@ -971,16 +956,16 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.MatsBuilds" name="Goliaths Add-ons repository" version="1.0.6" provider-name="Goliath">
+<addon id="repository.MatsBuilds" name="Goliaths Add-ons repository" version="1.0.7" provider-name="Goliath">
 	<extension point="xbmc.addon.repository" name="Goliaths Repository">
 	<dir>
 		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
 		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
 	</dir>
-		<info compressed="false">http://www.matsbuilds.co.uk/addons/addon.xml</info>
+		<info compressed="false">http://www.matsbuilds.uk/addons/addon.xml</info>
 		<checksum>http://simtech.net16.net/Goliathrepo/addons.xml.md5</checksum>
-		<datadir zip="true">http://www.matsbuilds.co.uk/addons/zips/</datadir>
+		<datadir zip="true">http://www.matsbuilds.uk/addons/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Add-ons from Goliath</summary>
@@ -1013,6 +998,19 @@ We have no control over the links on any site that we provide a link to. If you 
 		<summary>Mucky Ducks Repo</summary>
 		<description>Download And Install Addons Developed By Mucky Duck And Various Other Developers </description>
 		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.megatron" name="[COLOR purple]Megatron Repo[/COLOR]" version="1.0.2" provider-name="[COLOR purple]Megatron[/COLOR]">
+	<extension point="xbmc.addon.repository" name="[COLOR purple]Megatron Repo[/COLOR]">
+		<info compressed="false">https://raw.githubusercontent.com/superfreakrepos/megatron/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/superfreakrepos/megatron/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/superfreakrepos/megatron/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Transform your TV</summary>
+		<description></description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -1061,7 +1059,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.2.6"
+        version="1.2.7"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1125,6 +1123,8 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.ptom" />
 		<import addon="repository.merlin" />
 		<import addon="repository.dahenchmen" />
+		<import addon="repository.leopold" />
+		<import addon="repository.megatron" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
