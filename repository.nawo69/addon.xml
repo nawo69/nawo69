@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.2.8"
+        version="1.3.0"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -27,7 +27,7 @@
 		<import addon="repo.natko1412" />
 		<import addon="repository.noobsandnerds" />
 		<import addon="repository.podgod" />
-		<import addon="repository.schismtv.addonsdev" />
+		<import addon="repository.sportsaccess" />
 		<import addon="repository.shani" />
 		<import addon="repository.SportsMania" />
 		<import addon="repository.spoyser" />
@@ -65,7 +65,9 @@
 		<import addon="repository.ptom" />
 		<import addon="repository.merlin" />
 		<import addon="repository.dahenchmen" />
-		<import addon="repository.leopold" />		
+		<import addon="repository.leopold" />
+		<import addon="repository.teamtdb" />
+	
   </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Add-ons and Repos">
