@@ -454,7 +454,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="a2016.09.11"
+  version="a2016.09.24"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
