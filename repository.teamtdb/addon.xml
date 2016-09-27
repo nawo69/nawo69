@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.teamtdb" name="[COLOR grey][B].[COLOR whitesmoke]TDB[/COLOR] [COLOR lightskyblue]Repository[/B][/COLOR]" version="2.02" provider-name="Team TDB">
+<addon id="repository.teamtdb" name="[COLOR grey][B].[COLOR whitesmoke]TDB[/COLOR] [COLOR lightskyblue]Repository[/B][/COLOR]" version="2.04" provider-name="Team TDB">
     <extension point="xbmc.addon.repository" name="Team TDB Repository">
         <info compressed="false">http://www.tdbrepo.com/git/addons.xml</info>
         <checksum>http://www.tdbrepo.com/git/addons.xml.md5</checksum>
