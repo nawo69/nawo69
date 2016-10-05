@@ -358,6 +358,34 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.projectd" name="[COLOR red]P®oje©t D[/COLOR]" version="1.0" provider-name="Project D">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Project D, Brings You Sporting Replays, 3D Movies And More!</summary>
+    <description lang="en">Please Enjoy, This Is An Ongoing Project!</description>
+    <disclaimer lang="en">Project D Takes No Credit Or Liability For The Content Provided!</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.projectvod"
 	name="VOD on YouTube"
 	version="1.0.2"
@@ -568,6 +596,23 @@ We have no control over the links on any site that we provide a link to. If you 
 
 	</extension>
 
+</addon>
+
+    <addon id="repository.Apprentice" name="The Apprentice" version="0.0.1" provider-name="Apprentice">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="The Apprentice">
+            <info compressed="false">https://raw.githubusercontent.com/dannyperry571/theapprentice/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/dannyperry571/theapprentice/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/dannyperry571/theapprentice/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>A short summary of this addon</summary>
+            <description>a work in progress</description>
+            <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.aresproject" name="AresProject" version="0.0.1" provider-name="Ares Team">
@@ -1119,7 +1164,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.3.1"
+        version="1.3.2"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1185,7 +1230,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.dahenchmen" />
 		<import addon="repository.leopold" />
 		<import addon="repository.echo" />
-
+		<import addon="repository.Apprentice" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
