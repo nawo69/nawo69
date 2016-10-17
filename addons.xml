@@ -482,7 +482,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="a2016.09.24"
+  version="a2016.10.10"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -502,6 +502,37 @@
     <summary>Play videos of different sports streaming sites</summary>
     <description>Play videos of different sports streaming sites</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.TheJoker"
+       name="Jokers TV"
+       version="1.1"
+       provider-name="TheJoker">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Jokers TV Addon</summary>
+    <description lang="en">Jokers TV Addon</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -1164,7 +1195,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.3.2"
+        version="1.3.3"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1231,6 +1262,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.leopold" />
 		<import addon="repository.echo" />
 		<import addon="repository.Apprentice" />
+		<import addon="repository.schismtvaddons" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
@@ -1333,17 +1365,17 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.schismtv.addonsdev" name="SchisM Addons Repository" version="1.0.0" provider-name="SchisM">
-	<extension point="xbmc.addon.repository" name="SchisM TV Repository">
-		<info compressed="false">https://raw.github.com/schismtv/addonsrepo/master/addons.xml</info>
-		<checksum>https://raw.github.com/schismtv/addonsrepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/schismtv/addonsrepo/master</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install SchisM Addons</summary>
-		<description>Download and install addons from SchisM</description>
-		<platform>all</platform>
-	</extension>
+<addon id="repository.schismtvaddons" name="SchisM TV Addons Repository" version="1.1.0" provider-name="SchisM">
+    <extension point="xbmc.addon.repository" name="SchisM TV Addons Repository">
+        <info compressed="false">http://schism-tv.net/addons/addons.xml</info>
+        <checksum>http://schism-tv.net/addons/addons.xml.md5</checksum>
+        <datadir zip="true">http://schism-tv.net/addons/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>SchisM TV official repo</summary>
+        <description>This is my repo... I can do whatever I like with it...</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.shaneyrepos" name="Shaney Repos" version="1.0.1" provider-name="Shaney Repos">
