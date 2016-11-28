@@ -1,6 +1,0 @@
-v1.0.2
-More Tweaks
-v1.0.1
-Minor Tweaks
-v1.0.0
-Initial Release
