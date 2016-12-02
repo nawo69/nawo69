@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.3.3"
+        version="1.3.4"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -39,7 +39,6 @@
 		<import addon="repository.xbmcadult" />
 		<import addon="repository.xbmchub" />
 		<import addon="repository.xunitytalk" />
-		<import addon="superrepo.kodi.helix.all" />
 		<import addon="superrepo.kodi.jarvis.all" />
 		<import addon="repository.foreverguest" />
 		<import addon="repository.eracknaphobia" />
@@ -69,6 +68,7 @@
 		<import addon="repository.echo" />
 		<import addon="repository.Apprentice" />
 		<import addon="repository.schismtvaddons" />	
+		<import addon="repository.Oblivion" />			
   </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Add-ons and Repos">
