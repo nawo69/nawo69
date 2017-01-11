@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.3.4"
+        version="1.3.5"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -68,7 +68,9 @@
 		<import addon="repository.echo" />
 		<import addon="repository.Apprentice" />
 		<import addon="repository.schismtvaddons" />	
-		<import addon="repository.Oblivion" />			
+		<import addon="repository.jizzplanet" />	
+		<import addon="repository.Oblivion" />	
+		<import addon="repository.StreamArmy" />		
   </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Add-ons and Repos">
