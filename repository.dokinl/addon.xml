@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <addon id="repository.dokinl" name="[B][COLOR lime]D[/COLOR]OKI[COLOR lime]TV[/COLOR].NL [COLOR lime]R[/COLOR]epository[/B]" version="1.0.2" provider-name="DOKITV.NL">
+    <addon id="repository.dokinl" name=" [B][COLOR palegreen]D[/COLOR]OKI[COLOR palegreen]TV[/COLOR].NL [COLOR palegreen]R[/COLOR]epository[/B]" version="1.0.3" provider-name="DOKITV.NL">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
