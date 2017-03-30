@@ -549,37 +549,6 @@
 </extension>
 </addon>
 
-<addon id="repository.adriansports" name="ADRIAN SPORTS REPO" version="1.0.0" provider-name="PROJECT ADRIAN">
-<extension point="xbmc.addon.repository" name="Project Adrian Repository V1">
-<info compressed="false">http://projectadrianv1.net16.net/repo/addons.xml</info>
-<checksum>http://projectadrianv1.net16.net/repo/addons.xml.md5</checksum>
-<datadir zip="true">http://projectadrianv1.net16.net/zips/</datadir>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary lang="en">Install Addons From Project Adrian</summary>
-<description lang="en">Project Adrian Repository.</description>
-<disclaimer lang="en">Repository has non-comercial nature.</disclaimer>
-<platform>all</platform>
-</extension>
-</addon>
-
-    <addon id="repository.Agent-47" name="AGENT 47" version="1.0.1" provider-name="[COLOR red][B]COLD[/B][/COLOR][COLOR turquoise][B]FIRE[/B][/COLOR]">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="AGENT 47">
-            <info compressed="false">http://repo.run/zip/addons.xml</info>
-            <checksum>http://repo.run/zip/addons.xml.md5</checksum>
-            <datadir zip="true">http://repo.run/zip/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>[COLOR cyan]Best of the best from C0LDFIRE and BillyHope[/COLOR]</summary>
-            <description>Enjoy watching: [COLOR red]Movies[/COLOR], [COLOR yellow]TV-Shovs[/COLOR], [COLOR turquoise]Documentaries[/COLOR], [COLOR limegreen]Toons[/COLOR] and ofcourse [COLOR red]Live TV[/COLOR]</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="repository.allsorts" name="[COLOR gold]-COMMUNITY-ALLSORTS-[/COLOR]" version="1.1" provider-name="[COLOR red]-THE-@COMMUNITY-REPO-TEAM[/COLOR]">
 
 	<extension point="xbmc.addon.repository" name="The Community Repository">
@@ -632,20 +601,6 @@ We have no control over the links on any site that we provide a link to. If you 
 	<extension point="xbmc.addon.metadata">
 		<summary>AresProject.</summary>
 		<description>Ares-Project Addons Source. Visit Us At http://ares-project.com/community/</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.awesome" name="Awesome repo" version="0.0.1" provider-name="Awesome">
-	<extension point="xbmc.addon.repository" name="Awesome repo">
-		<info compressed="false">http://raw.github.com/AwesomeStreams/AwesomeStreams/master/addons.xml</info>
-		<checksum>http://raw.github.com/AwesomeStreams/AwesomeStreams/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/AwesomeStreams/AwesomeStreams/master</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The Official Awesome repository</summary>
-		<description>This repository contains addons with live IPTV streams.</description>
-		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -758,19 +713,6 @@ We have no control over the links on any site that we provide a link to. If you 
 	<extension point="xbmc.addon.metadata">
 		<summary>@communityrepo Repository</summary>
 		<description>" "The Community Repository" addon, skin and wizard host, contact for details on how to add your content @communityrepo</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.dahenchmen" name="DaHenchmen Repo" version="1.0.01" provider-name="dahenchmen.xyz">
-	<extension point="xbmc.addon.repository" name="DaHenchmen Repo">
-		<info compressed="false">http://dahenchmen.xyz/Add-ons/addons.xml</info>
-		<checksum>http://dahenchmen.xyz/Add-ons/addons.xml.md5</checksum>
-		<datadir zip="true">http://dahenchmen.xyz/Add-ons</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The Henchmen Repo</summary>
-		<description>Download and install addons from DaHenchmen Repo</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -1032,41 +974,6 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.lambda" name="lambda Add-on repository" version="1.1.0" provider-name="lambda">
-	<extension point="xbmc.addon.repository" name="lambda Add-on repository">
-		<dir>
-			<info compressed="false">http://raw.github.com/lambda81/lambda-repo/master/addons.xml</info>
-			<checksum>http://raw.github.com/lambda81/lambda-repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">http://raw.github.com/lambda81/lambda-repo/master/</datadir>
-		</dir>
-		<info compressed="false">https://offshoregit.com/lambda81/lambda-repo/addons.xml</info>
-		<checksum>https://offshoregit.com/lambda81/lambda-repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/lambda81/lambda-repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install Add-ons from lambda</summary>
-		<description lang="en">Download and install add-ons from lambda repository.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-    <addon id="repository.legends" name=".[COLOR blue]L[/COLOR][COLOR white]egends[/COLOR]-repo" version="1.0.0" provider-name="Dragon">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name=".[COLOR blue]L[/COLOR][COLOR white]egends[/COLOR]-repo">
-            <info compressed="false">http://4legends.co.uk/Legends/addons.xml</info>
-            <checksum>https://archive.org/download/addons.xml_201512/addons.xml.md5</checksum>
-            <datadir zip="true">http://4legends.co.uk/Legends/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>We Fly High and NEVER Fall....</summary>
-            <description>The Legends Repo is made by 4 Ghosts all Add-ons are welcome BUT you must be the maker and NO clones we will help take your Add-on main dtream along side the Devs Mark Money and BlackDragon, To add your Add-on Email (Legends.Repo@gmail.com) Whith your Add-on we will check it out and add it if it makes the cut :)</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="repository.leopold" name="Leopold's Add-ons" version="3.0.0" provider-name="Leopold">
   <extension point="xbmc.addon.repository" name="Leopold's Repository">
     <info compressed="false">https://raw.github.com/LS80/repository.leopold/master/addons.xml</info>
@@ -1184,7 +1091,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.3.6"
+        version="1.3.7"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1201,8 +1108,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.HalowTV" />
 		<import addon="repository.istream" />
 		<import addon="repository.Kinkin" />
-		<import addon="repository.lambda" />
-		<import addon="repository.legends" />
 		<import addon="repository.Lwsrepo" />
 		<import addon="repository.mdrepo" />
 		<import addon="repository.metalkettle" />
@@ -1217,7 +1122,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.team.expat" />
 		<import addon="repository.tknorris.beta" />
 		<import addon="repository.unblockr" />
-		<import addon="repository.VinManJSV" />
 		<import addon="repository.whitecream" />
 		<import addon="repository.xbmcadult" />
 		<import addon="repository.xbmchub" />
@@ -1225,28 +1129,21 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="superrepo.kodi.jarvis.all" />
 		<import addon="repository.foreverguest" />
 		<import addon="repository.eracknaphobia" />
-		<import addon="repository.awesome" />
 		<import addon="repository.xxxadultxbmc" />
 		<import addon="repository.dnarepo" />
 		<import addon="repository.bulldogstreams" />
-		<import addon="repository.RenegadesTV" />
 		<import addon="repository.projectmrnetwork" />
-		<import addon="repository.adriansports" />
 		<import addon="repository.MatsBuilds" />
-		<import addon="repository.shaneyrepos" />
 		<import addon="repository.dokinl" />
 		<import addon="repository.husham.com" />
 		<import addon="repository.allsorts" />
 		<import addon="repository.jsergio" />
-		<import addon="repository.Agent-47" />
 		<import addon="repository.mcktvrepo" />
 		<import addon="repository.origin" />
-		<import addon="repository.thealpha" />
 		<import addon="repository.slimevolve" />
 		<import addon="repository.goodfellas" />
 		<import addon="repository.ptom" />
 		<import addon="repository.merlin" />
-		<import addon="repository.dahenchmen" />
 		<import addon="repository.leopold" />
 		<import addon="repository.echo" />
 		<import addon="repository.Apprentice" />
@@ -1357,21 +1254,6 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.RenegadesTV" name="RenegadesTV Add-on repository" version="1.3" provider-name="RenegadesTV">
-	<extension point="xbmc.addon.repository" name="RenegadesTV Add-on repository">
-		<dir>
-			<info compressed="false">http://renegadestv.info/renautorepo/addons.xml</info>
-			<checksum>http://renegadestv.info/renautorepo/addons.xml.md5</checksum>
-			<datadir zip="true">http://renegadestv.info/renautorepo/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install Add-ons from RenegadesTV</summary>
-		<description lang="en">Download and install add-ons from RenegadesTV repository.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.schismtvaddons" name="SchisM TV Addons Repository" version="1.1.0" provider-name="SchisM">
     <extension point="xbmc.addon.repository" name="SchisM TV Addons Repository">
         <info compressed="false">http://schism-tv.net/addons/addons.xml</info>
@@ -1383,19 +1265,6 @@ We have no control over the links on any site that we provide a link to. If you 
         <description>This is my repo... I can do whatever I like with it...</description>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="repository.shaneyrepos" name="Shaney Repos" version="1.0.1" provider-name="Shaney Repos">
-	<extension point="xbmc.addon.repository" name="shaneyrepos">
-		<info compressed="false">http://offshoregit.com/shaney/Plugins/addons.xml</info>
-		<checksum>http://offshoregit.com/shaney/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://offshoregit.com/shaney/Plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Shaney Repos</summary>
-		<description>Add-ons Made By Shaney Repos - Visit www.FB.COM/ShaneyRepos for more information.</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="repository.shani" name="Shanis Addon Repository" version="2.8" provider-name="Shani">
@@ -1529,19 +1398,6 @@ We have no control over the links on any site that we provide a link to. If you 
     </extension>
 </addon>
 
-<addon id="repository.thealpha" name="The Alpha Repository" version="1.0" provider-name="The Alpha Team">
-<extension point="xbmc.addon.repository" name="thealpha">
-		<info compressed="false">http://thealpha.top/thealpha/Plugins/addons.xml</info>
-		<checksum>http://thealpha.top/thealpha/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://thealpha.top/thealpha/Plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The Alpha Repository</summary>
-		<description>The Alpha Add-On plus Dependencies from The Alpha Team.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.tknorris.beta" name="tknorris Beta Testing Repository" version="1.0.5" provider-name="tknorris">
     <extension point="xbmc.addon.repository" name="tknorris beta testing repository">
 	    <dir>
@@ -1586,19 +1442,6 @@ Addons Included
 		<description>Download and install addons from unblockr</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.VinManJSV" name="VinmanJSV REPO" version="1.1.1" provider-name="Vinman_sv">
-	<extension point="xbmc.addon.repository" name="VinManJSV REPO">
-        <info compressed="false">https://offshoregit.com/VinManJSV/repo/raw/master/addons.xml</info>
-        <checksum>https://offshoregit.com/VinManJSV/repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://offshoregit.com/VinManJSV/repo/raw/master/zips</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Install VinManJSV Addons</summary>
-        <description></description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="repository.whitecream" name="WhiteCream repo" version="0.0.1" provider-name="mortael">
@@ -1765,23 +1608,6 @@ Addons Included
     <description lang="en">ARNU Box Speed Tester powered by speedtest.net will give you accurate Internet speed/ping test results. \n Brought to you by http://www.arnubox.com</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="superrepo.kodi.helix.all" name="SuperRepo All [Helix][v7]" version="0.7.05" provider-name="Bart Otten">
-                <requires>
-                <import addon="xbmc.addon" version="12.0.0"/>
-                </requires>
-                <extension point="xbmc.addon.repository" name="SuperRepo All [Helix][v7]">
-        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nawo69/nawo69/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69/master/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>popular addons</summary>
-        <description>popular addons and repo</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="superrepo.kodi.jarvis.all" name="SuperRepo All [Jarvis][v7]" version="0.7.06" provider-name="Bart Otten">
