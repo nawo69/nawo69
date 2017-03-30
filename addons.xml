@@ -1091,7 +1091,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.3.7"
+        version="1.3.8"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1151,7 +1151,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.jizzplanet" />
 		<import addon="repository.Oblivion" />
 		<import addon="repository.StreamArmy" />
-		<import addon="repository.streamteam" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
@@ -1342,19 +1341,6 @@ We have no control over the links on any site that we provide a link to. If you 
         <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="repository.StreamArmy" name="Stream Army" version="1.0" provider-name="Nemzzy / MancSteven / DoomsdayPrep / Silent Partner">
-	<extension point="xbmc.addon.repository" name="Stream Army">
-		<info compressed="false">http://www.streamarmy.uk/Plugins/addons.xml</info>
-		<checksum>http://www.streamarmy.uk/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://www.streamarmy.uk/Plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Stream Army Repo</summary>
-		<description>Repo For Stream Army, Who Streams Wins bought to you by @Nemzzy668 /  @_MANC_  / @DoomsdayPr3p / Silent Partner</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="repository.StreamArmy" name="Stream Army" version="3.0" provider-name="Nemzzy / Manc">
