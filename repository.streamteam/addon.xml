@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.streamteam" name="[COLOR dodgerblue]Streamteam[/COLOR]" version="1.5" provider-name="Streamteam">
-<extension point="xbmc.addon.repository" name="[COLOR indigo]Streamteam[/COLOR]">
-		<info compressed="false">http://repo.streamteam.space/plugins/addons.xml</info>
-		<checksum>http://repo.streamteam.space/plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://repo.streamteam.space/plugins/</datadir>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.StreamArmy" name="Stream Army" version="3.0" provider-name="Nemzzy / Manc">
+	<extension point="xbmc.addon.repository" name="Stream Army">
+		<dir>
+			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://offshoregit.com/Nemzzy668/repository.streamarmy/addons.xml</info>
+        <checksum>https://offshoregit.com/Nemzzy668/repository.streamarmy/addons.xml.md5</checksum>
+        <datadir zip="true">https://offshoregit.com/Nemzzy668/repository.streamarmy/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>The Streamteam Repository v1.5</summary>
-		<description>The Streamteam Repository v1.5 - The Streamteam Repository contains various add-ons from various developers. More add-ons are in progress, please watch for updates!</description>
+		<summary>Stream Army Repo</summary>
+		<description>Repo For Stream Army, Who Streams Wins bought to you by @Nemzzy668 /  @_MANC_</description>
 		<platform>all</platform>
 	</extension>
 </addon>
