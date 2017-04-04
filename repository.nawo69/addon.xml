@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.3.8"
+        version="1.3.9"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -61,6 +61,8 @@
 		<import addon="repository.jizzplanet" />	
 		<import addon="repository.Oblivion" />	
 		<import addon="repository.StreamArmy" />
+		<import addon="repository.Rockcrusher" />
+		<import addon="plugin.program.wookiecleaner" />
   </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Add-ons and Repos">
