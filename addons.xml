@@ -484,8 +484,8 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="3"
-  name="a2017.03.28"
+  version="a2017.03.28"
+  name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
