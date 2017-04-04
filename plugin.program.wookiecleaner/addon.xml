@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.wookiecleaner" name="[COLOR red]Wookie Auto Cleaner[/COLOR]" version="1.0.0" provider-name="TeamWookie - More Than A Build">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Auto Cleaner By TeamWookie - More Than A Build</summary>
+    <description lang="en">This has been set up to auto clean, this can be changed via Addon settings. For FREE help and support then TeamWookie can contacted via "Wookie Community" on Facebook or via Twitter at @wookie_wizardry </description>
+	<disclaimer lang="en">Forked from Beaus Autocleaner. Thanks go to himself and anybody else who was involved in coding the original</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
