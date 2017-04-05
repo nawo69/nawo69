@@ -699,19 +699,6 @@ We have no control over the links on any site that we provide a link to. If you 
 </extension>
 </addon>
 
-<addon id="repository.bulldogstreams" name="Bulldog Streams Repository" version="1.1" provider-name="Bulldog Streams Dev Team">
-	<extension point="xbmc.addon.repository" name="Bulldog Streams Repository">
-		<info compressed="false">http://www.bulldogstreams.football/addon/addons.xml</info>
-		<checksum>http://www.bulldogstreams.football/addon/addons.xml.md5</checksum>
-		<datadir zip="true">http://www.bulldogstreams.football/addon/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install Bulldog Streams</summary>
-		<description>Home of Bulldog Streams</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.chrischrome" name="Chris chrome" version="1.0" provider-name="chris chrome">
 	<extension point="xbmc.addon.repository" name="Simple Kodi">
 		<info compressed="false">http://chrischrome.netai.net/Plugins/addons.xml.xml</info>
@@ -1015,19 +1002,6 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.Kinkin" name="Kinkins REPO" version="1.4" provider-name="Kinkin">
-	<extension point="xbmc.addon.repository" name="Kinkin Addon Repository">
-		<info compressed="false">https://offshoregit.com/kinkin-xbmc-repository/addons.xml</info>
-		<checksum>https://offshoregit.com/kinkin-xbmc-repository/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/kinkin-xbmc-repository/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install Kinkins Addons</summary>
-		<description>Install addons by Kinkin</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.leopold" name="Leopold's Add-ons" version="3.0.0" provider-name="Leopold">
   <extension point="xbmc.addon.repository" name="Leopold's Repository">
     <info compressed="false">https://raw.github.com/LS80/repository.leopold/master/addons.xml</info>
@@ -1040,19 +1014,6 @@ We have no control over the links on any site that we provide a link to. If you 
     <platform>all</platform>
     <website>http://ls80.github.io/repository.leopold/</website>
   </extension>
-</addon>
-
-<addon id="repository.Lwsrepo" name="Lwsrepo" version="2.0" provider-name="LwS">
-	<extension point="xbmc.addon.repository" name="LwS-Repo">
-		<info compressed="false">https://archive.org/download/LwSRepo/Plugins/addons.xml</info>
-		<checksum>https://archive.org/download/LwSRepo/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">https://archive.org/download/LwSRepo/Plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>LwS Build Repo</summary>
-		<description>LwS Build Repo</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="repository.MatsBuilds" name="Goliaths Unofficial Add-ons repository" version="1.0.18" provider-name="Goliath">
@@ -1101,14 +1062,14 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.merlin" name="Merlin Repository" version="1.0.1a" provider-name="Merlin By Ryan">
+<addon id="repository.merlin" name=" [COLOR aqua]Merlin Repository[/COLOR]" version="2.0.0" provider-name="Merlin Project">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
 		<extension point="xbmc.addon.repository" name="Merlin Repository">
-			<info compressed="false">http://mwiz.co.uk/merlinrepo/addons.xml</info>
-			<checksum>http://mwiz.co.uk/merlinrepo/addons.xml.md5</checksum>
-			<datadir zip="true">http://mwiz.co.uk/merlinrepo/addons/</datadir>
+			<info compressed="false">http://mrepo.uk/merlinrepo/addons.xml</info>
+			<checksum>http://mrepo.uk/merlinrepo/addons.xml.md5</checksum>
+			<datadir zip="true">http://mrepo.uk/merlinrepo/addons/</datadir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary>Host Of Add-Ons And Repositories</summary>
@@ -1150,7 +1111,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.3.9"
+        version="1.4.0"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1166,8 +1127,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.filmkodi.com" />
 		<import addon="repository.HalowTV" />
 		<import addon="repository.istream" />
-		<import addon="repository.Kinkin" />
-		<import addon="repository.Lwsrepo" />
+		<import addon="repository.adriansports" />
 		<import addon="repository.mdrepo" />
 		<import addon="repository.metalkettle" />
 		<import addon="repository.Mr-Smiths-Repo" />
@@ -1190,7 +1150,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.eracknaphobia" />
 		<import addon="repository.xxxadultxbmc" />
 		<import addon="repository.dnarepo" />
-		<import addon="repository.bulldogstreams" />
 		<import addon="repository.projectmrnetwork" />
 		<import addon="repository.MatsBuilds" />
 		<import addon="repository.dokinl" />
@@ -1464,20 +1423,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.teamtdb" name="[COLOR grey][B].[COLOR whitesmoke]TDB[/COLOR] [COLOR lightskyblue]Repository[/B][/COLOR]" version="2.04" provider-name="Team TDB">
-    <extension point="xbmc.addon.repository" name="Team TDB Repository">
-        <info compressed="false">http://www.tdbrepo.com/git/addons.xml</info>
-        <checksum>http://www.tdbrepo.com/git/addons.xml.md5</checksum>
-        <datadir zip="true">http://www.tdbrepo.com/git/zips/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Team TDB Repository</summary>
-        <description>The official repository of Team TDB. All add-ons developed and maintained by Team TDB will be found here.
-        </description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="repository.tknorris.beta" name="tknorris Beta Testing Repository" version="1.0.5" provider-name="tknorris">
