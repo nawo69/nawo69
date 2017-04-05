@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.4.0"
+        version="1.4.1"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -57,7 +57,7 @@
 		<import addon="repository.Apprentice" />
 		<import addon="repository.schismtvaddons" />	
 		<import addon="repository.jizzplanet" />	
-		<import addon="repository.Oblivion" />	
+		<import addon="repository.maverickrepo" />	
 		<import addon="repository.StreamArmy" />
 		<import addon="repository.Rockcrusher" />
 		<import addon="plugin.program.wookiecleaner" />
