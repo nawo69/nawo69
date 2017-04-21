@@ -1033,19 +1033,6 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.maverickrepo" name="[COLOR orangered]MaverickTV Repo[/COLOR]" version="1.0" provider-name="Maverick TV">
-<extension point="xbmc.addon.repository" name="[COLOR orangered]MaverickTV Repo[/COLOR]">
-		<info compressed="false">http://mavericktv.esy.es/repo/plugins/addons.xml</info>
-		<checksum>http://mavericktv.esy.es/repo/plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://mavericktv.esy.es/repo/plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The MaverickTV Repository v1.0</summary>
-		<description>The MaverickTV Repository for add-on and dependencies</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.mcktvrepo" name="mcktv repo" version="1.0" provider-name="mcktvkodi">
 	<extension point="xbmc.addon.repository" name="mcktvrepo">
 		<info compressed="false">https://raw.githubusercontent.com/mcktvkodi/mcktvrepo/master/addons.xml</info>
