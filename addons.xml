@@ -1123,7 +1123,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.4.1"
+        version="1.4.2"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1148,7 +1148,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.podgod" />
 		<import addon="repository.sportsaccess" />
 		<import addon="repository.shani" />
-		<import addon="repository.SportsMania" />
+		<import addon="repository.themaniaservices" />
 		<import addon="repository.spoyser" />
 		<import addon="repository.team.expat" />
 		<import addon="repository.tknorris.beta" />
@@ -1374,19 +1374,6 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.SportsMania" name="SportsMania Repository" version="1.0.1" provider-name="SportsMania">
-	<extension point="xbmc.addon.repository" name="MoviesHD Addon Repository">
-		<info compressed="false">https://raw.githubusercontent.com/Willowsportsmania/SportsMania/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Willowsportsmania/SportsMania/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Willowsportsmania/SportsMania/master/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary></summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.spoyser"
         name="spoysers XBMC Add-ons"
         version="1.0.6"
@@ -1433,6 +1420,19 @@ We have no control over the links on any site that we provide a link to. If you 
 		<summary>Team eXpat Addon</summary>
 		<description>Build Addon Installer</description>
 		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.themaniaservices" name="The Mania Services Repo" version="1.0" provider-name="Willow From The Mania team">
+	<extension point="xbmc.addon.repository" name="The Mania Services Addon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/Willowsportsmania/themaniaservices/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Willowsportsmania/themaniaservices/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Willowsportsmania/themaniaservices/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
 		<platform>all</platform>
 	</extension>
 </addon>
