@@ -61,7 +61,7 @@
 		<import addon="repository.StreamArmy" />
 		<import addon="repository.ukturk" />
 		<import addon="repository.k3l3vra" />
-		<import addon="repository.maverick" />		
+		<import addon="repository.maverickrepo" />		
 		<import addon="repository.evolverepo" />
 		<import addon="plugin.program.wookiecleaner" />
   </requires>
