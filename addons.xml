@@ -1,69 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.56.1" provider-name="spoyser">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.metahandler" optional="true" />
-  </requires>
-
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio image executable</provides>
-  </extension>
-
-
-  <extension point="xbmc.service" library="service.py" start="startup" />
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
-    <description lang="en">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
-    <website></website>
-    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
-    <email>seanpoyser at gmail.com</email>
-
-    <news>
-1.0.56: 19th February 2017
-    - added optional initial path, and include play folder parameters to quicklaunch script
-        usage: xbmc.runscript(special://home/addons/plugin.program.super.favourites/quicklaunch.py,folder1/folder2,True)
-    - fixed playlist parsing
-    - fixed quicklaunch in Krypton
-    - fixed launching ExecuteBuiltin types from the quick launch dialog
-    - fixed launching playable items added from FileManager
-    - fixed launching playable items from widgets
-    - various other fixes due to changes in Krypton
-    </news>
-
-  </extension>
-
-
-  <extension point="kodi.context.item">
-    <menu id="kodi.core.main">
-
-      <item library="capture.py">
-        <label>$ADDON[plugin.program.super.favourites 30002]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_CONTEXTMENU_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
-      </item>
-
-      <item library="menu_addtofaves.py">
-        <label>$ADDON[plugin.program.super.favourites 30047]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_ADDTOFAVES_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
-      </item>
-
-      <item library="menu_download.py">
-        <label>$ADDON[plugin.program.super.favourites 30259]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_DOWNLOAD_ENABLED)) + Player.IsInternetStream</visible>
-      </item>
-
-    </menu>
-  </extension>
-
-</addon>
-
 <addon id="plugin.program.wookiecleaner" name="[COLOR red]Wookie Auto Cleaner[/COLOR]" version="1.0.0" provider-name="TeamWookie - More Than A Build">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -131,6 +67,36 @@ Plugin by @koderdude</description>
   </extension>
 </addon>
 
+<addon id="plugin.video.bob" name="Bob" version="1.3.15" provider-name="Team Bob">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="plugin.video.youtube" version="5.2.1"/>
+		<import addon="script.module.pyxbmct" version="1.1.4"/>
+		<import addon="script.mrknow.urlresolver" version="2017.03.30.1"/>
+		<import addon="script.module.liveresolver" version="0.1.47"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.requests" version="2.9.1"/>
+		<import addon="script.module.nanscrapers" version="0.5.12"/>
+		<import addon="script.module.addon.common" version="2.0.0"/>
+		<import addon="script.module.xmltodict" version="0.9.0"/>
+		<import addon="script.module.m3u8" version="0.2.10"/>
+		<import addon="script.module.python.koding.aio" version="0.4"/>
+		<!--<import addon="script.video.F4mProxy" version="2.6.4" />-->
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bob</summary>
+		<description lang="en">Bob - Unrestricted. I Am Not A Dev... I Am Bob</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support/forumdisplay.php?fid=253</forum>
+		<website>www.noobsandnerds.com</website>
+		<video_guide>y0w8zIH4lOY</video_guide>
+		<video_preview>WdKIzajiBBI</video_preview>
+	</extension>
+</addon>
+
 <addon id="plugin.video.ChampionSports"
        name="Champion Sports"
        version="2.0"
@@ -191,6 +157,29 @@ Plugin by @koderdude</description>
     <description lang="en">A COLLECTION OF YOUR FAVOURITE MINECRAFT YOUTUBERS INCLUDING STAMPY, AMYLEE AND DANTDM.</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.elysium" version="2017.06.08" name="Elysium" provider-name="Elysium">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="elysium.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Elysium movies and TV shows</summary>
+		<description lang="en">Watch movies and TV shows in high quality! Please note that this addon is not an official part of the Kodi media player, and therefore not to be mentioned within official support channels. This addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+		<disclaimer lang="en">The author does not host or share any content, nor is heaffiliated with any of the content providers.</disclaimer>
+		<platform>all</platform>
+		<news>Rebrand from Zen to Elysium / Disabled cinemabox</news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/01.jpg</screenshot>
+			<screenshot>resources/screenshots/02.jpg</screenshot>
+			<screenshot>resources/screenshots/03.jpg</screenshot>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="plugin.video.exodus" version="3.1.15" name="Exodus" provider-name="Exodus">
@@ -1042,6 +1031,24 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.k3l3vra" name="K3l3vra's Repository" version="1.0.0" provider-name="k3l3vra">
+    <extension point="xbmc.addon.repository" name="K3l3vra's Repository">
+	    <dir>
+	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+	        <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	    </dir>
+        <info compressed="false">http://github.com/k3l3vra1/k3l3vra.repo/raw/master/addons.xml</info>
+        <checksum>http://github.com/k3l3vra1/k3l3vra.repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">http://github.com/k3l3vra1/k3l3vra.repo/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>This is my repo for addon development</summary>
+        <description>All K3l3vra's addons</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.leopold" name="Leopold's Add-ons" version="3.0.0" provider-name="Leopold">
   <extension point="xbmc.addon.repository" name="Leopold's Repository">
     <info compressed="false">https://raw.github.com/LS80/repository.leopold/master/addons.xml</info>
@@ -1070,19 +1077,6 @@ We have no control over the links on any site that we provide a link to. If you 
 	<extension point="xbmc.addon.metadata">
 		<summary>Home of the unofficial 3rd party Addon Evolve</summary>
 		<description>Download and install all unofficial Add-ons from Goliath</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.maverickrepo" name="[COLOR orangered]MaverickTV Repo[/COLOR]" version="1.0" provider-name="Maverick TV">
-<extension point="xbmc.addon.repository" name="[COLOR orangered]MaverickTV Repo[/COLOR]">
-		<info compressed="false">http://mavericktv.esy.es/repo/plugins/addons.xml</info>
-		<checksum>http://mavericktv.esy.es/repo/plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://mavericktv.esy.es/repo/plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The MaverickTV Repository v1.0</summary>
-		<description>The MaverickTV Repository for add-on and dependencies</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -1164,7 +1158,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.4.2"
+        version="1.4.4"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1222,7 +1216,8 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.jizzplanet" />
 		<import addon="repository.maverickrepo" />
 		<import addon="repository.StreamArmy" />
-		<import addon="repository.Rockcrusher" />
+		<import addon="repository.ukturk" />
+		<import addon="repository.k3l3vra" />
 		<import addon="plugin.program.wookiecleaner" />
   </requires>
     <extension point="xbmc.addon.repository"
@@ -1433,6 +1428,19 @@ We have no control over the links on any site that we provide a link to. If you 
     </extension>
 </addon>
 
+<addon id="repository.StreamAddons" name="[COLOR yellow]Stream Addons[/COLOR]" version="0.1" provider-name="Stream Addons // A Home For All Devs">
+	<extension point="xbmc.addon.repository" name="Stream Addons">
+		<info compressed="false">http://streamaddons.com/xmls/addons.xml</info>
+        <checksum>http://streamaddons.com/xmls/addons.xml.md5</checksum>
+        <datadir zip="true">http://streamaddons.com/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Stream Addons Repo</summary>
+		<description>Official Community StreamAddons.com Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.StreamArmy" name="[COLOR crimson]S[COLOR silver]tream Army Repo[/COLOR]" version="5.1" provider-name="@Nemzzy668 / @_Manc_">
 	<extension point="xbmc.addon.repository" name="Stream Army">
 		<info compressed="false">https://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/addons.xml</info>
@@ -1504,6 +1512,19 @@ Addons Included
         </description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.ukturk" name="UKTurk Addon Repository" version="1.0.1" provider-name="UKTurk">
+	<extension point="xbmc.addon.repository" name="UKTurk Addon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/tdelight/chocolate/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tdelight/chocolate/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/tdelight/chocolate/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install UKTurk</summary>
+		<description>Install UKTurk</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.unblockr" name="Unblockr Addons" version="1.2" provider-name="Unblockr">
