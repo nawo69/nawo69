@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.StreamAddons" name="[COLOR yellow]Stream Addons[/COLOR]" version="0.1" provider-name="Stream Addons // A Home For All Devs">
+<addon id="repository.StreamAddons" name="[COLOR yellow]Stream Addons[/COLOR]" version="0.3" provider-name="Stream Addons // A Home For All Devs">
 	<extension point="xbmc.addon.repository" name="Stream Addons">
 		<info compressed="false">http://streamaddons.com/xmls/addons.xml</info>
         <checksum>http://streamaddons.com/xmls/addons.xml.md5</checksum>
