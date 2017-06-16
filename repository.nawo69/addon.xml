@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.4.8"
+        version="1.4.9"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -47,7 +47,7 @@
 		<import addon="repository.allsorts" />
 		<import addon="repository.jsergio" />
 		<import addon="repository.mcktvrepo" />
-		<import addon="repository.origin" />
+		<import addon="repository.wolfpack" />
 		<import addon="repository.slimevolve" />
 		<import addon="repository.goodfellas" />
 		<import addon="repository.ptom" />
