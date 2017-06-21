@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.59" provider-name="spoyser">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.metahandler" optional="true" />
+  </requires>
+
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image executable</provides>
+  </extension>
+
+
+  <extension point="xbmc.service" library="service.py" start="startup" />
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
+    <description lang="en">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
+    <website></website>
+    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
+    <email>seanpoyser at gmail.com</email>
+
+    <news>
+1.0.59: 29th May 2017
+    - 'Now playing' text now defined by SF due to skin variations
+    </news>
+
+  </extension>
+
+
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+
+      <item library="capture.py">
+        <label>$ADDON[plugin.program.super.favourites 30002]</label>
+        <visible>!IsEmpty(Window(Home).Property(SF_STD_CONTEXTMENU_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
+      </item>
+
+      <item library="menu_addtofaves.py">
+        <label>$ADDON[plugin.program.super.favourites 30047]</label>
+        <visible>!IsEmpty(Window(Home).Property(SF_STD_ADDTOFAVES_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
+      </item>
+
+      <item library="menu_download.py">
+        <label>$ADDON[plugin.program.super.favourites 30259]</label>
+        <visible>!IsEmpty(Window(Home).Property(SF_STD_DOWNLOAD_ENABLED)) + Player.IsInternetStream</visible>
+      </item>
+
+    </menu>
+  </extension>
+
+</addon>
+
 <addon id="plugin.program.wookiecleaner" name="[COLOR red]Wookie Auto Cleaner[/COLOR]" version="1.0.0" provider-name="TeamWookie - More Than A Build">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -157,92 +214,6 @@ Plugin by @koderdude</description>
     <description lang="en">A COLLECTION OF YOUR FAVOURITE MINECRAFT YOUTUBERS INCLUDING STAMPY, AMYLEE AND DANTDM.</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.elysium" version="2017.06.10" name="Elysium" provider-name="Elysium">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="script.elysium.artwork"/>
-		<import addon="script.module.urlresolver"/>
-		<import addon="script.module.metahandler"/>
-		<import addon="script.module.requests"/>
-		<import addon="script.module.beautifulsoup"/>
-		<import addon="script.module.schism.common"/>
-		<import addon="script.module.futures"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="elysium.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Elysium movies and TV shows</summary>
-		<description lang="en">Watch movies and TV shows in high quality! Please note that this addon is not an official part of the Kodi media player, and therefore not to be mentioned within official support channels. This addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
-		<disclaimer lang="en">The author does not host or share any content, nor is heaffiliated with any of the content providers.</disclaimer>
-		<platform>all</platform>
-		<news>Rebrand from Zen to Elysium / Disabled cinemabox</news>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/01.jpg</screenshot>
-			<screenshot>resources/screenshots/02.jpg</screenshot>
-			<screenshot>resources/screenshots/03.jpg</screenshot>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="plugin.video.exodus" version="3.1.17" name="Exodus" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="repository.exodus" version="1.0.0" />
-		<import addon="script.exodus.artwork" version="1.0.4" />
-		<import addon="script.exodus.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="exodus.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus</summary>
-		<description lang="en">Please visit [COLOR blue]www.tvaddons.ag[/COLOR] for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<description lang="de">Bitte besuche [COLOR blue]www.tvaddons.ag[/COLOR] für Unterstützung und Fragen zu Exodus! Beachte dabei, dass Exodus nicht offizieller Teil des Media Players ist den du gerade verwendest und daher nicht von dem offiziellen Support-Kanäle abgedeckt wird, dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt, es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung die dem System hinzugefügt wurde.</description>
-		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
-		<description lang="fr">SVP visitez [COLOR blue]www.tvaddons.ag[/COLOR] pour avoir de l'aide sur Exodus. Prenez note qu'Exodus n'est pas une partie intégrante de votre outil de visionnement multimedia et SVP ne le mentionnez pas dans les media sociaux officiels, cet addiciel n'a rien a voir avec votre lecteur multimedia lui même, c'est simplement un addiciel qui a été ajouté à votre système.</description>
-		<disclaimer lang="fr">L'auteur n'héberge pas ou ne distribue pas le contenu qui vous est affiché avec cet addiciel. L'auteur n'a pas d'alliance avec les distributeurs de contenu.</disclaimer>
-		<platform>all</platform>
-		<forum>https://www.tvaddons.ag/forums/exodus-repository/</forum>
-		<website>https://www.tvaddons.ag/</website>
-		<source>https://dev.tvaddons.ag/tvaddons/plugin.video.exodus/</source>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
-		</assets>
-		<news>- Updated German providers
-- Updated Korean providers
-- Tweaked localized trailers
-- Fixed trakt support</news>
-	</extension>
-</addon>
-
-<addon id="plugin.video.f4mTester" version="2.6.9" name="f4mTester" provider-name="Shani">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="2.6.8"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-
-
-    <extension point="xbmc.addon.metadata">
-        <summary>f4mTester</summary>
-        <description></description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="plugin.video.HaiderLists"
@@ -514,42 +485,6 @@ Plugin by @koderdude</description>
     <description lang="en">find us on fb - PULSE MEDIA HUB</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.196" name="Stream All The Sources" provider-name="k3l3vra">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-        <import addon="script.module.urlresolver" version="3.0.0"/>
-        <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared" version="0.0.19"/>
-        <import addon="script.module.six"/>
-        <import addon="script.module.dateutil"/>
-        <import addon="script.module.image_cache" version="0.0.1" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-     <extension point="xbmc.service" library="service.py" start="startup"/>
-    <extension point="xbmc.addon.metadata">
-        <summary>Stream video from many difference sources</summary>
-        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources
-
-***This addon is developed and supported at [COLOR blue]www.tvaddons.ag[/COLOR]***
-        </description>
-        <platform>all</platform>
-        <website>http://tvaddons.ag/</website>
-		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
-		<assets>
-		  <icon>icon.png</icon>
-		  <fanart>fanart.jpg</fanart>
-		  <screenshot>resources/screenshots/screenshot1.png</screenshot>
-          <screenshot>resources/screenshots/screenshot2.png</screenshot>
-          <screenshot>resources/screenshots/screenshot3.png</screenshot>
-          <screenshot>resources/screenshots/screenshot4.png</screenshot>
-          <screenshot>resources/screenshots/screenshot5.png</screenshot>
-		</assets>
-	</extension>
 </addon>
 
 <addon
@@ -900,6 +835,30 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.elysium" version="2017.06.10" name="Elysium repository" provider-name="Elysium">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+	</requires>
+	<extension point="xbmc.addon.repository" name="Elysium repository">
+		<dir minversion="14.0.0">
+			<info compressed="false">https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml</info>
+			<checksum>https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.elysium/master/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Elysium repository</summary>
+		<description lang="en">This repository contains Elysium and required dependencies.</description>
+		<disclaimer lang="en">The Author does not host or share any content, nor is he affiliated with any of the content providers.</disclaimer>
+		<platform>all</platform>
+		<news>Rebrand from Zen to Elysium / Disabled Cinemabox</news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="repository.entertainmentrepobackup" name="Entertainment Repo" version="1.1.4" provider-name="@MrEntertainRepo">
 	<extension point="xbmc.addon.repository" name="Entertainment Addons Repository">
 	<dir>
@@ -1244,7 +1203,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.4.9"
+        version="1.5.0"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1278,7 +1237,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.xbmcadult" />
 		<import addon="repository.xbmchub" />
 		<import addon="repository.xunitytalk" />
-		<import addon="superrepo.kodi.jarvis.all" />
+		<import addon="repository.elysium" />
 		<import addon="repository.foreverguest" />
 		<import addon="repository.eracknaphobia" />
 		<import addon="repository.xxxadultxbmc" />
@@ -1764,6 +1723,22 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<summary>Themes for the Exodus Addon</summary>
 		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.schism.common" name="Elysium Common Libraries" version="2017.06.08" provider-name="Elysium">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.six" />
+		<import addon="script.module.metahandler" />
+		<import addon="script.module.beautifulsoup" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Collection of modules used by Elysium</summary>
+		<description lang="en">Collection of modules used by Elysium</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 	</extension>
 </addon>
 

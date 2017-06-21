@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.4.9"
+        version="1.5.0"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -35,7 +35,7 @@
 		<import addon="repository.xbmcadult" />
 		<import addon="repository.xbmchub" />
 		<import addon="repository.xunitytalk" />
-		<import addon="superrepo.kodi.jarvis.all" />
+		<import addon="repository.elysium" />
 		<import addon="repository.foreverguest" />
 		<import addon="repository.eracknaphobia" />
 		<import addon="repository.xxxadultxbmc" />
