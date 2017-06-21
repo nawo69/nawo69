@@ -1535,6 +1535,19 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.thealpha" name="[COLOR limegreen]The Alpha Repository[/COLOR]" version="1.0.6" provider-name="The Alpha">
+<extension point="xbmc.addon.repository" name="[COLOR red]TheAlpha Repository[/COLOR]">
+		<info compressed="false">https://drstream.000webhostapp.com/Repository/addons.xml</info>
+		<checksum>https://drstream.000webhostapp.com/Repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://drstream.000webhostapp.com/Repository/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>3rd Party Addons </summary>
+		<description>The Alpha Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.themaniaservices" name="The Mania Services Repo" version="1.0" provider-name="Willow From The Mania team">
 	<extension point="xbmc.addon.repository" name="The Mania Services Addon Repository">
 		<info compressed="false">https://raw.githubusercontent.com/Willowsportsmania/themaniaservices/master/addons.xml</info>

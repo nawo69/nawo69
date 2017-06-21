@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.thealpha" name="[COLOR limegreen]The Alpha Repository[/COLOR]" version="1.0.6" provider-name="The Alpha">
+<extension point="xbmc.addon.repository" name="[COLOR red]TheAlpha Repository[/COLOR]">
+		<info compressed="false">https://drstream.000webhostapp.com/Repository/addons.xml</info>
+		<checksum>https://drstream.000webhostapp.com/Repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://drstream.000webhostapp.com/Repository/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>3rd Party Addons </summary>
+		<description>The Alpha Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
