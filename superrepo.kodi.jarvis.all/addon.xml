@@ -1,4 +1,4 @@
-<addon id="superrepo.kodi.jarvis.all" name="zzz dead" version="0.7.08" provider-name="nope">
+<addon id="superrepo.kodi.jarvis.all" name="SuperRepo All [Jarvis][v7]" version="0.7.08" provider-name="nope">
                 <requires>
                 <import addon="xbmc.addon" version="12.0.0"/>
                 </requires>
