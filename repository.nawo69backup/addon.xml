@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.nawo69backup" 
+        name="z nawo69 Dead Repo Remover" 
+        version="1.0.0"
+        provider-name="nawo69">
+  <requires>
+  </requires>
+    <extension point="xbmc.addon.repository" 
+        name="z nawo69 Dead Repo Remover">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69backup/nawo69/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69backup/nawo69/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>used to remove dead repos</summary>
+        <description>used to remove dead repos</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
