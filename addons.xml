@@ -1836,22 +1836,20 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="superrepo.kodi.jarvis.all" name="SuperRepo All [Jarvis][v7]" version="0.7.08" provider-name="nope">
+<addon id="superrepo.kodi.jarvis.all" name="SuperRepo All [Jarvis][v7]" version="0.7.08" provider-name="Bart Otten">
                 <requires>
                 <import addon="xbmc.addon" version="12.0.0"/>
                 </requires>
                 <extension point="xbmc.addon.repository" name="SuperRepo All [Jarvis][v7]">
-        name="nawo69 Dead Repo Remover">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/nawo69backup/nawo69/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>used to remove dead repos</summary>
-        <description>used to remove dead repos</description>
+        <summary>popular addons</summary>
+        <description>popular addons and repo</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>
 </addon>
-</addons>
 </addons>
