@@ -1289,7 +1289,7 @@ We have no control over the links on any site that we provide a link to. If you 
   </requires>
     <extension point="xbmc.addon.repository"
         name="z nawo69 Dead Repo Remover">
-        <info compressed="false">https://raw.githubusercontent.com/nawo69backup/nawo69/master/addons.xml</info>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/nawo69backup/nawo69/master/</datadir>
     </extension>
@@ -1836,7 +1836,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="superrepo.kodi.jarvis.all" name="zzz dead" version="0.7.08" provider-name="">
+<addon id="superrepo.kodi.jarvis.all" name="zzz dead" version="0.7.08" provider-name="nope">
                 <requires>
                 <import addon="xbmc.addon" version="12.0.0"/>
                 </requires>
@@ -1844,7 +1844,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         name="nawo69 Dead Repo Remover">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69backup/nawo69/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>used to remove dead repos</summary>
