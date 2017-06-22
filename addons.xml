@@ -1220,7 +1220,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.5.0"
+        version="1.5.1"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1282,6 +1282,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.evolverepo" />
 		<import addon="repository.k3l3vra" />
 		<import addon="repository.StreamAddons" />
+		<import addon="repository.whitedevil" />
 		<import addon="plugin.program.wookiecleaner" />
   </requires>
     <extension point="xbmc.addon.repository"
@@ -1652,6 +1653,21 @@ Addons Included
 		<summary>The Official WhiteCream repository</summary>
 		<description>This repository contains addons that are for adults only. You may only view the contents of this repository if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content.</description>
 		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.whitedevil" name="White Devil Addon Repository" version="1.0.2" provider-name="White Devil Team">
+	<extension point="xbmc.addon.repository" name="White Devil Add-on Repository">
+		<dir>
+			<info compressed="false">http://brettusbuilds.com/.WHITE%20DEVIL/white.devil.repo/files/addons.xml</info>
+			<checksum>http://brettusbuilds.com/.WHITE%20DEVIL/white.devil.repo/files/addons.xml.md5</checksum>
+			<datadir zip="true">http://brettusbuilds.com/.WHITE%20DEVIL/white.devil.repo/files/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Add-ons from White Devil</summary>
+		<description lang="en">Download and install add-ons from White Devil</description>
 		<platform>all</platform>
 	</extension>
 </addon>
