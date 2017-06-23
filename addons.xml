@@ -1386,7 +1386,7 @@ We have no control over the links on any site that we provide a link to. If you 
         name="z nawo69 Dead Repo Remover">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nawo69backup/nawo69/master/</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>used to remove dead repos</summary>
