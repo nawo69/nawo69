@@ -526,6 +526,42 @@ Plugin by @koderdude</description>
   </extension>
 </addon>
 
+<!--suppress ALL -->
+<addon id="plugin.video.salts" version="2.0.196" name="Stream All The Sources" provider-name="k3l3vra">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.urlresolver" version="3.0.0"/>
+        <import addon="script.module.myconnpy" version="1.1.6" />
+        <import addon="script.module.tknorris.shared" version="0.0.19"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.dateutil"/>
+        <import addon="script.module.image_cache" version="0.0.1" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+     <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Stream video from many difference sources</summary>
+        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources
+
+***This addon is developed and supported at [COLOR blue]www.tvaddons.ag[/COLOR]***
+        </description>
+        <platform>all</platform>
+        <website>http://tvaddons.ag/</website>
+		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
+		<assets>
+		  <icon>icon.png</icon>
+		  <fanart>fanart.jpg</fanart>
+		  <screenshot>resources/screenshots/screenshot1.png</screenshot>
+          <screenshot>resources/screenshots/screenshot2.png</screenshot>
+          <screenshot>resources/screenshots/screenshot3.png</screenshot>
+          <screenshot>resources/screenshots/screenshot4.png</screenshot>
+          <screenshot>resources/screenshots/screenshot5.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
 <addon
   id="plugin.video.SportsDevil"
   version="a2017.03.28"
@@ -1845,6 +1881,27 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<description lang="en">Collection of modules used by Elysium</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 	</extension>
+</addon>
+
+<addon id="script.module.wolfpack"
+       name="[B][COLOR white]W[/COLOR][COLOR red]OLFPAC[/COLOR][COLOR white]K[/COLOR][/B]"
+	   version="1.7"
+	   provider-name="[B][COLOR red]wolfpack[/COLOR][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+	<import addon="script.module.urlresolver" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Dependency For wolfpack</summary>
+    <description lang="en">Dependency For wolfpack</description>
+	<disclaimer lang="en">Dependency For wolfpack</disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="script.navi-x"
