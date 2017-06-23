@@ -1295,7 +1295,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.5.2"
+        version="1.5.3"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1359,7 +1359,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.StreamAddons" />
 		<import addon="repository.whitedevil" />
 		<import addon="repository.tdbaddon" />
-		<import addon="repository.nawo69backup" />
 		<import addon="plugin.program.wookiecleaner" />
   </requires>
     <extension point="xbmc.addon.repository"
