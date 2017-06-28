@@ -255,6 +255,23 @@ Plugin by @koderdude</description>
 	</extension>
 </addon>
 
+<addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+
+
+    <extension point="xbmc.addon.metadata">
+        <summary>f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.video.HaiderLists"
        name="Haider List"
        version="1.0.03"
@@ -1315,7 +1332,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.5.5"
+        version="1.5.6"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1347,7 +1364,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.unblockr" />
 		<import addon="repository.whitecream" />
 		<import addon="repository.xbmcadult" />
-		<import addon="repository.xbmchub" />
 		<import addon="repository.xunitytalk" />
 		<import addon="repository.elysium" />
 		<import addon="repository.foreverguest" />
@@ -1381,6 +1397,8 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.smash" />
 		<import addon="repository.thealpha" />
 		<import addon="repository.duckpool" />
+		<import addon="repository.sanctuary" />
+		<import addon="plugin.video.f4mTester" />
 		<import addon="script.speedtestnet" />
 		<import addon="plugin.program.wookiecleaner" />
   </requires>
@@ -1532,6 +1550,23 @@ We have no control over the links on any site that we provide a link to. If you 
         <disclaimer lang="en">Author does not host or distribute any of the content displayed by this addon. Author does not have any affiliation with the content provider.
         </disclaimer>
         <platform>all</platform>
+    </extension>
+</addon>
+
+    <addon id="repository.sanctuary" name="Sanctuary" version="1.0.0" provider-name="Sanctuary">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Sanctuary">
+            <info compressed="false">https://raw.githubusercontent.com/sanctuaryaddon/sanctuary/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/sanctuaryaddon/sanctuary/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/sanctuaryaddon/sanctuary/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>communal addon repo</summary>
+            <description>Sanctuary Repo</description>
+            <platform>all</platform>
     </extension>
 </addon>
 
@@ -1688,11 +1723,11 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.thealpha" name="[COLOR limegreen]The Alpha Repository[/COLOR]" version="1.0.6" provider-name="The Alpha">
+<addon id="repository.thealpha" name="[COLOR limegreen]The Alpha Repository[/COLOR]" version="1.0.6a" provider-name="The Alpha">
 <extension point="xbmc.addon.repository" name="[COLOR red]TheAlpha Repository[/COLOR]">
-		<info compressed="false">https://drstream.000webhostapp.com/Repository/addons.xml</info>
-		<checksum>https://drstream.000webhostapp.com/Repository/addons.xml.md5</checksum>
-		<datadir zip="true">https://drstream.000webhostapp.com/Repository/</datadir>
+		<info compressed="false">http://alphaaddon.co.uk/Repository/addons.xml</info>
+		<checksum>http://alphaaddon.co.uk/Repository/addons.xml.md5</checksum>
+		<datadir zip="true">http://alphaaddon.co.uk/Repository/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>3rd Party Addons </summary>
