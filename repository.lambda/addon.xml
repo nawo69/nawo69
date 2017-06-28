@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.lambda" name="zzz" version="1.1.1 provider-name="lambda">
+	<extension point="xbmc.addon.repository" name="lambda Add-on repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Add-ons from lambda</summary>
+		<description lang="en">Download and install add-ons from lambda repository.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
