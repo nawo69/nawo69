@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="nawo69 Add-ons" 
-        version="1.5.6"
+        version="1.5.7"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -17,7 +17,7 @@
 		<import addon="repository.filmkodi.com" />
 		<import addon="repository.HalowTV" />
 		<import addon="repository.istream" />
-		<import addon="repository.adriansports" />
+		<import addon="repository.streamhub" />
 		<import addon="repository.mdrepo" />
 		<import addon="repository.metalkettle" />
 		<import addon="repository.Mr-Smiths-Repo" />
@@ -40,7 +40,7 @@
 		<import addon="repository.xxxadultxbmc" />
 		<import addon="repository.dnarepo" />
 		<import addon="repository.projectmrnetwork" />
-		<import addon="repository.MatsBuilds" />
+		<import addon="repository.Goliath" />
 		<import addon="repository.dokinl" />
 		<import addon="repository.husham.com" />
 		<import addon="repository.allsorts" />

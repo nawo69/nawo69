@@ -1077,6 +1077,29 @@ We have no control over the links on any site that we provide a link to. If you 
     </extension>
 </addon>
 
+<addon id="repository.Goliath" name="Goliaths Add-ons repository" version="1.4" provider-name="Goliath">
+	<extension point="xbmc.addon.repository" name="Goliaths Repository">
+	<dir>
+        <info compressed="false">https://github.com/zqfaen/tva-common/raw/master/addons.xml</info>
+        <checksum>https://github.com/zqfaen/tva-common/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/zqfaen/tva-common/raw/master/zips/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	</dir>
+		<info compressed="false">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Home of Goliaths Addons</summary>
+		<description>Download and install all unofficial Add-ons from Goliath</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.goodfellas" name="GoodFellas" version="1.5" provider-name="GoodFellas">
 	<extension point="xbmc.addon.repository" name="Good Fellas">
 		<info compressed="false">http://www.goodfellasteam.com/Plugins/addons.xml</info>
@@ -1332,7 +1355,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="nawo69 Add-ons"
-        version="1.5.6"
+        version="1.5.7"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1348,7 +1371,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.filmkodi.com" />
 		<import addon="repository.HalowTV" />
 		<import addon="repository.istream" />
-		<import addon="repository.adriansports" />
+		<import addon="repository.streamhub" />
 		<import addon="repository.mdrepo" />
 		<import addon="repository.metalkettle" />
 		<import addon="repository.Mr-Smiths-Repo" />
@@ -1371,7 +1394,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.xxxadultxbmc" />
 		<import addon="repository.dnarepo" />
 		<import addon="repository.projectmrnetwork" />
-		<import addon="repository.MatsBuilds" />
+		<import addon="repository.Goliath" />
 		<import addon="repository.dokinl" />
 		<import addon="repository.husham.com" />
 		<import addon="repository.allsorts" />
@@ -1533,6 +1556,19 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.renegades" name="Renegades Repo" version="1.2" provider-name="Ant, Podgod">
+	<extension point="xbmc.addon.repository" name="Renegades Addon Repository">
+		<info compressed="false">http://renegadestv.uk/repo/addons.xml</info>
+		<checksum>http://renegadestv.uk/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://renegadestv.uk/rmkodi/Link%20to%20Plugins</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Addons From Renegades</summary>
+		<description>Download and install addons from Renegades!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.Rockcrusher" name="Rockcrusher Repository" version="1.1" provider-name="Rockcrusher">
 	<extension point="xbmc.addon.repository" name="Rockcrusher Repository">
 	    <dir>
@@ -1686,6 +1722,22 @@ We have no control over the links on any site that we provide a link to. If you 
 	<extension point="xbmc.addon.metadata">
 		<summary>Stream Army Repo</summary>
 		<description>Repo For Stream Army, Bought to you by @Nemzzy668 /  @_MANC_</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon 	id="repository.streamhub"
+		name="[COLOR red]StreamHub Repository[/COLOR]"
+		version="1.2"
+		provider-name="sClarke">
+	<extension point="xbmc.addon.repository" name="[COLOR red]StreamHub Repository[/COLOR]">
+		<info compressed="false">https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/Zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>StreamHub</summary>
+		<description>StreamHub Repository - Bringing You StreamHub</description>
 		<platform>all</platform>
 	</extension>
 </addon>
