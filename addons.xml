@@ -1399,7 +1399,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name=".nawo69 Add-ons"
-        version="1.5.9"
+        version="1.6.0"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1463,6 +1463,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.smash" />
 		<import addon="repository.thealpha" />
 		<import addon="repository.duckpool" />
+		<import addon="repository.quantum" />
 		<import addon="plugin.video.f4mTester" />
 		<import addon="script.speedtestnet" />
 		<import addon="plugin.program.wookiecleaner" />
@@ -1596,6 +1597,23 @@ We have no control over the links on any site that we provide a link to. If you 
 		<disclaimer>The owner and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+    <addon id="repository.quantum" name="Quantum Repository" version="1.0.0" provider-name="Communal">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Sanctuary">
+            <info compressed="false">https://raw.githubusercontent.com/sanctuaryaddon/sanctuary/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/sanctuaryaddon/sanctuary/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/sanctuaryaddon/sanctuary/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>communal addon repo</summary>
+            <description>Quantum Repo</description>
+            <platform>al</platform>
+    </extension>
 </addon>
 
 <addon id="repository.renegades" name="Renegades Repo" version="1.2" provider-name="Ant, Podgod">
