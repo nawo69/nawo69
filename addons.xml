@@ -1399,7 +1399,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name=".nawo69 Add-ons"
-        version="1.5.8"
+        version="1.5.9"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1414,7 +1414,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.exodus" />
 		<import addon="repository.filmkodi.com" />
 		<import addon="repository.HalowTV" />
-		<import addon="repository.istream" />
 		<import addon="repository.streamhub" />
 		<import addon="repository.mdrepo" />
 		<import addon="repository.metalkettle" />
@@ -1464,7 +1463,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.smash" />
 		<import addon="repository.thealpha" />
 		<import addon="repository.duckpool" />
-		<import addon="repository.sanctuary" />
 		<import addon="plugin.video.f4mTester" />
 		<import addon="script.speedtestnet" />
 		<import addon="plugin.program.wookiecleaner" />
