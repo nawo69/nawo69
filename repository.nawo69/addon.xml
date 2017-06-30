@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
-        name="nawo69 Add-ons" 
-        version="1.5.7"
+        name=".nawo69 Add-ons" 
+        version="1.5.8"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -36,13 +36,13 @@
 		<import addon="repository.xunitytalk" />
 		<import addon="repository.elysium" />
 		<import addon="repository.foreverguest" />
-		<import addon="repository.eracknaphobia" />
+		<import addon="repository.Cypherslocker" />
 		<import addon="repository.xxxadultxbmc" />
 		<import addon="repository.dnarepo" />
 		<import addon="repository.projectmrnetwork" />
 		<import addon="repository.Goliath" />
 		<import addon="repository.dokinl" />
-		<import addon="repository.husham.com" />
+		<import addon="repository.simtech" />
 		<import addon="repository.allsorts" />
 		<import addon="repository.jsergio" />
 		<import addon="repository.mcktvrepo" />
