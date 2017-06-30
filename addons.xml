@@ -2140,7 +2140,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="script.speedtestnet"
        name="ARNU Box Speed Tester"
-       version="1.0.0"
+       version="1.0.0a"
        provider-name="ARNU Box / Josh.5">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
