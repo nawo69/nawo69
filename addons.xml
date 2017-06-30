@@ -1399,7 +1399,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name=".nawo69 Add-ons"
-        version="1.6.0"
+        version="1.6.1"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1463,7 +1463,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.smash" />
 		<import addon="repository.thealpha" />
 		<import addon="repository.duckpool" />
-		<import addon="repository.quantum" />
 		<import addon="plugin.video.f4mTester" />
 		<import addon="script.speedtestnet" />
 		<import addon="plugin.program.wookiecleaner" />
