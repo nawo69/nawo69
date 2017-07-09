@@ -595,20 +595,26 @@ For updates check the readme.
 </extension>
 </addon>
 
-    <addon id="repository.Agent-47" name="zzz" version="1.0.2" provider-name="[COLOR red][B]COLD[/B][/COLOR][COLOR turquoise][B]FIRE[/B][/COLOR]">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="AGENT 47">
+<addon id="repository.allsorts" name="zzz" version="1.3" provider-name="[COLOR red]-THE-@COMMUNITY-REPO-TEAM[/COLOR]">
+
+	<extension point="xbmc.addon.repository" name="The Community Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>[COLOR cyan]Best of the best from C0LDFIRE and BillyHope[/COLOR]</summary>
-            <description>Enjoy watching: [COLOR red]Movies[/COLOR], [COLOR yellow]TV-Shovs[/COLOR], [COLOR turquoise]Documentaries[/COLOR], [COLOR limegreen]Toons[/COLOR] and ofcourse [COLOR red]Live TV[/COLOR]</description>
-            <platform>all</platform>
-    </extension>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+
+		<summary>[COLOR blue]-SOMETHING FOR EVERYONE-[/COLOR][COLOR lime]-Due to the nature of our content, we are not responsible for the content streamed to your device and neither do we condone piracy so you must satisfy yourself that either you or the sites accessed for streaming have the copyright agreements in place and are entitled to access this content.
+We do not host or upload any video, films, media file, live streams (avi, mov, flv, mpg, mpeg, divx, dvd rip, mp3, mp4, mkv). the community repo team is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of streamed from your device. If you have any legal issues please contact the appropriate media file owners or host sites.
+We have no control over the links on any site that we provide a link to. If you see any form of infringements, please contact appropriate media file owners or host sites immediately-[/COLOR]</summary>
+
+		<description>[COLOR lime]-FROM-THE-REAL-KODI-COMMUNITY-TO-THE-COMMUNITY(IF U PAYED FOR THIS DEMAND A REFUND AS THIS WILL ALWAYS BE FREE)IF U LIKE WHAT WE DO AND WOULD LIKE TO DONATE PLZ DONATE TO- CANCER RESEARCH - NSPCC -OR ANY OTHER CHARITY U THINK WORTHY THX THE COM REPO TEAM[/COLOR]</description>
+
+		<platform>all</platform>
+
+	</extension>
+
 </addon>
 
     <addon id="repository.Apprentice" name="The Apprentice" version="0.0.1" provider-name="Apprentice">
@@ -641,20 +647,6 @@ For updates check the readme.
 	</extension>
 </addon>
 
-<addon id="repository.awesome" name="zzz" version="0.0.2" provider-name="Awesome">
-	<extension point="xbmc.addon.repository" name="Awesome repo">
-        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The Official Awesome repository</summary>
-		<description>This repository contains addons with live IPTV streams.</description>
-		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.beta.mediabrowser.kodi" name="Kodi Emby Beta Addons" version="1.0.4" provider-name="im85288,xnappo,null_pointer">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -672,45 +664,6 @@ For updates check the readme.
 	</extension>
 </addon>
 
-<addon id="repository.BlazeRepo" name="zzz" version="3.3" provider-name="Blazetamer">
-<extension point="xbmc.addon.repository" name="Blaztamer's Addon Repository">
-        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary>Install all of Blazetamer's Addons</summary>
-<description>Download and install addons from Blazetamer.......For Official Support Visit TVADDONS.AG</description>
-<platform>all</platform>
-</extension>
-</addon>
-
-<addon id="repository.bulldogstreams" name="zzz" version="1.2" provider-name="Bulldog Streams Dev Team">
-	<extension point="xbmc.addon.repository" name="Bulldog Streams Repository">
-        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install Bulldog Streams</summary>
-		<description>Home of Bulldog Streams</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.chrischrome" name="zzz" version="1.1" provider-name="chris chrome">
-	<extension point="xbmc.addon.repository" name="Simple Kodi">
-        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary></summary>
-		<description>download my addons</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.coldkeys" name="ColdKeys Repo" version="1.0.2" provider-name="Coldkeys">
 	<extension point="xbmc.addon.repository" name="ColdKeys Repository">
 		<info compressed="false">https://raw.githubusercontent.com/KodiColdkeys/coldkeys-addons/master/repository/addons.xml</info>
@@ -720,6 +673,19 @@ For updates check the readme.
 	<extension point="xbmc.addon.metadata">
 		<summary>The Coldkeys Repo</summary>
 		<description>Download and install addons from the Coldkeys Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.communityrepo" name="zzz" version="9.9.4" provider-name="The @CommunityRepo Team">
+	<extension point="xbmc.addon.repository" name="The Community Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>@communityrepo Repository</summary>
+		<description>" "The Community Repository" addon, skin and wizard host, contact for details on how to add your content @communityrepo</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -787,6 +753,37 @@ For updates check the readme.
 		<description>Download and install addons from dexter!</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.dnarepo" name="zzz" version="0.0.5" provider-name="dna">
+	<extension point="xbmc.addon.repository" name="dna Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>dna Repository</summary>
+		<description>Download and install add-ons from dna repository.</description>
+		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+    <addon id="repository.dokinl" name="zzz" version="1.0.4" provider-name="DOKITV.NL">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="DOKITV.NL Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>The Official DOKITV.NL repository</summary>
+			<description>This repository contains all Repositorys for KODI.</description>
+			<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+            <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.duckpool" name="DUCKPOOL Repository" version="10.5" provider-name="Mucky Duck">
@@ -1613,6 +1610,19 @@ For updates check the readme.
 	<extension point="xbmc.addon.metadata">
 		<summary>StreamHub</summary>
 		<description>StreamHub Repository - Bringing You StreamHub</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.streamteam" name="zzz" version="1.6" provider-name="Streamteam">
+<extension point="xbmc.addon.repository" name="[COLOR indigo]Streamteam[/COLOR]">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Streamteam Repository v1.5</summary>
+		<description>The Streamteam Repository v1.5 - The Streamteam Repository contains various add-ons from various developers. More add-ons are in progress, please watch for updates!</description>
 		<platform>all</platform>
 	</extension>
 </addon>
