@@ -655,6 +655,19 @@ For updates check the readme.
 	</extension>
 </addon>
 
+<addon id="repository.Cosmixrepo" name="zzz" version="1.1" provider-name="Cosmix">
+	<extension point="xbmc.addon.repository" name="Cosmixrepo">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Cosmix Repo</summary>
+		<description>Cosmix Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.Cypherslocker" name="[COLOR cornflowerblue]Cyphers locker[/COLOR]" version="1.0.2" provider-name="Project Cypher">
 	<extension point="xbmc.addon.repository" name="TheMegaRepo">
 		<info compressed="false">https://github.com/CypherMediaGIT/CypherRepo/raw/master/cypherrepo/plugins/addons.xml</info>
@@ -664,6 +677,45 @@ For updates check the readme.
 	<extension point="xbmc.addon.metadata">
 		<summary>Cypers Locker Repo - Home to Project Cypher</summary>
 		<description>Cypers Locker Repo - Home to Project Cypher.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.d0f21" name="zzz" version="1.0.1" provider-name="d0f21">
+	<extension point="xbmc.addon.repository" name="Chris' XBMC Addon Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install d0f21's' Addons</summary>
+		<description lang="en">Download and install addons by d0f21</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.dahenchmen" name="zzz" version="1.0.02" provider-name="dahenchmen.xyz">
+	<extension point="xbmc.addon.repository" name="DaHenchmen Repo">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Henchmen Repo</summary>
+		<description>Download and install addons from DaHenchmen Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.dextertv" name="zzz" version="2.1" provider-name="dexter">
+	<extension point="xbmc.addon.repository" name="dexter Addon Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install My Addons</summary>
+		<description>Download and install addons from dexter!</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -679,6 +731,19 @@ For updates check the readme.
 		<description>DUCKPOOL Repo</description>n
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.dudehere.plugins" name="zzz" provider-name="DudeHere" version="1.0.7">
+    <extension name="DudeHere Add-On Repository" point="xbmc.addon.repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>DudeHere repository</summary>
+        <description>Download and install addons from DudeHere. Seek support at tvaddons.ag.</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.echo" name="zzz" version="2.02" provider-name="Echo Coder">
