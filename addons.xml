@@ -1095,16 +1095,11 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.jizzplanet" version="1.0.0" name="Jizz Planet repository" provider-name="Cosmix, tvaddons.ag">
+<addon id="repository.jizzplanet" version="1.0.1" name="zzz" provider-name="Cosmix, tvaddons.ag">
 	<extension point="xbmc.addon.repository" name="Jizz Planet repository">
-		<dir>
-			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-		</dir>
-		<info compressed="false">https://offshoregit.com/cosmixtv/jizzplanet/addons.xml</info>
-		<checksum>https://offshoregit.com/cosmixtv/jizzplanet/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/cosmixtv/jizzplanet/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Jizz Planet repository</summary>
@@ -1293,7 +1288,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name=".nawo69 Add-ons"
-        version="1.6.1"
+        version="1.6.2"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1346,7 +1341,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.echo" />
 		<import addon="repository.Apprentice" />
 		<import addon="repository.schismtvaddons" />
-		<import addon="repository.jizzplanet" />
+		<import addon="repository.tvguides" />
 		<import addon="repository.maverickrepo" />
 		<import addon="repository.StreamArmy" />
 		<import addon="repository.ukturk" />
@@ -1778,6 +1773,23 @@ Addons Included
     - Trakt List Manager (Alpha)
         </description>
         <platform>all</platform>
+    </extension>
+</addon>
+
+    <addon id="repository.tvguides" name=".[COLOR red]TV GUIDES[/COLOR] Repository" version="0.0.1" provider-name="locknload">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="TV GUIDES Repository">
+            <info compressed="false">http://tvstreamers.net/repo/tvguides/addons.xml</info>
+            <checksum>http://tvstreamers.net/repo/tvguides/addons.xml.md5</checksum>
+            <datadir zip="true">http://tvstreamers.net/repo/tvguides/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>TV GUIDES Repository</summary>
+            <description>!! TV GUIDES !!</description>
+            <platform>all</platform>
     </extension>
 </addon>
 
