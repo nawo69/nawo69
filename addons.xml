@@ -625,16 +625,12 @@ For updates check the readme.
     </extension>
 </addon>
 
-<addon id="repository.allsorts" name="[COLOR gold]-COMMUNITY-ALLSORTS-[/COLOR]" version="1.1" provider-name="[COLOR red]-THE-@COMMUNITY-REPO-TEAM[/COLOR]">
+<addon id="repository.allsorts" name="zzz" version="1.3" provider-name="[COLOR red]-THE-@COMMUNITY-REPO-TEAM[/COLOR]">
 
 	<extension point="xbmc.addon.repository" name="The Community Repository">
-
-		<info compressed="false">http://repo.cazwall.com/comwiz/TesterRepo/addons.xml</info>
-
-		<checksum>http://repo.cazwall.com/comwiz/TesterRepo/addons.xml.md5</checksum>
-
-		<datadir zip="true">http://repo.cazwall.com/comwiz/TesterRepo/</datadir>
-
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 
 	<extension point="xbmc.addon.metadata">
