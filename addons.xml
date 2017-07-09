@@ -981,7 +981,6 @@ For updates check the readme.
 		<import addon="repository.Cypherslocker" />
 		<import addon="repository.Goliath" />
 		<import addon="repository.simtech" />
-		<import addon="repository.allsorts" />
 		<import addon="repository.jsergio" />
 		<import addon="repository.mcktvrepo" />
 		<import addon="repository.wolfpack" />
@@ -1126,6 +1125,19 @@ For updates check the readme.
             <description>Sanctuary Repo</description>
             <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.shani" name="zzz" version="2.9" provider-name="Shani">
+	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Addons related to XBMC for Zemtv etc</summary>
+		<description>Go though the plugins and see what you like</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.simtech" name="SIMTECH REPO" version="3.2" provider-name="SIMTECH">
