@@ -681,6 +681,33 @@ For updates check the readme.
 	</extension>
 </addon>
 
+<addon id="repository.echo" name="zzz" version="2.02" provider-name="Echo Coder">
+    <extension point="xbmc.addon.repository" name="Echo Coder Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>The official Echo Coder Repository.</summary>
+        <description>Support available at https://www.tvaddons.ag</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.eldorado" name="zzz" version="2.0.3" provider-name="eldorado">
+	<extension point="xbmc.addon.repository" name="Eldorado's XBMC Addon Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Eldorado's Addons</summary>
+		<forum>http://forums.tvaddons.ag/forums/23-ELDORADO-S-XBMC-ADDONS</forum>
+		<description>Download and install addons by Eldorado</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.elysium" version="2017.06.10" name="Elysium repository" provider-name="Elysium">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -733,6 +760,19 @@ For updates check the readme.
 	<extension point="xbmc.addon.metadata">
 		<summary>eracknaphobia's Repo</summary>
 		<description>eracknaphobia's Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.evolverepo" name="zzz" version="1.1" provider-name="Evolve">
+	<extension point="xbmc.addon.repository" name="Evolve Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Home of the unofficial 3rd party Addon Evolve and addons by Team Evolve</summary>
+		<description>Download and install all unofficial Add-ons from Evolve Team</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -850,6 +890,19 @@ For updates check the readme.
 	</extension>
 </addon>
 
+<addon id="repository.istream" name="zzz" version="10.5" provider-name="iSTREAM">
+	<extension point="xbmc.addon.repository" name="iSTREAM">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>iSTREAM XBMC Addons and Extensions</summary>
+		<description>iSTREAM XBMC Addons and Extensions</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.jizzplanet" version="1.0.1" name="zzz" provider-name="Cosmix, tvaddons.ag">
 	<extension point="xbmc.addon.repository" name="Jizz Planet repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
@@ -944,6 +997,20 @@ For updates check the readme.
     <platform>all</platform>
     <website>http://ls80.github.io/repository.leopold/</website>
   </extension>
+</addon>
+
+<addon id="repository.MatsBuilds" name="zzz" version="1.3" provider-name="Goliath">
+	<extension point="xbmc.addon.repository" name="Goliaths BACKUP Repository">
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Home of the unofficial 3rd party Addon Evolve</summary>
+		<description>Download and install all unofficial Add-ons from Goliath</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.maverickrepo" name="[COLOR lime]MaverickTV Repo[/COLOR]" version="1.3.1" provider-name="Maverick TV">
