@@ -1348,7 +1348,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name=".nawo69 Add-ons"
-        version="1.6.3"
+        version="1.6.4"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1371,7 +1371,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.Cypherslocker" />
 		<import addon="repository.Goliath" />
 		<import addon="repository.simtech" />
-		<import addon="repository.jsergio" />
 		<import addon="repository.mcktvrepo" />
 		<import addon="repository.wolfpack" />
 		<import addon="repository.slimevolve" />
