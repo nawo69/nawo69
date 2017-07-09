@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name=".nawo69 Add-ons" 
-        version="1.6.2"
+        version="1.6.3"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -12,18 +12,13 @@
 		<import addon="repository.filmkodi.com" />
 		<import addon="repository.HalowTV" />
 		<import addon="repository.streamhub" />
-		<import addon="repository.mdrepo" />
-		<import addon="repository.Mr-Smiths-Repo" />
 		<import addon="repository.noobsandnerds" />
 		<import addon="repository.sportsaccess" />
 		<import addon="repository.themaniaservices" />
 		<import addon="repository.spoyser" />
-		<import addon="repository.team.expat" />
-		<import addon="repository.tknorris.beta" />
 		<import addon="repository.unblockr" />
 		<import addon="repository.whitecream" />
 		<import addon="repository.xbmcadult" />
-		<import addon="repository.xunitytalk" />
 		<import addon="repository.elysium" />
 		<import addon="repository.foreverguest" />
 		<import addon="repository.Cypherslocker" />
@@ -34,7 +29,6 @@
 		<import addon="repository.wolfpack" />
 		<import addon="repository.slimevolve" />
 		<import addon="repository.goodfellas" />
-		<import addon="repository.ptom" />
 		<import addon="repository.merlin" />
 		<import addon="repository.leopold" />
 		<import addon="repository.Apprentice" />	
