@@ -1250,6 +1250,19 @@ We have no control over the links on any site that we provide a link to. If you 
   </extension>
 </addon>
 
+<addon id="repository.Lwsrepo" name="zzz" version="2.1" provider-name="LwS">
+	<extension point="xbmc.addon.repository" name="LwS-Repo">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>LwS Build Repo</summary>
+		<description>LwS Build Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.MatsBuilds" name="zzz" version="1.4" provider-name="Goliath">
 	<extension point="xbmc.addon.repository" name="Goliaths BACKUP Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
