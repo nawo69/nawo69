@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <addon id="repository.dokinl" name=" [B][COLOR palegreen]D[/COLOR]OKI[COLOR palegreen]TV[/COLOR].NL [COLOR palegreen]R[/COLOR]epository[/B]" version="1.0.3" provider-name="DOKITV.NL">
+    <addon id="repository.dokinl" name="zzz" version="1.0.4" provider-name="DOKITV.NL">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="DOKITV.NL Repository">
-            <info compressed="false">https://raw.githubusercontent.com/doki1/repo/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/doki1/repo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/doki1/repo/master/zips/</datadir>
-            <hashes>false</hashes>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>The Official DOKITV.NL repository</summary>

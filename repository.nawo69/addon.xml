@@ -28,7 +28,6 @@
 		<import addon="repository.foreverguest" />
 		<import addon="repository.Cypherslocker" />
 		<import addon="repository.Goliath" />
-		<import addon="repository.dokinl" />
 		<import addon="repository.simtech" />
 		<import addon="repository.allsorts" />
 		<import addon="repository.jsergio" />
