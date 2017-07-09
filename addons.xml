@@ -1421,8 +1421,8 @@ We have no control over the links on any site that we provide a link to. If you 
 </addon>
 
 <addon id="repository.nawo69"
-        name=".nawo69 Add-ons"
-        version="1.6.4"
+        name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
+        version="1.6.5"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
