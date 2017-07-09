@@ -1090,15 +1090,15 @@ For updates check the readme.
     </extension>
 </addon>
 
-<addon id="repository.renegades" name="zzz" version="1.5" provider-name="Ant, Podgod">
-	<extension point="xbmc.addon.repository" name="Renegades Addon Repository">
+<addon id="repository.RenegadesTV" name="zzz" version="1.5" provider-name="RenegadesTV">
+	<extension point="xbmc.addon.repository" name="RenegadesTV Add-on repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Install Addons From Renegades</summary>
-		<description>Download and install addons from Renegades!</description>
+		<summary lang="en">Install Add-ons from RenegadesTV</summary>
+		<description lang="en">Download and install add-ons from RenegadesTV repository.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -1140,7 +1140,7 @@ For updates check the readme.
     </extension>
 </addon>
 
-<addon id="repository.schismtv.addonsdev" name="xxx" version="1.0.1" provider-name="SchisM">
+<addon id="repository.schismtv.addonsdev" name="zzz" version="1.0.2" provider-name="SchisM">
 	<extension point="xbmc.addon.repository" name="SchisM TV Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
