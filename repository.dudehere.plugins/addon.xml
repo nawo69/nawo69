@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.dudehere.plugins" name="DudeHere Addons" provider-name="DudeHere" version="1.0.6">
+<addon id="repository.dudehere.plugins" name="zzz" provider-name="DudeHere" version="1.0.7">
     <extension name="DudeHere Add-On Repository" point="xbmc.addon.repository">
-        <info compressed="false">https://offshoregit.com/dudehere-repository/addons/addons.xml</info>
-        <checksum>https://offshoregit.com/dudehere-repository/addons/addons.xml.md5</checksum>
-        <datadir zip="true">https://offshoregit.com/dudehere-repository/addons/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>DudeHere repository</summary>

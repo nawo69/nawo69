@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Oblivion" name="Oblivion Add-on Repository" version="1.2" provider-name="Oblivion Team">
+<addon id="repository.Oblivion" name="zzz" version="1.3" provider-name="Oblivion Team">
 	<extension point="xbmc.addon.repository" name="Oblivion Add-on Repository">
-		<dir>
-			<info compressed="false">http://oblivionbuilds.com/Repo/addons.xml</info>
-			<checksum>http://oblivionbuilds.com/Repo/addons.xml.md5</checksum>
-			<datadir zip="true">http://oblivionbuilds.com/Repo</datadir>
-		</dir>		
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install Add-ons from Oblivion</summary>

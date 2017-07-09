@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.dahenchmen" name="zzz" version="1.0.02" provider-name="dahenchmen.xyz">
+	<extension point="xbmc.addon.repository" name="DaHenchmen Repo">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Henchmen Repo</summary>
+		<description>Download and install addons from DaHenchmen Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+

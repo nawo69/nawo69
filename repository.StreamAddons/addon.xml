@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.StreamAddons" name="[COLOR lime]Stream Addons[/COLOR]" version="0.4" provider-name="Stream Addons // A Home For All Devs">
+<addon id="repository.StreamAddons" name="zzz" version="0.5" provider-name="Stream Addons // A Home For All Devs">
 	<extension point="xbmc.addon.repository" name="Stream Addons">
-		<info compressed="false">http://www.streamaddons.eu/xmls/addons.xml</info>
-        <checksum>http://www.streamaddons.eu/xmls/addons.xml.md5</checksum>
-        <datadir zip="true">http://www.streamaddons.eu/zips/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Stream Addons Repo</summary>

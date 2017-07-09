@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.adriansports" name="ADRIAN SPORTS REPO" version="2.4.0" provider-name="PROJECT ADRIAN">
+<addon id="repository.adriansports" name="zzz" version="2.4.1" provider-name="PROJECT ADRIAN">
 <extension point="xbmc.addon.repository" name="Project Adrian Repository V1">
-<info compressed="false">http://adriansports.net16.net/addons.xml</info>
-<checksum>http://adriansports.net16.net/addons.xml.md5</checksum>
-<datadir zip="true">http://adriansports.net16.net/zip/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 </extension>
 <extension point="xbmc.addon.metadata">
 <summary lang="en">Install Addons From Project Adrian</summary>
