@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="1.6.6"
+        version="1.6.7"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -40,6 +40,7 @@
 		<import addon="repository.thealpha" />	
 		<import addon="repository.duckpool" />	
 		<import addon="repository.colossus" />	
+		<import addon="plugin.video.covenant" />		
 		<import addon="plugin.video.f4mTester" />	
 		<import addon="script.speedtestnet" />		
 		<import addon="plugin.program.wookiecleaner" />
