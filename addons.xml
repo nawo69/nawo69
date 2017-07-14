@@ -124,6 +124,44 @@ Plugin by @koderdude</description>
   </extension>
 </addon>
 
+<addon id="plugin.video.ccloudtv"
+       name="cCloud TV"
+       version="1.5.5"
+       provider-name="podgod">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver"  version="3.0.0" optional="true"/>
+	<import addon="script.module.liveresolver"  version="0.1.28"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.common.plugin.cache" version="2.5.5"/>
+    <import addon="repository.podgod" />
+    <import addon="script.tvaddons.debug.log" optional="true" />
+</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>All the best from cCloud TV</summary>
+    <description>cCloud is an open source cloud based social IPTV service. It is built by the community for the community, where streaming is just a click away. Just click, play and stream. Yes, it's that simple. Just go to [COLOR blue]http://ccloudtv.org[/COLOR] and enjoy:) Please report any channels that are down here [COLOR blue]http://www.tiny.cc/reportchs[/COLOR] Users can now check servers status which can be found at [COLOR blue]http://ccloudtv.org/status[/COLOR]
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum>http://ccloudtv.org/forum</forum>
+    <website>http://ccloudtv.org</website>
+    <website>http://facebook.com/ccloudapp</website>
+    <website>http://twitter.com/ccloudapp</website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.ChampionSports"
        name="Champion Sports"
        version="2.0"
@@ -845,6 +883,19 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.colossus" name="[COLOR gold]Colossal Repository[/COLOR]" version="999.999.1" provider-name="Colossal">
+<extension point="xbmc.addon.repository" name="[COLOR gold]Colossal Repository[/COLOR]">
+		<info compressed="false">http://mediarepos.net/jiberish/Repository/addons.xml</info>
+		<checksum>http://mediarepos.net/jiberish/Repository/addons.xml.md5</checksum>
+		<datadir zip="true">http://mediarepos.net/jiberish/Repository/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Home Of 3rd Party Addons </summary>
+		<description>Collosal Repository--Please To Help Us Keep This Alive Donate Here https://www.paypal.me/BrianSMASH We Are Back</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.communityrepo" name="zzz" version="9.9.6" provider-name="The @CommunityRepo Team">
 	<extension point="xbmc.addon.repository" name="The Community Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
@@ -1422,7 +1473,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.6.5"
+        version="1.6.6"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1460,6 +1511,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.smash" />
 		<import addon="repository.thealpha" />
 		<import addon="repository.duckpool" />
+		<import addon="repository.colossus" />
 		<import addon="plugin.video.f4mTester" />
 		<import addon="script.speedtestnet" />
 		<import addon="plugin.program.wookiecleaner" />
