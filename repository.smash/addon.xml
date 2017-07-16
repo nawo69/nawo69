@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.smash" name="Smash repository" version="1.0.1" provider-name="SMASH">
+<addon id="repository.smash" name="Smash repository" version="1.1.8" provider-name="SMASH">
 	<extension point="xbmc.addon.repository" name="Smash repository">
 	<dir>
-        <info compressed="false">https://mediarepos.net/Repos/smashrepo/addons.xml</info>
-        <checksum>https://mediarepos.net/Repos/smashrepo/addons.xml.md5</checksum>
-        <datadir zip="true">https://mediarepos.net/Repos/smashrepo/</datadir>
+        <info compressed="false">http://mediarepos.net/Repos/smashrepo/addons.xml</info>
+        <checksum>http://mediarepos.net/Repos/smashrepo/addons.xml.md5</checksum>
+        <datadir zip="true">http://mediarepos.net/Repos/smashrepo/</datadir>
 	</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Smash Repo Keeps You Up To Date</summary>
-		<description lang="en">Under This Repo, I Will Host Addons With No Home,Bring Life To Dead Addons That Fully Work, Link To Repos From Devs (This will install current version the Dev Has) </description>
+		<summary lang="en">Under This Repo, I Will Host Addons With No Home,Bring Life To Dead Addons That Fully Work, Link To Repos From Devs (This will install current version the Dev Has) </summary>
+		<description lang="en">[B]THE ADDONS UNDER THIS REPO SCRAPE THE NET, NO CONTENT IS HOSTED/DISTRIBUTED HERE, CONTACT THE WEBSITES HOSTING THE CONTENT IF WANT IT REMOVED [CR] [B]Smash Repo Change Log 1.1.7[/B] [CR] - Removed Addons That Are Now In Colossal Repository [CR] - Fixed Repos [CR] - check for updates before going into vid addons</description>
 		<platform>all</platform>
 		<forum></forum>
         <website></website>
+		<news>People hate that i got donations cause the community wanted a repo to grab exodus and other working addons for them self and family, i got hit with a ddos and more and to get protection for this is not cheap so i thank everyone who donated and also im sorry for the downtime will try and keep this running good</news>
 	</extension>
 </addon>

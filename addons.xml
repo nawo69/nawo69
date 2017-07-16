@@ -224,7 +224,7 @@ Plugin by @koderdude</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.covenant" version="1.1.0" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.1" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
@@ -244,7 +244,7 @@ Plugin by @koderdude</description>
 		<forum></forum>
 		<website></website>
 		<source></source>
-		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. Use at your own risk!</disclaimer>
+		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
 
 		<assets>
 			<icon>icon.png</icon>
@@ -253,7 +253,7 @@ Plugin by @koderdude</description>
     			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
     			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>[B]1.1.0[/B][CR]- Official release[CR]- Fix trakt support[CR]- Updated existing providers[CR]- Added new providers[CR]- Artwork changes[CR]- Minor improvements</news>
+		<news>[B]1.1.1[/B][CR]- Fix trakt support[CR]- Updated existing providers[CR]- Added new providers</news>
 	</extension>
 </addon>
 
@@ -634,6 +634,27 @@ Plugin by @koderdude</description>
 	<disclaimer lang="en">The author neither hosts or stores any content, the author has no affiliation with content hosts</disclaimer>
 	<platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.salts" version="2.0.200" name="Stream All The Sources" provider-name="k3l3vra">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.urlresolver" version="3.0.0"/>
+        <import addon="script.module.myconnpy" version="1.1.6" />
+        <import addon="script.module.tknorris.shared" version="0.0.19"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.dateutil"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+     <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Last Version Made From The TVA Guys</summary>
+        <description>Last Version Made From The TVA Guys, trying to fix the install fail probs some are getting
+        </description>
+        <platform>all</platform>
+	</extension>
 </addon>
 
 <addon
@@ -1818,20 +1839,21 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.smash" name="Smash repository" version="1.0.1" provider-name="SMASH">
+<addon id="repository.smash" name="Smash repository" version="1.1.8" provider-name="SMASH">
 	<extension point="xbmc.addon.repository" name="Smash repository">
 	<dir>
-        <info compressed="false">https://mediarepos.net/Repos/smashrepo/addons.xml</info>
-        <checksum>https://mediarepos.net/Repos/smashrepo/addons.xml.md5</checksum>
-        <datadir zip="true">https://mediarepos.net/Repos/smashrepo/</datadir>
+        <info compressed="false">http://mediarepos.net/Repos/smashrepo/addons.xml</info>
+        <checksum>http://mediarepos.net/Repos/smashrepo/addons.xml.md5</checksum>
+        <datadir zip="true">http://mediarepos.net/Repos/smashrepo/</datadir>
 	</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Smash Repo Keeps You Up To Date</summary>
-		<description lang="en">Under This Repo, I Will Host Addons With No Home,Bring Life To Dead Addons That Fully Work, Link To Repos From Devs (This will install current version the Dev Has) </description>
+		<summary lang="en">Under This Repo, I Will Host Addons With No Home,Bring Life To Dead Addons That Fully Work, Link To Repos From Devs (This will install current version the Dev Has) </summary>
+		<description lang="en">[B]THE ADDONS UNDER THIS REPO SCRAPE THE NET, NO CONTENT IS HOSTED/DISTRIBUTED HERE, CONTACT THE WEBSITES HOSTING THE CONTENT IF WANT IT REMOVED [CR] [B]Smash Repo Change Log 1.1.7[/B] [CR] - Removed Addons That Are Now In Colossal Repository [CR] - Fixed Repos [CR] - check for updates before going into vid addons</description>
 		<platform>all</platform>
 		<forum></forum>
         <website></website>
+		<news>People hate that i got donations cause the community wanted a repo to grab exodus and other working addons for them self and family, i got hit with a ddos and more and to get protection for this is not cheap so i thank everyone who donated and also im sorry for the downtime will try and keep this running good</news>
 	</extension>
 </addon>
 
@@ -2001,8 +2023,13 @@ Addons Included
     </extension>
 </addon>
 
-<addon id="repository.ukturk" name="UKTurk Addon Repository" version="1.0.5" provider-name="UKTurk">
+<addon id="repository.ukturk" name="UKTurk Addon Repository" version="1.0.6" provider-name="UKTurk">
 	<extension point="xbmc.addon.repository" name="UKTurk Addon Repository">
+	<dir>
+        	<info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        	<checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    	</dir>
 		<info compressed="false">https://raw.githubusercontent.com/restbite/UKT/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/restbite/UKT/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/restbite/UKT/master/zips/</datadir>
@@ -2188,7 +2215,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.exodus.artwork" version="1.0.5" name="Exodus Artwork" provider-name="Exodus">
+<addon id="script.exodus.artwork" version="1.0.6" name="Exodus Artwork" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -2196,6 +2223,18 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.addon.metadata">
 		<summary>Themes for the Exodus Addon</summary>
 		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.exodus.metadata" version="1.0.1" name="Exodus Metadata" provider-name="Exodus">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Exodus Addon</summary>
+		<description>Metadata for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
