@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.streamcenter.tv" name="StreamCenter.tv Add-ons" version="1.0.0" provider-name="SCTV">
+	<extension point="xbmc.addon.repository" name="Vaders.tv Add-ons Add-on Repository">
+		<info compressed="false">http://streamcenter.tv/repo/addons.xml</info>
+		<checksum>http://streamcenter.tv/repo/addons.xml.md5</checksum>
+                <datadir zip="true">http://streamcenter.tv/repo/</datadir>
+                </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from StreamCenter.tv</summary>
+		<description>SCTV - Any game, Anytime.</description>
+		<disclaimer>SCTV</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
