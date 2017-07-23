@@ -1546,7 +1546,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="repository.nawo69"
         name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.6.7"
+        version="1.6.8"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1582,7 +1582,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		<import addon="repository.ukturk" />
 		<import addon="repository.whitedevil" />
 		<import addon="repository.smash" />
-		<import addon="repository.thealpha" />
+		<import addon="repository.xibalba" />
 		<import addon="repository.duckpool" />
 		<import addon="repository.colossus" />
 		<import addon="plugin.video.covenant" />
@@ -1976,11 +1976,11 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.thealpha" name="[COLOR limegreen]The Alpha Repository[/COLOR]" version="1.0.6a" provider-name="The Alpha">
+<addon id="repository.thealpha" name="zzz" version="1.0.7" provider-name="The Alpha">
 <extension point="xbmc.addon.repository" name="[COLOR red]TheAlpha Repository[/COLOR]">
-		<info compressed="false">http://alphaaddon.co.uk/Repository/addons.xml</info>
-		<checksum>http://alphaaddon.co.uk/Repository/addons.xml.md5</checksum>
-		<datadir zip="true">http://alphaaddon.co.uk/Repository/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>3rd Party Addons </summary>
@@ -2150,6 +2150,29 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
                 <forum>https://forums.tvaddons.ag</forum>
                 <website>https://www.tvaddons.ag</website>
 	</extension>
+</addon>
+
+<addon id="repository.xibalba" name="Xibalba Repository" version="1.01" provider-name="Xibalba">
+    <extension point="xbmc.addon.repository" name="Xibalba Repository">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+        <info compressed="false">https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml</info>
+        <checksum>https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/xibalba10/repository.xibalba/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Kodi Addons from Xibalba</summary>
+        <description>Download and install unofficial Kodi add-ons from the Xibalba add-on repository.
+
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <forum>https://github.com/xibalba10</forum>
+        <website>https://github.com/xibalba10</website>
+    </extension>
 </addon>
 
 <addon id="repository.xunitytalk" name="zzz" version="1.1.8" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
