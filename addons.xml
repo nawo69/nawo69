@@ -1608,7 +1608,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.7.1"
+        version="1.7.2"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1648,7 +1648,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.duckpool" />
 		<import addon="repository.colossus" />
 		<import addon="repository.inside4ndroid" />
-		<import addon="repository.repository.KingKong" />
+		<import addon="repository.KingKong" />
 		<import addon="plugin.video.covenant" />
 		<import addon="plugin.video.f4mTester" />
 		<import addon="script.speedtestnet" />
