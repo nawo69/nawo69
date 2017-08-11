@@ -686,7 +686,7 @@ Specialising in Sports Content, Football, Hockey, Cricket? We've got you covered
 
 <addon
   id="plugin.video.SportsDevil"
-  version="a2017.07.22"
+  version="a2017.08.10"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -696,8 +696,8 @@ Specialising in Sports Content, Football, Hockey, Cricket? We've got you covered
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
-   <!--<import addon="script.video.F4mProxy" />
-   <import addon="plugin.video.f4mTester" />-->
+   <!-- <import addon="script.video.F4mProxy" /> -->
+   <!-- <import addon="plugin.video.f4mTester" /> -->
   </requires>
   <extension
     point="xbmc.python.pluginsource"
