@@ -1608,7 +1608,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.7.3"
+        version="1.7.4"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1650,6 +1650,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.inside4ndroid" />
 		<import addon="repository.KingKong" />
 		<import addon="repository.schemestreams" />
+		<import addon="repository.RisingTides" />
 		<import addon="plugin.video.covenant" />
 		<import addon="plugin.video.f4mTester" />
 		<import addon="script.speedtestnet" />
@@ -1804,6 +1805,23 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install Add-ons from RenegadesTV</summary>
 		<description lang="en">Download and install add-ons from RenegadesTV repository.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+<addon id="repository.RisingTides"
+	   name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository"
+	   version="0.1"
+	   provider-name="RDA Group">
+	<extension point="xbmc.addon.repository" name="[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides Repository">
+		<info compressed="false">http://mullafabz.net.rw/Plugins/addons.xml</info>
+		<checksum>http://mullafabz.net.rw/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://mullafabz.net.rw/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>All types of Contents</summary>
+		<description>Find any type of content.Follow [COLOR red][B]@mullafabz[/B][/COLOR] for any updates</description>
 		<platform>all</platform>
 	</extension>
 </addon>
