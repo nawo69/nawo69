@@ -686,7 +686,7 @@ Specialising in Sports Content, Football, Hockey, Cricket? We've got you covered
 
 <addon
   id="plugin.video.SportsDevil"
-  version="a2017.08.10"
+  version="a2017.08.12"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -1608,7 +1608,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.7.2"
+        version="1.7.3"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1649,6 +1649,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.colossus" />
 		<import addon="repository.inside4ndroid" />
 		<import addon="repository.KingKong" />
+		<import addon="repository.schemestreams" />
 		<import addon="plugin.video.covenant" />
 		<import addon="plugin.video.f4mTester" />
 		<import addon="script.speedtestnet" />
@@ -1842,6 +1843,24 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
             <description>Sanctuary Repo</description>
             <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.schemestreams" name="Scheme Streams Repo" version="0.0.1" provider-name="Scheme Steams">
+	<extension point="xbmc.addon.repository" name="Scheme Streams Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/deltacharlie1888/repository.schemestreams/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/deltacharlie1888/repository.schemestreams/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/deltacharlie1888/repository.schemestreams/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Scheme Streams Repo</summary>
+		<description lang="en">Repo For Scheme Stream Addons And Builds</description>
+		<genre>livetv,sports,uk</genre>
+	</extension>
 </addon>
 
 <addon id="repository.schismtv.addonsdev" name="zzz" version="1.0.2" provider-name="SchisM">
