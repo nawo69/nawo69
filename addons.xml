@@ -686,7 +686,7 @@ Specialising in Sports Content, Football, Hockey, Cricket? We've got you covered
 
 <addon
   id="plugin.video.SportsDevil"
-  version="a2017.08.12"
+  version="a2017.09.02"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
