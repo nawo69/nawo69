@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="1.7.4"
+        version="1.7.5"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
 		<import addon="repository.beta.mediabrowser.kodi" />
 		<import addon="repository.coldkeys" />
 		<import addon="repository.entertainmentrepobackup" />
-		<import addon="repository.exodus" />
 		<import addon="repository.filmkodi.com" />
 		<import addon="repository.HalowTV" />
 		<import addon="repository.streamhub" />

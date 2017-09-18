@@ -686,7 +686,7 @@ Specialising in Sports Content, Football, Hockey, Cricket? We've got you covered
 
 <addon
   id="plugin.video.SportsDevil"
-  version="a2017.09.02"
+  version="a2017.09.09"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -1227,18 +1227,11 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.exodus" name="Exodus repository" version="3.0.0" provider-name="Exodus">
+<addon id="repository.exodus" name="zzz" version="5.0.0" provider-name="Exodus">
 	<extension point="xbmc.addon.repository" name="Exodus repository">
-	<dir>
-        <info compressed="false">https://github.com/lewblack125/tva-common/raw/master/addons.xml</info>
-        <checksum>https://github.com/lewblack125/tva-common/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/lewblack125/tva-common/raw/master/zips/</datadir>
-	</dir>
-    <dir>
-		<info compressed="false">https://github.com/lewblack125/daisy_tulip/raw/master/addons.xml</info>
-		<checksum>https://github.com/lewblack125/daisy_tulip/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/lewblack125/daisy_tulip/raw/master/zips/</datadir>
-    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Exodus repository</summary>
@@ -1608,14 +1601,13 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.7.4"
+        version="1.7.5"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
 		<import addon="repository.beta.mediabrowser.kodi" />
 		<import addon="repository.coldkeys" />
 		<import addon="repository.entertainmentrepobackup" />
-		<import addon="repository.exodus" />
 		<import addon="repository.filmkodi.com" />
 		<import addon="repository.HalowTV" />
 		<import addon="repository.streamhub" />
@@ -2368,30 +2360,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.addon.metadata">
 		<summary>Themes for the Elysium Addon</summary>
 		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.exodus.artwork" version="1.0.6" name="Exodus Artwork" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Exodus Addon</summary>
-		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.exodus.metadata" version="1.0.1" name="Exodus Metadata" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Exodus Addon</summary>
-		<description>Metadata for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
