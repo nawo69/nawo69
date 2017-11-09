@@ -952,6 +952,23 @@ We have no control over the links on any site that we provide a link to. If you 
 </extension>
 </addon>
 
+    <addon id="repository.boom" name="[COLOR red]BOOM![/COLOR][COLOR yellow] Repository[/COLOR]" version="1.1.1" provider-name="Clummo">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLOR red]BOOM![/COLOR][COLOR yellow] Repository[/COLOR]">
+            <info compressed="false">http://ask4access.com/fixturesapp/_repo/addons.xml</info>
+            <checksum>http://ask4access.com/fixturesapp/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://ask4access.com/fixturesapp/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>[COLOR red]In memory of Lee Jeffries[/COLOR]</summary>
+            <description></description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.bubbles.1" version="2.0.0" name="Bubbles Repository 1" provider-name="Bubbles">
 	<extension point="xbmc.addon.repository" name="Bubbles Repository 1">
 		<dir>
@@ -1650,7 +1667,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.7.6"
+        version="1.7.7"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1694,6 +1711,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.RisingTides" />
 		<import addon="repository.bubbles.1" />
 		<import addon="repository.soulless" />
+		<import addon="repository.boom" />
+		<import addon="repository.supremacy" />
 		<import addon="plugin.video.covenant" />
 		<import addon="plugin.video.f4mTester" />
 		<import addon="script.speedtestnet" />
@@ -2139,6 +2158,24 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.addon.metadata">
 		<summary>The Streamteam Repository v1.5</summary>
 		<description>The Streamteam Repository v1.5 - The Streamteam Repository contains various add-ons from various developers. More add-ons are in progress, please watch for updates!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.supremacy" name="supremacy" version="1.2" provider-name="supremacy">
+<extension point="xbmc.addon.repository" name="supremacy">
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+		<info compressed="false">http://supremacy.org.uk/zip/plugin/addon.xml</info>
+		<checksum>http://supremacy.org.uk/zip/plugin/addons.xml.md5</checksum>
+		<datadir zip="true">http://supremacy.org.uk/zip/plugin/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>video addon for supremacy</summary>
+		<description>Latest Addon Updates For Supremacy Repository</description>
 		<platform>all</platform>
 	</extension>
 </addon>
