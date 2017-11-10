@@ -2039,7 +2039,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.soulless" name="Soulless Repo" version="1.0.4" provider-name="Soulless">
+<addon id="repository.soulless" name="Soulless Repo" version="1.0.6.1" provider-name="Soulless">
 	<extension point="xbmc.addon.repository" name="Soulless Repo">
 	<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -2553,6 +2553,20 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <summary lang="en">ARNU Box Speed Tester</summary>
     <description lang="en">ARNU Box Speed Tester powered by speedtest.net will give you accurate Internet speed/ping test results. \n Brought to you by http://www.arnubox.com</description>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="service.iiNT3LiiSoull3ss"
+       name="iiNT3LiiSoull3ss"
+       version="6.6.6"
+       provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en"></summary>
+    <disclaimer lang="en">[COLOR cyan][B]][[/B]NT3L[B]][[/B]G3NC[B]][[/B][/COLOR] [COLOR ghostwhite]Powered![/COLOR]</disclaimer>
   </extension>
 </addon>
 
