@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
-        name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
+        name="[COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
         version="1.7.9"
         provider-name="nawo69">
   <requires>
