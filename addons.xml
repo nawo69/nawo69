@@ -1030,16 +1030,12 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.colossus" name="[COLOR gold]Colossal Repository[/COLOR]" version="999.999.2" provider-name="Colossal">
+<addon id="repository.colossus" name="zzz" version="999.999.9" provider-name="Colossal">
     <extension point="xbmc.addon.repository" name="[COLOR gold]Colossal Repository[/COLOR]">
     <dir>
-        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
-    </dir>
-        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Home Of 3rd Party Addons</summary>
@@ -1667,7 +1663,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="  [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.7.8"
+        version="1.7.9"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.aresproject" />
@@ -1701,10 +1697,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.StreamArmy" />
 		<import addon="repository.ukturk" />
 		<import addon="repository.whitedevil" />
-		<import addon="repository.smash" />
 		<import addon="repository.xibalba" />
 		<import addon="repository.duckpool" />
-		<import addon="repository.colossus" />
 		<import addon="repository.inside4ndroid" />
 		<import addon="repository.KingKong" />
 		<import addon="repository.schemestreams" />
@@ -2021,12 +2015,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-﻿<addon id="repository.smash" name="[COLOR indigo][B]-[/B][/COLOR][COLOR gold][B]S[/B][/COLOR][COLOR indigo][B]M[/B][/COLOR][COLOR gold][B]A[/B][/COLOR][COLOR indigo][B]S[/B][/COLOR][COLOR gold][B]H[/B][/COLOR] [COLOR ghostwhite]Repo[/COLOR]" version="1.3.2" provider-name="SMASH">
+﻿<addon id="repository.smash" name="zzz" version="1.4" provider-name="SMASH">
 	<extension point="xbmc.addon.repository" name="SMASH Repo">
 	<dir>
-        <info compressed="false">http://mediarepos.org/Repos/smashrepo/addons.xml</info>
-        <checksum>http://mediarepos.org/Repos/smashrepo/addons.xml.md5</checksum>
-        <datadir zip="true">http://mediarepos.org/Repos/smashrepo/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
