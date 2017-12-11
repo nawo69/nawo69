@@ -1,4 +1,4 @@
-﻿<addon id="repository.smash" name="zzz" version="1.4.0" provider-name="SMASH">
+﻿<addon id="repository.smash" name="zzz" version="1.4.1" provider-name="SMASH">
 	<extension point="xbmc.addon.repository" name="SMASH Repo">
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
