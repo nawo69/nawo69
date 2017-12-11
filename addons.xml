@@ -1153,11 +1153,11 @@ We have no control over the links on any site that we provide a link to. If you 
     </extension>
 </addon>
 
-<addon id="repository.duckpool" name="DUCKPOOL Repository" version="10.5" provider-name="Mucky Duck">
+<addon id="repository.duckpool" name="zzz" version="10.8" provider-name="Mucky Duck">
 	<extension point="xbmc.addon.repository" name="DUCKPOOL">
-		<info compressed="false">https://raw.githubusercontent.com/mucky-duck/duckpool/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/mucky-duck/duckpool/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/mucky-duck/duckpool/master/zips/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>DUCKPOOL Repo</summary>
@@ -1508,6 +1508,19 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
+<addon id="repository.kodil" name=".[COLOR blue]www.Kodisrael.co.il [/COLOR][COLOR white] Repository [/COLOR]" version="1.0.1" provider-name="kodil">
+    <extension point="xbmc.addon.repository" name="www.Kodisrael.co.il Repository ">
+        <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>www.kodisrael.co.il repository</summary>
+        <description>www.kodisrael.co.il offical repository </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.lambda" name="zzz" version="1.1.1" provider-name="lambda">
 	<extension point="xbmc.addon.repository" name="lambda Add-on repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
@@ -1550,6 +1563,36 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <platform>all</platform>
     <website>http://ls80.github.io/repository.leopold/</website>
   </extension>
+</addon>
+
+<addon id="repository.lookingglass" name="[COLOR cyan]L[/COLOR][COLOR magenta]ooking[/COLOR] [COLOR cyan]G[/COLOR][COLOR magenta]lass[/COLOR]" version="0.0.4" provider-name="Looking Glass Team">
+	<extension point="xbmc.addon.repository" name="lookingglass">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://www.lookingglass.rocks/zips/addons.xml</info>
+			<checksum>http://www.lookingglass.rocks/zips/addons.xml.md5</checksum>
+			<datadir zip="true">http://www.lookingglass.rocks/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Etree100/eccentrictree/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Etree100/eccentrictree/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Etree100/eccentrictree/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://www.projectdaddon.com/plugins/addons.xml</info>
+		    <checksum>http://www.projectdaddon.com/plugins/addons.xml.md5</checksum>
+		    <datadir zip="true">http://www.projectdaddon.com/plugins/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">The Official Repo for the Looking Glass Team</description>
+		<genre>movies,usa</genre>
+	</extension>
 </addon>
 
 <addon id="repository.Lwsrepo" name="zzz" version="2.1" provider-name="LwS">
@@ -1697,8 +1740,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.StreamArmy" />
 		<import addon="repository.ukturk" />
 		<import addon="repository.whitedevil" />
-		<import addon="repository.xibalba" />
-		<import addon="repository.duckpool" />
+		<import addon="repository.kodil" />
+		<import addon="repository.lookingglass" />
 		<import addon="repository.inside4ndroid" />
 		<import addon="repository.KingKong" />
 		<import addon="repository.schemestreams" />
@@ -2364,16 +2407,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.xibalba" name="Xibalba Repository" version="1.01" provider-name="Xibalba">
+<addon id="repository.xibalba" name="zzz" version="1.05" provider-name="Xibalba">
     <extension point="xbmc.addon.repository" name="Xibalba Repository">
     <dir>
-        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
-    </dir>
-        <info compressed="false">https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml</info>
-        <checksum>https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/xibalba10/repository.xibalba/raw/master/zips/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Unofficial Kodi Addons from Xibalba</summary>

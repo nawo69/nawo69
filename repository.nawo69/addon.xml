@@ -35,8 +35,8 @@
 		<import addon="repository.StreamArmy" />
 		<import addon="repository.ukturk" />
 		<import addon="repository.whitedevil" />
-		<import addon="repository.xibalba" />	
-		<import addon="repository.duckpool" />	
+		<import addon="repository.kodil" />	
+		<import addon="repository.lookingglass" />	
 		<import addon="repository.inside4ndroid" />
 		<import addon="repository.KingKong" />	
 		<import addon="repository.schemestreams" />	
