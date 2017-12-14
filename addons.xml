@@ -1616,6 +1616,24 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
+<addon id="repository.loop" name="[COLORlime]Loop[/COLOR] Repository" version="1.0.0" provider-name="Loop">
+	<extension point="xbmc.addon.repository" name="Loop Repository">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	</dir>
+		<info compressed="false">https://raw.githubusercontent.com/LoopAddon/repository.the-loop/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/LoopAddon/repository.the-loop/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/LoopAddon/repository.the-loop/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.Lwsrepo" name="zzz" version="2.1" provider-name="LwS">
 	<extension point="xbmc.addon.repository" name="LwS-Repo">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
@@ -1738,7 +1756,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="[COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.8.2"
+        version="1.8.3"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1782,6 +1800,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.boom" />
 		<import addon="repository.supremacy" />
 		<import addon="repository.blamo" />
+		<import addon="repository.loop" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
