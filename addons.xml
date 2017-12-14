@@ -224,39 +224,6 @@ Plugin by @koderdude</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.covenant" version="1.1.1" name="Covenant" provider-name="Covenant">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.covenant.artwork" version="1.0.0" />
-		<import addon="script.covenant.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="covenant.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Covenant</summary>
-		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<forum></forum>
-		<website></website>
-		<source></source>
-		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
-		</assets>
-		<news>[B]1.1.1[/B][CR]- Fix trakt support[CR]- Updated existing providers[CR]- Added new providers</news>
-	</extension>
-</addon>
-
 <addon id="plugin.video.DELIVERANCE"
        name="DELIVERANCE"
        version="1.1.0"
@@ -318,23 +285,6 @@ Plugin by @koderdude</description>
 
   </extension>
 
-</addon>
-
-<addon id="plugin.video.f4mTester" version="2.7.1a" name="f4mTester" provider-name="Shani">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="2.7.1"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-
-
-    <extension point="xbmc.addon.metadata">
-        <summary>f4mTester</summary>
-        <description></description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="plugin.video.hd-streaming"
@@ -606,57 +556,6 @@ Plugin by @koderdude</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.quantum" name="Quantum" version="0.0.1" provider-name="Communal">
-  <requires>
-	<import addon="script.module.beautifulsoup" version="3.2.1"/>
-	<import addon="script.module.beautifulsoup4" />
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-	<import addon="script.module.requests" />
-    <import addon="script.module.pyxbmct" version="1.1.4"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true"/>
-    <import addon="script.module.urlresolver" version="3.0.0"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="script.module.liveresolver"  version="0.1.28"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">Quantum</summary>
-	<description lang="en">Visit our facebook group for any issues</description>
-	<disclaimer lang="en">The author neither hosts or stores any content, the author has no affiliation with content hosts</disclaimer>
-	<platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.salts" version="2.0.200" name="Stream All The Sources" provider-name="k3l3vra">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-        <import addon="script.module.urlresolver" version="3.0.0"/>
-        <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared" version="0.0.19"/>
-        <import addon="script.module.six"/>
-        <import addon="script.module.dateutil"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-     <extension point="xbmc.service" library="service.py" start="startup"/>
-    <extension point="xbmc.addon.metadata">
-        <summary>Last Version Made From The TVA Guys</summary>
-        <description>Last Version Made From The TVA Guys, trying to fix the install fail probs some are getting
-        </description>
-        <platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.sctv" name="StreamCenter" version="1000.1.15" provider-name="SCTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -714,35 +613,6 @@ Specialising in Sports Content, Football, Hockey, Cricket? We've got you covered
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.the-loop" name="The Loop" version="1.0.0" provider-name="Munkee, midraal">
-        <requires>
-                <import addon="xbmc.python" version="2.19.0" />
-                <import addon="script.module.nanscrapers" version="0.5.5" />
-                <import addon="script.module.python.koding.aio" version="0.9.6.6"/>
-                <import addon="script.module.liveresolver" version="0.1.47" />
-                <import addon="script.module.beautifulsoup" version="3.2.1"/>
-                <import addon="script.module.requests" version="2.9.1" />
-                <import addon="script.module.addon.common" version="2.0.0" />
-                <import addon="script.module.xmltodict" version="0.9.0"/>
-                <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-                <import addon="script.module.urlresolver" version="1.2.0"/>
-        </requires>
-        <extension point="xbmc.python.pluginsource" library="default.py">
-                <provides>audio video</provides>
-        </extension>
-        <extension point="xbmc.service" library="service.py" start="[login|startup]">
-              </extension>
-        <extension point="xbmc.addon.metadata">
-          <summary lang="en">The Loop</summary>
-          <description lang="en">The Loop is a Sports addon made with the Jen template which is derived from BOB. </description>
-          <platform>all</platform>
-          <forum>http://www.noobsandnerds.com/support/forumdisplay.php?fid=253</forum>
-          <website>www.noobsandnerds.com</website>
-          <video_guide>y0w8zIH4lOY</video_guide>
-          <video_preview>WdKIzajiBBI</video_preview>
-        </extension>
 </addon>
 
 <addon id="plugin.video.titan" name="[COLOR blue]T[/COLOR]itan" version="2.1.3" provider-name="Titan">
@@ -1416,6 +1286,40 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.illuminati" name="Illuminati" version="1.0.0" provider-name="IlluminatiTemple">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+	<extension point="xbmc.addon.repository" name="Illuminati">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<dir>
+		    <info compressed="false">https://raw.githubusercontent.com/illuminatitemple/repository.illuminati/master/zips/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/illuminatitemple/repository.illuminati/master/zips/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/illuminatitemple/repository.illuminati/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	    </dir>
+		<dir>
+			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+			<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	    </dir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Home of 3rd party addons</summary>
+		<description lang="en">The developers do not own any content found within these addons. They are in no way affiliated with Kodi or XBMC.</description>
+            <platform>all</platform>
+	</extension>
+</addon>
+
     <addon id="repository.inside4ndroid" name="Inside4ndroid" version="17.0.0" provider-name="Inside 4ndroid">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -1756,7 +1660,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="[COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.8.3"
+        version="1.8.4"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1801,6 +1705,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.supremacy" />
 		<import addon="repository.blamo" />
 		<import addon="repository.loop" />
+		<import addon="repository.illuminati" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
