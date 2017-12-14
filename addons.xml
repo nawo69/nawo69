@@ -1659,8 +1659,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 <addon id="repository.nawo69"
-        name="[COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.8.4"
+        name=" [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
+        version="1.8.5"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1706,6 +1706,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.blamo" />
 		<import addon="repository.loop" />
 		<import addon="repository.illuminati" />
+		<import addon="repository.Wherethemonsterslive" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
@@ -2281,6 +2282,19 @@ Addons Included
 	<extension point="xbmc.addon.metadata">
 		<summary>Install addons from Unblockr.net</summary>
 		<description>Download and install addons from unblockr</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.Wherethemonsterslive" name="Where The Monsters Live Repository" version="1.1" provider-name="Wolfey B">
+	<extension point="xbmc.addon.repository" name="Where The Monsters Live Repository">
+		<info compressed="false">http://wolfpackcrew.co.uk/seeddata/wolfyB/files/addons.xml</info>
+		<checksum>http://wolfpackcrew.co.uk/seeddata/wolfyB/files/addons.xml.md5</checksum>
+		<datadir zip="true">http://wolfpackcrew.co.uk/seeddata/wolfyB/files/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
 		<platform>all</platform>
 	</extension>
 </addon>
