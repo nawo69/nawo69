@@ -162,37 +162,6 @@ Plugin by @koderdude</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.ChampionSports"
-       name="Champion Sports"
-       version="2.0"
-       provider-name="Kodi Hacks">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">championsports8</summary>
-    <description lang="en">UK Sports Twitter - championsports8</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.cjcminecraft"
        name="CJCMINECRAFT"
        version="1.0.2"
@@ -309,22 +278,21 @@ Plugin by @koderdude</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.jizzplanet" name="Jizz Planet" version="1.1.1" provider-name="Cosmix, tvaddons.ag">
+<addon id="plugin.video.jizzplanet" name="Jizz Planet" version="1.1.2" provider-name="Jizzplanet.com">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
-		<import addon="script.module.liveresolver" version="0.1.24"/>
-		<import addon="script.video.F4mProxy" version="2.2.3"/>
+		<import addon="script.video.F4mProxy" version="2.2.3" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Jizz Planet</summary>
-		<description lang="en">Unofficial Addon - Jizz Planet - adult based playlists from sites all over the web.</description>
-		<news>- Tweaks</news>
+		<description lang="en">Unofficial A-Z Adult Addon by Jizzplanet.com.</description>
+		<news>Re-release</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -336,35 +304,6 @@ Plugin by @koderdude</description>
 		<forum></forum>
 		<website></website>
 	</extension>
-</addon>
-
-<addon id="plugin.video.MoneySports"
-       name="MoneySports"
-       version="4.0.3"
-       provider-name="SOME FINE FELLOW">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description>
-
-    </description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.MUSICLEGENDS"
