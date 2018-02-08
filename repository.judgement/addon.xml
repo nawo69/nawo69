@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.judgement" name="Judgement Repo" version="1.9" provider-name="Judgement">
+	<extension point="xbmc.addon.repository" name="Judgement">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">http://theunjudged.com/Judgement/Repo/addons.xml</info>
+		<checksum>http://theunjudged.com/Judgement/Repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://theunjudged.com/Judgement/Repo/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Judgement Repo</summary>
+		<description>Judgement Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>

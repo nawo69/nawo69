@@ -1389,6 +1389,26 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.judgement" name="Judgement Repo" version="1.9" provider-name="Judgement">
+	<extension point="xbmc.addon.repository" name="Judgement">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">http://theunjudged.com/Judgement/Repo/addons.xml</info>
+		<checksum>http://theunjudged.com/Judgement/Repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://theunjudged.com/Judgement/Repo/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Judgement Repo</summary>
+		<description>Judgement Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.k3l3vra" name="zzz" version="1.0.2" provider-name="k3l3vra">
     <extension point="xbmc.addon.repository" name="K3l3vra's Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
@@ -1660,7 +1680,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.8.7"
+        version="1.8.8"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1699,7 +1719,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.KingKong" />
 		<import addon="repository.schemestreams" />
 		<import addon="repository.RisingTides" />
-		<import addon="repository.bubbles.1" />
 		<import addon="repository.soulless" />
 		<import addon="repository.boom" />
 		<import addon="repository.supremacy" />
@@ -1708,7 +1727,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.illuminati" />
 		<import addon="repository.Wherethemonsterslive" />
 		<import addon="repository.GenTec" />
-		<import addon="repository.cerebro" />
+		<import addon="repository.judgement" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
