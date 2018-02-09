@@ -1308,7 +1308,7 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.illuminati" name="Illuminati" version="1.0.0" provider-name="IlluminatiTemple">
+<addon id="repository.illuminati" name="[COLORmaroon]Illu[COLORslategray]min[COLORdarkblue]ati[/COLOR]" version="1.0.9" provider-name="IlluminatiTemple">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -1319,9 +1319,9 @@ We have no control over the links on any site that we provide a link to. If you 
 			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
 		</dir>
 		<dir>
-		    <info compressed="false">https://raw.githubusercontent.com/illuminatitemple/repository.illuminati/master/zips/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/illuminatitemple/repository.illuminati/master/zips/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/illuminatitemple/repository.illuminati/master/zips/</datadir>
+		    <info compressed="false">http://theunjudged.com/ATrain/repo/addons.xml</info>
+		    <checksum>http://theunjudged.com/ATrain/repo/addons.xml.md5</checksum>
+		    <datadir zip="true">http://theunjudged.com/ATrain/repo/</datadir>
 		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -1329,11 +1329,10 @@ We have no control over the links on any site that we provide a link to. If you 
 			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
 	    </dir>
 		<dir>
-			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-			<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-	    </dir>
-
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Home of 3rd party addons</summary>
