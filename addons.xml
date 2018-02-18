@@ -297,6 +297,45 @@ Plugin by @koderdude</description>
   </extension>
 </addon>
 
+<addon id="plugin.video.incursion" version="0.1.14" name="Incursion" provider-name="Incursion">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.incursion" />
+		<import addon="script.incursion.artwork" />
+		<import addon="script.incursion.metadata" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="incursion.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Incursion</summary>
+		<description lang="en">[I]New Resistance[/I][CR][CR][B]Incursion - Media for the Masses[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>
+			v0.1.14 (FEB-2018)
+			- Furk scraper now supports t_files and season 			packs.
+			- Added Trakt On Deck menu item
+			- Increased support for Xbox One Console.
+		</news>
+	</extension>
+</addon>
+
 <addon id="plugin.video.jizzplanet" name="Jizz Planet" version="1.1.2" provider-name="Jizzplanet.com">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -1722,7 +1761,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.9.0"
+        version="1.9.1"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1772,6 +1811,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.judgement" />
 		<import addon="incursion.repository" />
 		<import addon="repository.adulthideout" />
+		<import addon="plugin.video.incursion" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
@@ -2577,6 +2617,42 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<summary>Themes for the Elysium Addon</summary>
 		<description></description>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.incursion.artwork" version="1.0.7" name="Incursion Artwork" provider-name="Incursion">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Incursion Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.incursion.metadata" version="1.0.3" name="Incursion Metadata" provider-name="Incursion">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Incursion Addon</summary>
+		<description>Metadata for Incursion are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.incursion" name="Incursion Module" version="1.16" provider-name="Incursion">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Incursion</summary>
 	</extension>
 </addon>
 
