@@ -524,9 +524,9 @@ Specialising in Sports Content, Football, Hockey, Cricket? We've got you covered
 
 <addon
   id="plugin.video.SportsDevil"
-  version="a2017.11.01"
+  version="a2018.01.18"
   name="SportsDevil"
-  provider-name="SportsDevil">
+  provider-name="MaxMustermann, Al101, Hubbab3, Jairox, Sattekop">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.dateutil" />
