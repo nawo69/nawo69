@@ -1366,7 +1366,7 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="griffin" name="Griffin Repo" version="0.0.6" provider-name="griffin_303">
+<addon id="repository.griffin" name="Griffin Repo" version="0.0.6" provider-name="griffin_303">
 	<extension point="xbmc.addon.repository" name="Griffin Repository">
             <info compressed="false">https://bitbucket.org/griffin303/griffin/raw/master/zips/addons.xml</info>
                            <checksum>https://bitbucket.org/griffin303/griffin/raw/master/zips/addons.xml.md5</checksum>
@@ -1810,7 +1810,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.9.2"
+        version="1.9.3"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1845,7 +1845,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.whitedevil" />
 		<import addon="repository.kodil" />
 		<import addon="repository.lookingglass" />
-		<import addon="griffin" />
+		<import addon="repository.griffin" />
 		<import addon="repository.KingKong" />
 		<import addon="repository.schemestreams" />
 		<import addon="repository.RisingTides" />
