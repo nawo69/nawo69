@@ -819,19 +819,43 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.0.7" provider-name="Blamo">
-	<extension point="xbmc.addon.repository" name="Blamos">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/mrblamo/Mr-Blamo-Repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/mrblamo/Mr-Blamo-Repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/mrblamo/Mr-Blamo-Repo/master/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en">The Official Repo for Blamo</description>
-	</extension>
-</addon>
+    <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.1" provider-name="Mr Blamo">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLOR red]Blamo Repo[/COLOR]">
+            <info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/</datadir>
+            <hashes>false</hashes>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+            </dir>
+			<dir>
+				<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
+				<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
+				<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
+			</dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>The Official Repo for Mr Blamo</summary>
+            <description>The Official Repo for Mr Blamo</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+        </extension>
+    </addon>
 
 <addon id="repository.BlazeRepo" name="zzz" version="3.3" provider-name="Blazetamer">
 <extension point="xbmc.addon.repository" name="Blaztamer's Addon Repository">
@@ -1342,6 +1366,31 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="griffin" name="Griffin Repo" version="0.0.6" provider-name="griffin_303">
+	<extension point="xbmc.addon.repository" name="Griffin Repository">
+            <info compressed="false">https://bitbucket.org/griffin303/griffin/raw/master/zips/addons.xml</info>
+                           <checksum>https://bitbucket.org/griffin303/griffin/raw/master/zips/addons.xml.md5</checksum>
+                 <datadir zip="true">https://bitbucket.org/griffin303/griffin/raw/master/zips/</datadir>
+            <hashes>false</hashes>
+                <dir>
+                <info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
+                <checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
+                <datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
+                </dir>
+                        <dir>
+                            <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+                            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+                            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+                        </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>The Griffin Repo</summary>
+            <description>Home of FinalGear, Joshua and Uranus</description>
+            <platform>all</platform>
+            <genre>movies</genre>
+    </extension>
+</addon>
+
 <addon id="repository.HalowTV" name="  [COLOR lime][B]HALOW [/COLOR][COLOR white]Repository[/B][/COLOR]" version="3.1.1" provider-name="HalowRepo">
 	<extension point="xbmc.addon.repository" name="  [COLOR lime][B]Halow[/COLOR][COLOR white]Repository[/B][/COLOR]">
         <info compressed="false">https://raw.githubusercontent.com/HalowTV/HalowTV/master/zips/addons.xml</info>
@@ -1761,7 +1810,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.9.1"
+        version="1.9.2"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1796,7 +1845,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.whitedevil" />
 		<import addon="repository.kodil" />
 		<import addon="repository.lookingglass" />
-		<import addon="repository.inside4ndroid" />
+		<import addon="griffin" />
 		<import addon="repository.KingKong" />
 		<import addon="repository.schemestreams" />
 		<import addon="repository.RisingTides" />

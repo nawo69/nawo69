@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="1.9.1"
+        version="1.9.2"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -36,7 +36,7 @@
 		<import addon="repository.whitedevil" />
 		<import addon="repository.kodil" />	
 		<import addon="repository.lookingglass" />	
-		<import addon="repository.inside4ndroid" />
+		<import addon="griffin" />
 		<import addon="repository.KingKong" />	
 		<import addon="repository.schemestreams" />	
 		<import addon="repository.RisingTides" />
