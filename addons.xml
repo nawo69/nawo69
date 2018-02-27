@@ -1236,6 +1236,23 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.filmkodi.com" name="zzz" version="2.1.0a" provider-name="Mrknow">
+	<extension point="xbmc.addon.repository" name="Filmkodi.com Kodi Add-on Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Add-ons  from filmkodi.com</summary>
+		<summary lang="pl">Zainstaluj wtyczki z filmkodi.com</summary>
+		<description lang="en">Add-ons from filmkodi.com (mrknow.pl) repository.</description>
+		<description lang="pl">Wtyczki z nieoficjalnego, repozytorium polskiego mrknow.pl..</description>
+		<disclaimer lang="en">Repository has non-comercial nature. Created by enthusiasts, acting in good faith.</disclaimer>
+		<disclaimer lang="pl">Zawartość repozytorium ma charakter niekomercyjny, wtyczki tworzone przez pasjonatów, .</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.foreverguest" name="foreverguest Add-ons" version="1.1.0" provider-name="foreverguest">
     <extension point="xbmc.addon.repository" name="foreverguest Add-ons">
         <info compressed="true">https://github.com/foreverguest/repository.foreverguest/raw/master/addons.xml</info>
@@ -1310,6 +1327,19 @@ We have no control over the links on any site that we provide a link to. If you 
 	<extension point="xbmc.addon.metadata">
 		<summary>Home of Goliaths Addons</summary>
 		<description>Download and install all unofficial Add-ons from Goliath</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.goodfellas" name="zzz" version="1.6.1a" provider-name="GoodFellas">
+	<extension point="xbmc.addon.repository" name="Good Fellas">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Welcome to the GoodFellas Repository where you will find all the Live Tv, Movies, and Documentaries</summary>
+		<description>The Best Live Tv and Movies addon</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -1396,6 +1426,22 @@ We have no control over the links on any site that we provide a link to. If you 
 		<description lang="en">The developers do not own any content found within these addons. They are in no way affiliated with Kodi or XBMC.</description>
             <platform>all</platform>
 	</extension>
+</addon>
+
+    <addon id="repository.inside4ndroid" name="zzz" version="17.0.0a" provider-name="Inside 4ndroid">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Inside4ndroid">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Inside 4ndroid Kodi Addons</summary>
+            <description>Inside 4ndroid Kodi Addons</description>
+            <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.istream" name="zzz" version="10.5" provider-name="iSTREAM">
@@ -1488,7 +1534,7 @@ We have no control over the links on any site that we provide a link to. If you 
     </extension>
 </addon>
 
-<addon id="repository.KingKong" name="1zzz" version="1.0.2" provider-name="KingKong">
+<addon id="repository.KingKong" name="zzz" version="1.0.3" provider-name="KingKong">
 	<extension point="xbmc.addon.repository" name="KingKong Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
@@ -1965,6 +2011,19 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
+<addon id="repository.schemestreams" name="zzz" version="0.0.1a" provider-name="Scheme Steams">
+	<extension point="xbmc.addon.repository" name="Scheme Streams Repo">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Scheme Streams Repo</summary>
+		<description lang="en">Repo For Scheme Stream Addons And Builds</description>
+		<genre>livetv,sports,uk</genre>
+	</extension>
+</addon>
+
 <addon id="repository.schismtv.addonsdev" name="zzz" version="1.0.2" provider-name="SchisM">
 	<extension point="xbmc.addon.repository" name="SchisM TV Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
@@ -2013,6 +2072,32 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.addon.metadata">
 		<summary>Addons related to XBMC for Zemtv etc</summary>
 		<description>Go though the plugins and see what you like</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.simtech" name="zzz" version="3.2a" provider-name="SIMTECH">
+     <extension point="xbmc.addon.repository" name="SIMTECH">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+     <extension point="xbmc.addon.metadata">
+         <summary>SIMTECH Repository.</summary>
+         <description>Official Repository of SIMTECH V 3.1</description>
+         <platform>all</platform>
+     </extension>
+</addon>
+
+<addon id="repository.slimevolve" name="xxx" version="1.2a" provider-name="@Slim_Evolve">
+	<extension point="xbmc.addon.repository" name="Slims Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repository Of Slim From Team Evolve</summary>
+		<description>Slims Addons</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -2313,6 +2398,20 @@ Addons Included
 	<extension point="xbmc.addon.metadata">
 		<summary></summary>
 		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.whitecream" name="zzz" version="2.0.2a" provider-name="Whitecream">
+	<extension point="xbmc.addon.repository" name="WhiteCream repo">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Official WhiteCream repository</summary>
+		<description>This repository contains addons that are for adults only. You may only view the contents of this repository if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content.</description>
+		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>

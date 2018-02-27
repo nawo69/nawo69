@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.KingKong" name="1zzz" version="1.0.2" provider-name="KingKong">
+<addon id="repository.KingKong" name="zzz" version="1.0.3" provider-name="KingKong">
 	<extension point="xbmc.addon.repository" name="KingKong Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
