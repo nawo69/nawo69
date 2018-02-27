@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.slimevolve" name="xxx" version="1.2a" provider-name="@Slim_Evolve">
-	<extension point="xbmc.addon.repository" name="Slims Repository">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.soulless" name="zzz1" version="1.0.8" provider-name="Soulless">
+	<extension point="xbmc.addon.repository" name="Soulless Repo">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Repository Of Slim From Team Evolve</summary>
-		<description>Slims Addons</description>
+		<summary>Soulless Repo</summary>
+		<description>Download and install All Things Soulless</description>
 		<platform>all</platform>
 	</extension>
 </addon>
