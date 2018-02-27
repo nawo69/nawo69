@@ -2710,7 +2710,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.51" provider-name="Team NaN">
+<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.51a" provider-name="Team NaN">
         <requires>
                 <import addon="xbmc.python" version="2.1.0"/>
                 <import addon="script.module.beautifulsoup" version="3.2.1"/>
