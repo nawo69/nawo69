@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.lookingglass" name="[COLOR cyan]L[/COLOR][COLOR magenta]ooking[/COLOR] [COLOR cyan]G[/COLOR][COLOR magenta]lass[/COLOR]" version="0.0.7" provider-name="Looking Glass Team">
+<addon id="repository.lookingglass" name="zzz" version="0.0.6a" provider-name="Looking Glass Team">
 <extension point="xbmc.addon.repository" name="[COLOR red]TheAlpha Repository[/COLOR]">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>

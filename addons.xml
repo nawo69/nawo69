@@ -1645,7 +1645,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="repository.lookingglass" name="[COLOR cyan]L[/COLOR][COLOR magenta]ooking[/COLOR] [COLOR cyan]G[/COLOR][COLOR magenta]lass[/COLOR]" version="0.0.7" provider-name="Looking Glass Team">
+<addon id="repository.lookingglass" name="zzz" version="0.0.6a" provider-name="Looking Glass Team">
 <extension point="xbmc.addon.repository" name="[COLOR red]TheAlpha Repository[/COLOR]">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
@@ -1754,15 +1754,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.merlin" name=" [COLOR aqua]Merlin Repository[/COLOR]" version="2.0.0" provider-name="Merlin Project">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-		<extension point="xbmc.addon.repository" name="Merlin Repository">
-			<info compressed="false">http://mrepo.uk/merlinrepo/addons.xml</info>
-			<checksum>http://mrepo.uk/merlinrepo/addons.xml.md5</checksum>
-			<datadir zip="true">http://mrepo.uk/merlinrepo/addons/</datadir>
-		</extension>
+<addon id="repository.merlin" name="zzz" version="2.0.0a" provider-name="Merlin Project">
+<extension point="xbmc.addon.repository" name="[COLOR red]TheAlpha Repository[/COLOR]">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary>Host Of Add-Ons And Repositories</summary>
 			<description>Primary Function To Provide Updates To Merlin Builds! Any Other Add-Ons Or Repositories Within Are Provided At My Choice And Discretion, Will Provide Add-Ons And Repositories That Are Publicly Available, Permission Not Required To Do So! Hope You Find This Repository Useful, Enjoy!</description>
@@ -1884,7 +1881,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.3.5a" provider-name="noobsandnerds">
+<addon id="repository.noobsandnerds" name="zzz" version="2.3.5a" provider-name="noobsandnerds">
 <extension point="xbmc.addon.repository" name="[COLOR red]TheAlpha Repository[/COLOR]">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
