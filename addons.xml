@@ -1494,6 +1494,7 @@ We have no control over the links on any site that we provide a link to. If you 
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
+		<extension point="xbmc.addon.metadata">
         <summary>Unofficial Kodi Addons from KingKong</summary>
         <description>Download and install unofficial Kodi add-ons from the KingKong add-on repository.
 Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
