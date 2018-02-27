@@ -1488,6 +1488,22 @@ We have no control over the links on any site that we provide a link to. If you 
     </extension>
 </addon>
 
+<addon id="repository.KingKong" name="zzz" version="1.0.1" provider-name="KingKong">
+	<extension point="xbmc.addon.repository" name="KingKong Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+        <summary>Unofficial Kodi Addons from KingKong</summary>
+        <description>Download and install unofficial Kodi add-ons from the KingKong add-on repository.
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <forum>http://devraiden.com/forum</forum>
+        <website>http://devraiden.com</website>
+    </extension>
+</addon>
+
 <addon id="repository.Kinkin" name="zzz" version="1.5" provider-name="Kinkin">
 	<extension point="xbmc.addon.repository" name="Kinkin Addon Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
