@@ -1771,7 +1771,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.9.4"
+        version="1.9.5"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1796,7 +1796,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.whitedevil" />
 		<import addon="repository.kodil" />
 		<import addon="repository.griffin" />
-		<import addon="repository.RisingTides" />
+		<import addon="repository.Rising.Tides" />
 		<import addon="repository.boom" />
 		<import addon="repository.supremacy" />
 		<import addon="repository.blamo" />
@@ -1807,6 +1807,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.judgement" />
 		<import addon="incursion.repository" />
 		<import addon="repository.adulthideout" />
+		<import addon="repository.wod" />
 		<import addon="plugin.video.incursion" />
   </requires>
     <extension point="xbmc.addon.repository"
@@ -1972,13 +1973,13 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 
 <addon id="repository.RisingTides"
-	   name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository"
-	   version="0.1"
+	   name="zzz"
+	   version="0.1a"
 	   provider-name="RDA Group">
 	<extension point="xbmc.addon.repository" name="[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides Repository">
-		<info compressed="false">http://mullafabz.net.rw/Plugins/addons.xml</info>
-		<checksum>http://mullafabz.net.rw/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://mullafabz.net.rw/Plugins/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>All types of Contents</summary>
