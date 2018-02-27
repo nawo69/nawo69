@@ -1181,20 +1181,6 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.entertainmentrepobackup" name="zzz" version="1.1.5a" provider-name="@MrEntertainRepo">
-	<extension point="xbmc.addon.repository" name="Entertainment Addons Repository">
-        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>www.entertainmentrepo.com</summary>
-		<description>Download and install addons by @MrEntertainRepo for more info on these addons and repo please go to www.entertainmentrepo.com</description>
-		<disclaimer>By using this, you take reponsibility for anything that happens. Some parts of this addon may not be legal in your country - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way shape or form. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.eracknaphobia" name="eracknaphobia's Repo" version="1.0.0" provider-name="eracknaphobia">
 	<extension point="xbmc.addon.repository" name="eracknaphobia's Repo">
 		<info compressed="false">https://github.com/eracknaphobia/repo.eracknaphobia/raw/master/addons.xml</info>
@@ -1233,23 +1219,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<platform>all</platform>
 		<forum>https://www.tvaddons.ag/forums</forum>
         <website>https://www.tvaddons.ag</website>
-	</extension>
-</addon>
-
-<addon id="repository.filmkodi.com" name="zzz" version="2.1.0a" provider-name="Mrknow">
-	<extension point="xbmc.addon.repository" name="Filmkodi.com Kodi Add-on Repository">
-        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install Add-ons  from filmkodi.com</summary>
-		<summary lang="pl">Zainstaluj wtyczki z filmkodi.com</summary>
-		<description lang="en">Add-ons from filmkodi.com (mrknow.pl) repository.</description>
-		<description lang="pl">Wtyczki z nieoficjalnego, repozytorium polskiego mrknow.pl..</description>
-		<disclaimer lang="en">Repository has non-comercial nature. Created by enthusiasts, acting in good faith.</disclaimer>
-		<disclaimer lang="pl">Zawartość repozytorium ma charakter niekomercyjny, wtyczki tworzone przez pasjonatów, .</disclaimer>
-		<platform>all</platform>
 	</extension>
 </addon>
 
@@ -1327,19 +1296,6 @@ We have no control over the links on any site that we provide a link to. If you 
 	<extension point="xbmc.addon.metadata">
 		<summary>Home of Goliaths Addons</summary>
 		<description>Download and install all unofficial Add-ons from Goliath</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.goodfellas" name="zzz" version="1.6.1a" provider-name="GoodFellas">
-	<extension point="xbmc.addon.repository" name="Good Fellas">
-        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Welcome to the GoodFellas Repository where you will find all the Live Tv, Movies, and Documentaries</summary>
-		<description>The Best Live Tv and Movies addon</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -2028,6 +1984,19 @@ We have no control over the links on any site that we provide a link to. If you 
 		<description>Go though the plugins and see what you like</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.simtech" name="zzz" version="3.2a" provider-name="SIMTECH">
+     <extension point="xbmc.addon.repository" name="SIMTECH">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+     <extension point="xbmc.addon.metadata">
+         <summary>SIMTECH Repository.</summary>
+         <description>Official Repository of SIMTECH V 3.1</description>
+         <platform>all</platform>
+     </extension>
 </addon>
 
 ﻿<addon id="repository.smash" name="zzz" version="1.4.1" provider-name="SMASH">
