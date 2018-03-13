@@ -1539,24 +1539,54 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.judgement" name="Judgement Repo" version="1.9" provider-name="Judgement">
+<addon id="repository.judgement" name="Judgement Repo" version="2.3" provider-name="Judgement">
 	<extension point="xbmc.addon.repository" name="Judgement">
 	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
+		<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
+		<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
 	</dir>
 	<dir>
 		<info compressed="false">http://theunjudged.com/Judgement/Repo/addons.xml</info>
 		<checksum>http://theunjudged.com/Judgement/Repo/addons.xml.md5</checksum>
 		<datadir zip="true">http://theunjudged.com/Judgement/Repo/</datadir>
 	</dir>
+	<dir>
+      <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+    </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Judgement Repo</summary>
-		<description>Judgement Repository</description>
-		<platform>all</platform>
-	</extension>
+<summary lang="en">
+The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon.
+The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+The search process is the same as a search engine with no data actual hosted by the developer.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</summary>
+<description lang="en">
+The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon.
+The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+The Search process is the same as a search engine with no data actual hosted by the developer.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</description>
+<disclaimer lang="en">
+The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon.
+The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+The Search process is the same as a search engine with no data actual hosted by the developer.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</disclaimer>
+<news>
+The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon.
+The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+The Search process is the same as a search engine with no data actual hosted by the developer.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</news>
+</extension>
 </addon>
 
 <addon id="repository.k3l3vra" name="zzz" version="1.0.2" provider-name="k3l3vra">
