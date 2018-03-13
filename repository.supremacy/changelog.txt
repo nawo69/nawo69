@@ -1,2 +1,1 @@
-[B]Version 1.1[/B]
-- Initial version
+updaed = 1.7
