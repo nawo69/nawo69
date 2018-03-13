@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="1.9.6"
+        version="1.9.7"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -37,7 +37,8 @@
 		<import addon="repository.judgement" />	
 		<import addon="incursion.repository" />			
 		<import addon="repository.adulthideout" />	
-		<import addon="repository.wod" />				
+		<import addon="repository.wod" />		
+		<import addon="repository.PureRepo" />	
 		<import addon="plugin.video.incursion" />
 		<import addon="plugin.video.placenta" />		
   </requires>
