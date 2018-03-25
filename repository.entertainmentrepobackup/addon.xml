@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.entertainmentrepobackup" name="zzz" version="1.1.5a" provider-name="@MrEntertainRepo">
+<addon id="repository.entertainmentrepobackup" name="zzz" version="9.9.9" provider-name="@MrEntertainRepo">
 	<extension point="xbmc.addon.repository" name="Entertainment Addons Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
