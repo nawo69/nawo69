@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="1.9.7"
+        version="1.9.8"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -27,7 +27,7 @@
 		<import addon="repository.kodil" />	
 		<import addon="repository.griffin" />
 		<import addon="repository.Rising.Tides" />
-		<import addon="repository.boom" />
+		<import addon="repository.bigboom" />
 		<import addon="repository.supremacy" />	
 		<import addon="repository.blamo" />	
 		<import addon="repository.loop" />	

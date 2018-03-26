@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.judgement" name="Judgement Repo" version="2.3" provider-name="Judgement">
+<addon id="repository.judgement" name="zzz" version="2.4.1" provider-name="Judgement">
 	<extension point="xbmc.addon.repository" name="Judgement">
-	<dir>
-		<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
-		<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
-		<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">http://theunjudged.com/Judgement/Repo/addons.xml</info>
-		<checksum>http://theunjudged.com/Judgement/Repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://theunjudged.com/Judgement/Repo/</datadir>
-	</dir>
-	<dir>
-      <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 <summary lang="en">

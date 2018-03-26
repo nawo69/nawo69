@@ -364,6 +364,37 @@ Plugin by @koderdude</description>
 	</extension>
 </addon>
 
+<addon id="plugin.video.LisboaStreams"
+       name="LisboaStreams"
+       version="2.0.1"
+       provider-name="Scheme Streams">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Celtic FC Live And On Demand</summary>
+    <description lang="en">Celtic FC Live And On Demand</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.MUSICLEGENDS"
 	name="MUSIC LEGENDS"
 	version="2.0.0"
@@ -585,6 +616,37 @@ This is a Non-profit resource, organized solely for educational purposes which i
   <extension point="xbmc.addon.metadata">
     <summary lang="en">twitter @pulsemediahubuk</summary>
     <description lang="en">find us on fb - PULSE MEDIA HUB</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Redemption"
+       name="Redemption"
+       version="1.2"
+       provider-name="Redemption">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Redemption</summary>
+    <description lang="en">AllinOne</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -928,16 +990,15 @@ We have no control over the links on any site that we provide a link to. If you 
 </extension>
 </addon>
 
-    <addon id="repository.boom" name="BOOM! Repository" version="1.4" provider-name="BOOM">
+    <addon id="repository.boom" name="zzz" version="1.6.1" provider-name="BOOM">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="BOOM! Repository">
-            <info compressed="false">http://burrtv.tech/boom/_repo/addons.xml</info>
-            <checksum>http://burrtv.tech/boom/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://burrtv.tech/boom/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
         <extension point="xbmc.addon.metadata">
             <summary>BOOM! Repository</summary>
             <description>In memory of Lee Jeffries.</description>
@@ -1561,23 +1622,11 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.judgement" name="Judgement Repo" version="2.3" provider-name="Judgement">
+<addon id="repository.judgement" name="zzz" version="2.4.1" provider-name="Judgement">
 	<extension point="xbmc.addon.repository" name="Judgement">
-	<dir>
-		<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
-		<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
-		<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">http://theunjudged.com/Judgement/Repo/addons.xml</info>
-		<checksum>http://theunjudged.com/Judgement/Repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://theunjudged.com/Judgement/Repo/</datadir>
-	</dir>
-	<dir>
-      <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 <summary lang="en">
@@ -1863,7 +1912,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.9.7"
+        version="1.9.8"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1889,7 +1938,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.kodil" />
 		<import addon="repository.griffin" />
 		<import addon="repository.Rising.Tides" />
-		<import addon="repository.boom" />
+		<import addon="repository.bigboom" />
 		<import addon="repository.supremacy" />
 		<import addon="repository.blamo" />
 		<import addon="repository.loop" />
