@@ -1912,7 +1912,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="1.9.8"
+        version="1.9.9"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1935,7 +1935,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.StreamArmy" />
 		<import addon="repository.ukturk" />
 		<import addon="repository.whitedevil" />
-		<import addon="repository.kodil" />
 		<import addon="repository.griffin" />
 		<import addon="repository.Rising.Tides" />
 		<import addon="repository.bigboom" />
@@ -1945,7 +1944,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.illuminati" />
 		<import addon="repository.Wherethemonsterslive" />
 		<import addon="repository.jsergio" />
-		<import addon="repository.judgement" />
 		<import addon="incursion.repository" />
 		<import addon="repository.adulthideout" />
 		<import addon="repository.wod" />
@@ -2071,7 +2069,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.PureRepo" name="[COLOR white][B]PureRepo[/B][/COLOR]" version="0.0.1" provider-name="@PureRepo">
+<addon id="repository.PureRepo" name="[COLOR white][B]PureRepo[/B][/COLOR]" version="0.0.2" provider-name="@PureRepo">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -2092,10 +2090,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
                 <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
             </dir>
 			<dir>
-				<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
-				<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
-				<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
-			</dir>
+                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>PureRepo Repo</summary>
