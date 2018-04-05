@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="2.0.0"
+        version="2.0.1"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -26,7 +26,6 @@
 		<import addon="repository.whitedevil" />
 		<import addon="repository.griffin" />
 		<import addon="repository.Rising.Tides" />
-		<import addon="repository.bigboom" />
 		<import addon="repository.supremacy" />	
 		<import addon="repository.blamo" />	
 		<import addon="repository.loop" />	
@@ -38,8 +37,7 @@
 		<import addon="repository.wod" />		
 		<import addon="repository.PureRepo" />	
 		<import addon="repository.universalscrapers" />				
-		<import addon="plugin.video.incursion" />
-		<import addon="plugin.video.placenta" />		
+		<import addon="plugin.video.incursion" />	
   </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Add-ons and Repos">
