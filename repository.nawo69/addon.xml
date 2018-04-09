@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="2.0.1"
+        version="2.0.2"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -36,7 +36,8 @@
 		<import addon="repository.adulthideout" />	
 		<import addon="repository.wod" />		
 		<import addon="repository.PureRepo" />	
-		<import addon="repository.universalscrapers" />				
+		<import addon="repository.universalscrapers" />	
+		<import addon="repository.kodibae" />	
 		<import addon="plugin.video.incursion" />	
   </requires>
     <extension point="xbmc.addon.repository" 
