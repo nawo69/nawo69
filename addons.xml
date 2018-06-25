@@ -275,7 +275,7 @@ Plugin by @koderdude</description>
 
 </addon>
 
-<addon id="plugin.video.f4mTester" name="f4mTester" version="2.7.2" provider-name="Shani">
+<addon id="plugin.video.f4mTester" name="f4mTester" version="2.7.2a" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.7.1"/>
@@ -1879,11 +1879,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.mcktvrepo" name="mcktv repo" version="1.0" provider-name="mcktvkodi">
+<addon id="repository.mcktvrepo" name="zzz" version="1.0a" provider-name="mcktvkodi">
 	<extension point="xbmc.addon.repository" name="mcktvrepo">
-		<info compressed="false">https://raw.githubusercontent.com/mcktvkodi/mcktvrepo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/mcktvkodi/mcktvrepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/mcktvkodi/mcktvrepo/master/</datadir>
+    <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>MckTV Repo</summary>
@@ -1948,7 +1948,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="2.0.3"
+        version="2.0.4"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1980,7 +1980,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.jsergio" />
 		<import addon="incursion.repository" />
 		<import addon="repository.adulthideout" />
-		<import addon="repository.wod" />
 		<import addon="repository.PureRepo" />
 		<import addon="repository.universalscrapers" />
 		<import addon="repository.kodibae" />
