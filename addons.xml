@@ -275,6 +275,21 @@ Plugin by @koderdude</description>
 
 </addon>
 
+<addon id="plugin.video.f4mTester" name="f4mTester" version="2.7.2" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.video.hd-streaming"
        name="HD Streaming"
        version="0.0.12"
@@ -1509,7 +1524,7 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.illuminati" name="[COLORmaroon]Illu[COLORslategray]min[COLORdarkblue]ati[/COLOR]" version="1.1.9" provider-name="IlluminatiTemple">
+<addon id="repository.illuminati" name="[COLORmaroon]Illu[COLORslategray]min[COLORdarkblue]ati[/COLOR]" version="1.2.2" provider-name="Illuminati Temple">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -1520,15 +1535,15 @@ We have no control over the links on any site that we provide a link to. If you 
 			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
 		</dir>
 		<dir>
-		    <info compressed="false">http://theunjudged.com/Repo/addons.xml</info>
-		    <checksum>http://theunjudged.com/Repo/addons.xml.md5</checksum>
-		    <datadir zip="true">http://theunjudged.com/Repo/</datadir>
+		    <info compressed="false">http://theunjudged.xyz/Repo/addons.xml</info>
+		    <checksum>http://theunjudged.xyz/Repo/addons.xml.md5</checksum>
+		    <datadir zip="true">http://theunjudged.xyz/Repo/</datadir>
 		</dir>
-		<dir>
-		    <info compressed="false">http://scrapers.theunjudged.com/Scrapers/addons.xml</info>
-		    <checksum>http://scrapers.theunjudged.com/Scrapers/addons.xml.md5</checksum>
-		    <datadir zip="true">http://scrapers.theunjudged.com/Scrapers/</datadir>
-		</dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
@@ -2657,13 +2672,11 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="repository.wod" name="Wrestling Repository" version="1.1" provider-name="WOD">
+<addon id="repository.wod" name="zzz" version="1.1a" provider-name="WOD">
 	<extension point="xbmc.addon.repository" name="Wrestling Repository">
-		<dir>
-			<info compressed="false">http://bossbuilds.club/roland/wod/addons.xml</info>
-			<checksum>http://bossbuilds.club/roland/wod/addons.xml.md5</checksum>
-			<datadir zip="true">http://bossbuilds.club/roland/wod/</datadir>
-		</dir>
+    <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en"></summary>
@@ -2995,7 +3008,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.8" provider-name="Shani">
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.8a" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" />
