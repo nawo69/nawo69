@@ -725,6 +725,23 @@ Specialising in Sports Content, Football, Hockey, Cricket? We've got you covered
   </extension>
 </addon>
 
+<addon id="plugin.video.sportsmania" name="SportsMania" version="3.9.3a" provider-name="The Mania Team">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" version="0.0.1"/>
+       <import addon="script.module.requests" version="0.0.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Premium sports streaming service</summary>
+    <description lang="en">This is a premium streaming service you will need an account from http://sportsmania.rocks</description>
+    <disclaimer lang="en">[COLOR red][B][I]For support please go to http://sportsmania.rocks[/B][/I][/COLOR]</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.titan" name="[COLOR blue]T[/COLOR]itan" version="2.1.3" provider-name="Titan">
 	<requires>
 		<import addon="script.module.simplejson" version="3.3.0"/>
