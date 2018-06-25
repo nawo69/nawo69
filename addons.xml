@@ -1938,7 +1938,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="2.0.2"
+        version="2.0.3"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1953,7 +1953,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.foreverguest" />
 		<import addon="repository.Cypherslocker" />
 		<import addon="repository.Goliath" />
-		<import addon="repository.mcktvrepo" />
 		<import addon="repository.leopold" />
 		<import addon="repository.Apprentice" />
 		<import addon="repository.tvguides" />
