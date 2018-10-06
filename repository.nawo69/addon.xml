@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="2.1.5"
+        version="2.1.6"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -31,9 +31,6 @@
 		<import addon="repository.magicality" />	
 		<import addon="repository.universalscrapers" />	
 		<import addon="repository.kodibae" />
-		<import addon="repository.StarTec" />
-		<import addon="repository.ukodi1" />
-		<import addon="repository.gaia" />
   </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Add-ons and Repos">
