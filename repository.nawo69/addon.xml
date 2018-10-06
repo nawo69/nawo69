@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="2.0.6"
+        version="2.0.7"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
 		<import addon="repository.coldkeys" />
 		<import addon="repository.HalowTV" />
-		<import addon="repository.gaia.1" />
+		<import addon="repository.gaia" />
 		<import addon="repository.sportsaccess" />
 		<import addon="repository.themaniaservices" />
 		<import addon="repository.spoyser" />
