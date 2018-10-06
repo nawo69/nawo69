@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="2.0.5"
+        version="2.0.6"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -30,7 +30,7 @@
 		<import addon="repository.jsergio" />
 		<import addon="incursion.repository" />			
 		<import addon="repository.adulthideout" />	
-		<import addon="Magicality Repo" />	
+		<import addon="repository.magicality" />	
 		<import addon="repository.universalscrapers" />	
 		<import addon="repository.kodibae" />	
 		<import addon="plugin.video.incursion" />	
