@@ -1355,13 +1355,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="2.0.9"
+        version="2.1.0"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
 		<import addon="repository.coldkeys" />
 		<import addon="repository.HalowTV" />
-		<import addon="repository.gaia" />
 		<import addon="repository.sportsaccess" />
 		<import addon="repository.themaniaservices" />
 		<import addon="repository.spoyser" />
