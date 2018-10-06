@@ -1353,6 +1353,56 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
+<addon id="repository.nawo69"
+        name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
+        version="2.0.9
+        provider-name="nawo69">
+  <requires>
+		<import addon="repository.beta.mediabrowser.kodi" />
+		<import addon="repository.coldkeys" />
+		<import addon="repository.HalowTV" />
+		<import addon="repository.gaia" />
+		<import addon="repository.sportsaccess" />
+		<import addon="repository.themaniaservices" />
+		<import addon="repository.spoyser" />
+		<import addon="repository.unblockr" />
+		<import addon="repository.xbmcadult" />
+		<import addon="repository.foreverguest" />
+		<import addon="repository.Cypherslocker" />
+		<import addon="repository.leopold" />
+		<import addon="repository.Apprentice" />
+		<import addon="repository.tvguides" />
+		<import addon="repository.maverickrepo" />
+		<import addon="repository.StreamArmy" />
+		<import addon="repository.ukturk" />
+		<import addon="repository.whitedevil" />
+		<import addon="repository.griffin" />
+		<import addon="repository.Rising.Tides" />
+		<import addon="repository.supremacy" />
+		<import addon="repository.loop" />
+		<import addon="repository.Wherethemonsterslive" />
+		<import addon="repository.jsergio" />
+		<import addon="repository.adulthideout" />
+		<import addon="repository.magicality" />
+		<import addon="repository.universalscrapers" />
+		<import addon="repository.kodibae" />
+		<import addon="repository.StarTec" />
+		<import addon="repository.ukodi1" />
+  </requires>
+    <extension point="xbmc.addon.repository"
+        name="nawo69 Kodi Add-ons and Repos">
+        <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nawo69/nawo69/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>popular addons</summary>
+        <description>popular addons and repo</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.nawo69backup"
         name="z nawo69 Dead Repo Remover"
         version="1.0.0"
