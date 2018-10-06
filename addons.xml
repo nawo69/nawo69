@@ -1933,7 +1933,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="2.0.7"
+        version="2.0.8"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.mediabrowser.kodi" />
@@ -1965,7 +1965,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.magicality" />
 		<import addon="repository.universalscrapers" />
 		<import addon="repository.kodibae" />
-		<import addon="plugin.video.incursion" />
+		<import addon="repository.StarTec" />
+		<import addon="repository.ukodi1" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
@@ -2370,6 +2371,54 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
+    <addon id="repository.StarTec" name="[COLOR yellow]Star-Tec Repository[/COLOR]" version="1.3.0" provider-name="Star-Tec">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+	<extension point="xbmc.addon.repository" name="StarTec">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/gentec1/oTTtv/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/gentec1/oTTtv/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/gentec1/oTTtv/master/</datadir>
+	</dir>
+	<dir>
+            <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+    </dir>
+	<dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+    </dir>
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+    </dir>
+	<dir>
+		<info compressed="false">http://gen-tec.co/gentecwiz/NEW%20REPO%20FOR%20GENTEC%20WIZARD/Repo/addons.xml</info>
+		<checksum>http://gen-tec.co/gentecwiz/NEW%20REPO%20FOR%20GENTEC%20WIZARD/Repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://gen-tec.co/gentecwiz/NEW%20REPO%20FOR%20GENTEC%20WIZARD/Repo/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>StarTec Repo</summary>
+		<description>Download and install addons StarTec Builds</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.StreamAddons" name="zzz" version="0.5" provider-name="Stream Addons // A Home For All Devs">
 	<extension point="xbmc.addon.repository" name="Stream Addons">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
@@ -2548,6 +2597,48 @@ Addons Included
         <extension point="xbmc.addon.metadata">
             <summary>TV GUIDES Repository</summary>
             <description>!! TV GUIDES !!</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+    <addon id="repository.ukodi1" name="ukodi1" version="0.0.9" provider-name="ukodi1">
+       <extension point="xbmc.addon.repository" name="ukodi1">
+
+            <dir>
+            <info compressed="false">http://ukodi1.com/_repo/addons.xml</info>
+            <checksum>http://ukodi1.com/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://ukodi1.com/_repo/</datadir>
+            <hashes>false</hashes>
+            </dir>
+
+            <dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+		</dir>
+
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Welcome to the Ukodi1 Repository</summary>
+            <description></description>
             <platform>all</platform>
     </extension>
 </addon>
