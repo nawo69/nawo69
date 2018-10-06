@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Goliath" name="zzz" version="2.0.3a" provider-name="Goliath">
+<addon id="repository.Goliath" name="zzz" version="2.0.3b" provider-name="Goliath">
 	<extension point="xbmc.addon.repository" name="Goliaths Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/nawo69/nawo69backup/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Home of Goliaths Addons</summary>
+		<description>Download and install all unofficial Add-ons from Goliath</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
