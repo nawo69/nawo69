@@ -788,6 +788,20 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.1" provider-name="I-A-C">
+	<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
+		<info compressed="false">https://raw.githubusercontent.com/I-A-C/ExodusReduxRepo/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/I-A-C/ExodusReduxRepo/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/I-A-C/ExodusReduxRepo/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Lambdascrapers</summary>
+		<description>Lambdascrapers</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.filmkodi.com" name="zzz" version="2.1.0a" provider-name="Mrknow">
 	<extension point="xbmc.addon.repository" name="Filmkodi.com Kodi Add-on Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
@@ -1160,6 +1174,20 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
+<addon id="repository.lambdascrapers" name="Lambdascrapers Repo" version="0.0.3" provider-name="I-A-C">
+	<extension point="xbmc.addon.repository" name="Lambdascrapers Repo">
+		<info compressed="false">https://raw.githubusercontent.com/I-A-C/LambdaScrapersRepo/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/I-A-C/LambdaScrapersRepo/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/I-A-C/LambdaScrapersRepo/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Lambdascrapers</summary>
+		<description>Lambdascrapers</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
     <addon id="repository.legends" name="zzz" version="1.0.1" provider-name="Dragon">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -1367,7 +1395,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="2.2.0"
+        version="2.2.1"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.emby.kodi" />
@@ -1400,6 +1428,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.StarTec" />
 		<import addon="repository.ukodi1" />
 		<import addon="repository.gaia" />
+		<import addon="repository.exodusredux" />
+		<import addon="repository.lambdascrapers" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
