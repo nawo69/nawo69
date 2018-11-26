@@ -221,6 +221,41 @@
 </extension>
 </addon>
 
+    <addon id="repository.13clowns" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Repo[/COLOR][/B]" version="1.0.7" provider-name="13Clowns">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="13Clowns Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/13Clowns/_zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/13Clowns/_zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/13Clowns/_zips/master/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
+        <dir>
+        <info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
+        </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">[B][COLORred]13Clowns[/COLOR][/B] - Repo is a free portal for you Clowns to see the best stuff!</summary>
+            <description lang="en">[B][COLORred]13Clowns[/COLOR][/B] - This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+            <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news></news>
+        </extension>
+    </addon>
+
 <addon id="repository.adriansports" name="zzz" version="2.4.1" provider-name="PROJECT ADRIAN">
 <extension point="xbmc.addon.repository" name="Project Adrian Repository V1">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
@@ -1401,7 +1436,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="2.2.1"
+        version="2.2.2"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.emby.kodi" />
@@ -1436,6 +1471,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.gaia" />
 		<import addon="repository.exodusredux" />
 		<import addon="repository.lambdascrapers" />
+		<import addon="repository.nixgates" />
+		<import addon="repository.13clowns" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
@@ -1469,6 +1506,20 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.nixgates" name="Nixgates Repo" version="1.0.0" provider-name="Nixgates">
+	<extension point="xbmc.addon.repository" name="Nixgates Repo">
+		<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Nixgates</summary>
+		<description>Nixgates Repository</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.noobsandnerds" name="zzz" version="2.3.5a" provider-name="noobsandnerds">
