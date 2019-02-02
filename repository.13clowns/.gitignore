@@ -1,2 +1,5 @@
-# file: ~/.gitignore
-*.pyo
+_tools
+.git
+.gitignore
+.gitattributes
+
