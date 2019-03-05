@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="2.2.5"
+        version="2.2.6"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.emby.kodi" />
@@ -37,10 +37,8 @@
 		<import addon="repository.exodusredux" />
 		<import addon="repository.lambdascrapers" />	
 		<import addon="repository.nixgates" />	
-		<import addon="repository.13clowns" />
 		<import addon="repository.onenation" />
 		<import addon="repository.mbebe" />
-		<import addon="repository.civitas" />
   </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Add-ons and Repos">
