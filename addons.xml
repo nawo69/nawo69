@@ -880,13 +880,18 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.7" provider-name="I-A-C">
+<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.8" provider-name="I-A-C">
 	<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
 	<dir>
         <info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
 	</dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+    </dir>
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
@@ -1508,7 +1513,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="2.2.6"
+        version="2.2.7"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.emby.kodi" />
@@ -1542,7 +1547,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.ukodi1" />
 		<import addon="repository.gaia" />
 		<import addon="repository.exodusredux" />
-		<import addon="repository.lambdascrapers" />
 		<import addon="repository.nixgates" />
 		<import addon="repository.onenation" />
 		<import addon="repository.mbebe" />
