@@ -232,6 +232,25 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.sparkle" name="Sparkle" version="0.0.84" provider-name="iwannabelikemike">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.addon.common" />
+		<import addon="script.module.requests"  />
+		<import addon="script.module.beautifulsoup4"  />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Just a little sparkle.</summary>
+		<description lang="en">A small plugin for playing reddit acestreams
+		</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon
   id="plugin.video.SportsDevil"
   version="a2018.01.18"
@@ -530,6 +549,35 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
+<addon id="repository.bugatsinho" name=" Bugatsinho repository" version="2.2" provider-name="Bugatsinho">
+    <extension point="xbmc.addon.repository" name="Bugatsinho repository">
+        <info compressed="false">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/_zips</datadir>
+        <hashes>false</hashes>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/addons.xml</info>
+            <checksum>http://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/addons.xml.md5</checksum>
+            <datadir zip="true">http://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Bugatsinho repository</summary>
+        <description>This repository contains Greek, Spanish and other addons!Read first each addon's description!</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.bulldogstreams" name="zzz" version="1.2" provider-name="Bulldog Streams Dev Team">
 	<extension point="xbmc.addon.repository" name="Bulldog Streams Repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
@@ -540,6 +588,30 @@ We have no control over the links on any site that we provide a link to. If you 
 		<summary>Install Bulldog Streams</summary>
 		<description>Home of Bulldog Streams</description>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.ccloud" name="cCloud Repo" version="1.0" provider-name="Bane">
+	<extension point="xbmc.addon.repository" name="cCloud Addon Repository">
+        <dir>
+					<info compressed="false">https://github.com/darknessally/tva-resolvers-repo/raw/master/addons.xml</info>
+	        <checksum>https://github.com/darknessally/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://github.com/darknessally/tva-resolvers-repo/raw/master/zips/</datadir>
+				</dir>
+        <info compressed="false">http://github.com/darknessally/firerises/raw/master/addons.xml</info>
+        <checksum>http://github.com/darknessally/firerises/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">http://github.com/darknessally/firerises/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>cCloud</summary>
+		<description>Official cCloud Repo with addons for official support please go to ccloudtv.org</description>
+		<license>http://www.gnu.org/licenses/</license>
+    <forum>http://ccloudtv.org/forum</forum>
+    <website>http://ccloudtv.org</website>
+    <website>http://facebook.com/ccloudapp</website>
+    <website>http://twitter.com/ccloudapp</website>
+    <email></email>
+    <platform>all</platform>
 	</extension>
 </addon>
 
@@ -1271,6 +1343,31 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
+<addon id="repository.kodi_ghost" name="[COLOR white]Kodi Ghost Repo[/COLOR]" version="1.0" provider-name="Kodi Ghost">
+	<extension point="xbmc.addon.repository" name="KodiGhostRepo">
+	    <dir>
+			<info compressed="false">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/zips/</datadir>
+		</dir>
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+        </dir>
+
+		<info compressed="false">https://raw.githubusercontent.com/Kodi-Ghost/apparitions/master/plugins/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Kodi-Ghost/apparitions/master/plugins/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Kodi-Ghost/apparitions/master/plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi Ghost Repo - Home to Kodi Ghost Addons</summary>
+		<description>Kodi Ghost Repo - Home to Kodi Ghost Addons</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.lambda" name="zzz" version="1.1.1" provider-name="lambda">
 	<extension point="xbmc.addon.repository" name="lambda Add-on repository">
         <info compressed="false">https://raw.githubusercontent.com/nawo69/nawo69backup/master/addons.xml</info>
@@ -1388,6 +1485,49 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<platform>all</platform>
 	</extension>
 </addon>
+
+    <addon id="repository.mancaverepo" name="Man Cave Repo" version="3.0.4" provider-name="Man Cave Team">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Man Cave Repo">
+			<info compressed="false">https://raw.githubusercontent.com/TVKINGS/ManCaveRepo/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/TVKINGS/ManCaveRepo/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/TVKINGS/ManCaveRepo/master/zips/</datadir>
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
+	    <dir>
+             <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+             <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+              <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+        </dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Man Cave Repo</summary>
+            <description>All your entertainment needs</description>
+            <platform>all</platform>
+            <genre></genre>
+        </extension>
+    </addon>
 
 <addon id="repository.MatsBuilds" name="zzz" version="1.4" provider-name="Goliath">
 	<extension point="xbmc.addon.repository" name="Goliaths BACKUP Repository">
@@ -1520,7 +1660,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="2.2.7"
+        version="2.2.8"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.emby.kodi" />
@@ -1557,6 +1697,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.nixgates" />
 		<import addon="repository.onenation" />
 		<import addon="repository.mbebe" />
+		<import addon="repository.13clowns" />
+		<import addon="repository.bugatsinho" />
+		<import addon="repository.skydarks" />
+		<import addon="repository.mancaverepo" />
+		<import addon="repository.ccloud" />
+		<import addon="repository.kodi_ghost" />
   </requires>
     <extension point="xbmc.addon.repository"
         name="nawo69 Kodi Add-ons and Repos">
@@ -1918,6 +2064,29 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
          <description>Official Repository of SIMTECH V 3.1</description>
          <platform>all</platform>
      </extension>
+</addon>
+
+<addon id="repository.skydarks" name="SkyDark Repository" version="7.1.8" provider-name="Team SkyDark">
+	<extension point="xbmc.addon.repository" name="Skydark's Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		    <dir>
+                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            </dir>
+		<info compressed="false">http://skydarks.com/skydarks/addons.xml</info>
+		<checksum>http://skydarks.com/skydarks/addons.xml.md5</checksum>
+		<datadir zip="true">http://skydarks.com/files/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.slimevolve" name="zzz" version="1.2b" provider-name="@Slim_Evolve">
