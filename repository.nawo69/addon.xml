@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="2.2.8"
+        version="2.2.9"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.emby.kodi" />
@@ -43,7 +43,9 @@
 		<import addon="repository.skydarks" />	
 		<import addon="repository.mancaverepo" />	
 		<import addon="repository.ccloud" />	
-		<import addon="repository.kodi_ghost" />			
+		<import addon="repository.kodi_ghost" />	
+		<import addon="repository.venom" />	
+		<import addon="repository.jewrepo" />	
   </requires>
     <extension point="xbmc.addon.repository" 
         name="nawo69 Kodi Add-ons and Repos">
