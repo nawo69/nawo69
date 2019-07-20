@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.nawo69" 
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]" 
-        version="2.2.9"
+        version="2.3.0"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.emby.kodi" />
@@ -15,8 +15,7 @@
 		<import addon="repository.foreverguest" />
 		<import addon="repository.Cypherslocker" />
 		<import addon="repository.leopold" />
-		<import addon="repository.Apprentice" />	
-		<import addon="repository.tvguides" />	
+		<import addon="repository.Apprentice" />		
 		<import addon="repository.maverickrepo" />	
 		<import addon="repository.StreamArmy" />
 		<import addon="repository.ukturk" />
@@ -38,9 +37,7 @@
 		<import addon="repository.nixgates" />	
 		<import addon="repository.onenation" />
 		<import addon="repository.mbebe" />
-		<import addon="repository.13clowns" />		
 		<import addon="repository.bugatsinho" />		
-		<import addon="repository.skydarks" />	
 		<import addon="repository.mancaverepo" />	
 		<import addon="repository.ccloud" />	
 		<import addon="repository.kodi_ghost" />	

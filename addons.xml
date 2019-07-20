@@ -1692,7 +1692,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.nawo69"
         name="   [COLOR white][B]nawo69 Add-ons[/COLOR][/B]"
-        version="2.2.9"
+        version="2.3.0"
         provider-name="nawo69">
   <requires>
 		<import addon="repository.beta.emby.kodi" />
@@ -1707,7 +1707,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.Cypherslocker" />
 		<import addon="repository.leopold" />
 		<import addon="repository.Apprentice" />
-		<import addon="repository.tvguides" />
 		<import addon="repository.maverickrepo" />
 		<import addon="repository.StreamArmy" />
 		<import addon="repository.ukturk" />
@@ -1729,9 +1728,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="repository.nixgates" />
 		<import addon="repository.onenation" />
 		<import addon="repository.mbebe" />
-		<import addon="repository.13clowns" />
 		<import addon="repository.bugatsinho" />
-		<import addon="repository.skydarks" />
 		<import addon="repository.mancaverepo" />
 		<import addon="repository.ccloud" />
 		<import addon="repository.kodi_ghost" />
@@ -2540,34 +2537,42 @@ Addons Included
         </extension>
     </addon>
 
-<addon id="repository.venom" name="[B][COLOR red]Venom[/COLOR] Repo[/B]" version="1.4" provider-name="Venom">
-	<requires>
-	<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
+<addon id="repository.venom" name="[B][COLOR red]Venom[/COLOR] Repo[/B]" version="1.6" provider-name="Venom">
 	<extension point="xbmc.addon.repository" name="Venom Repo">
+
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/123Venom/zips/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/123Venom/zips/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/123Venom/zips/master/</datadir>
 		</dir>
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+		</dir>
+
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages</datadir>
 		</dir>
+
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/drinfernoo/repository.openmeta/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/drinfernoo/repository.openmeta/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/drinfernoo/repository.openmeta/master/zips/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/</datadir>
 		</dir>
+
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
 		</dir>
+
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[B][COLOR red]Venom[/COLOR][/B] is a educational add-on. We do not host any of the contents streamed</summary>
+		<summary lang="en">[B][COLOR red]Venom[/COLOR][/B] We do not host any of the contents streamed</summary>
 		<description lang="en">[B][COLOR red]Venom[/COLOR][/B] - This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
 		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
 		<platform>all</platform>
