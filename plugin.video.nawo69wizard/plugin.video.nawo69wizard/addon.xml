@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.nawo69wizard" name=".nawo69 Wizard" version="1.0.2" provider-name="nawo69">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">nawo69 Kodi Wizard</summary>
+    <description lang="en">Best Kodi Tutorials</description>
+	<website>http://SimpleKodi.com</website>
+    <platform>all</platform>
+  </extension>
+</addon>
