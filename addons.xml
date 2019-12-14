@@ -1192,7 +1192,7 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.4" provider-name="JewBMX">
+<addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.5" provider-name="JewBMX">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -1201,16 +1201,6 @@ We have no control over the links on any site that we provide a link to. If you 
             <checksum>https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jewbmx/repo/master/zips/</datadir>
         <hashes>false</hashes>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-        </dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
